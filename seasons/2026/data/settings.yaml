@@ -1,0 +1,14 @@
+season: 2026
+league_size: 12
+scoring:
+  format: half_ppr
+  qb_passing_td: 4
+  te_premium: false
+positions:
+  order: [WR, RB, QB, TE]
+display:
+  adp_format: round_pick
+  show_raw_adp_on_detail_sheet: true
+  use_drafted_checkboxes: true
+  grey_out_drafted_players: true
+  duplicate_draft_board: false

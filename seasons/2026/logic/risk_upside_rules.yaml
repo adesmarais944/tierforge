@@ -1,0 +1,24 @@
+risk_scale:
+  1: Very stable role, health, offense, and weekly usage
+  2: Stable profile with minor concerns
+  3: Normal fantasy volatility
+  4: Meaningful role, injury, QB, age, or team-context risk
+  5: Fragile bet with major uncertainty
+upside_scale:
+  1: Low ceiling compiler
+  2: Useful but capped
+  3: Normal starter/flex upside
+  4: Strong breakout or spike-week path
+  5: League-winning ceiling
+risk_bumps:
+  rookie_uncertain_role: +1
+  major_injury_history: +1
+  unclear_qb_situation: +1
+  committee_backfield: +1
+  age_cliff: +1
+upside_bumps:
+  elite_target_share_path: +1
+  rushing_qb: +1
+  explosive_rookie_profile: +1
+  ambiguous_but_winnable_depth_chart: +1
+  high_scoring_offense: +1

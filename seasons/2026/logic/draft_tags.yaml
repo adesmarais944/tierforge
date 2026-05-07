@@ -1,0 +1,30 @@
+MY_GUY:
+  label: My Guy
+  icon: "*"
+  fill: "#DCFCE7"
+  font: "#166534"
+  meaning: "Must-target player; willing to take near or slightly ahead of ADP."
+VALUE_ONLY:
+  label: Value Only
+  icon: "!"
+  fill: "#FEF9C3"
+  font: "#854D0E"
+  meaning: "Draftable player, but only if the room gives a discount."
+DND:
+  label: Do Not Draft
+  icon: "X"
+  fill: "#FEE2E2"
+  font: "#991B1B"
+  meaning: "Avoid at normal ADP/cost; only consider after a major fall."
+WATCH:
+  label: Watchlist
+  icon: "?"
+  fill: "#DBEAFE"
+  font: "#1E40AF"
+  meaning: "Monitor news, camp role, injury, or depth chart before draft day."
+NEUTRAL:
+  label: Neutral
+  icon: ""
+  fill: "#FFFFFF"
+  font: "#111827"
+  meaning: "No strong personal stance."

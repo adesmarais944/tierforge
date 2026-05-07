@@ -1,0 +1,8 @@
+# Optional player-specific overrides.
+# Keys should exactly match the player name in players_master.csv.
+# Example:
+# Malik Nabers:
+#   draft_tag: MY_GUY
+#   threshold_note: OK 1.10+
+#   tag_reason: My Guys list
+#   player_note: Elite target-earning profile; willing to be early.
