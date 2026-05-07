@@ -33,6 +33,7 @@ seasons/2026/
     2026_fantasy_draft_cheat_sheet.xlsx
 scripts/
   generate_cheatsheet.py
+  google_sheets_dev_ranges.py
   validate_players.py
 docs/
   design_decisions.md
@@ -73,6 +74,8 @@ Generated workbook:
 ```text
 seasons/2026/output/2026_fantasy_draft_cheat_sheet.xlsx
 ```
+
+For Google Sheets development previews, ask Codex to import the generated workbook and convert the drafted cells to native Google Sheets checkboxes. This is a development-phase exception for fast sheet testing.
 
 ## Typical offseason workflow
 

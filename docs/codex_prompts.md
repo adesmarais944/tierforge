@@ -24,6 +24,12 @@ Audit the draft_tag values. Make MY_GUY/VALUE_ONLY/DND/WATCH recommendations but
 Improve the Draft Cheat Sheet worksheet for laptop use. Keep the checkbox-only interaction. Do not add team/roster tracking or status dropdowns. Validate and regenerate.
 ```
 
+## Google Sheets development preview
+
+```text
+Generate the 2026 workbook, import it to Google Sheets as a native spreadsheet, use scripts/google_sheets_dev_ranges.py to find the drafted cells, and convert those cells to native Google Sheets checkboxes for preview/testing.
+```
+
 ## Create next season
 
 ```text
