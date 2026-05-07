@@ -131,11 +131,9 @@ def make_formats(workbook, tags: Dict[str, Any]):
 def tag_label(row: Dict[str, Any], tags: Dict[str, Any]) -> str:
     tag = row.get('draft_tag', 'NEUTRAL')
     cfg = tags.get(tag, tags.get('NEUTRAL', {}))
-    icon = cfg.get('icon', '')
-    label = cfg.get('label', tag)
     if tag == 'NEUTRAL':
         return ''
-    return f'{icon} {label}'.strip()
+    return cfg.get('label', tag)
 
 
 def write_printable(workbook, players: List[Dict[str, Any]], settings: Dict[str, Any], tags: Dict[str, Any], formats: Dict[str, Any]) -> None:
@@ -256,7 +254,7 @@ def write_legend(workbook, tags: Dict[str, Any], formats: Dict[str, Any]) -> Non
     for key in ['MY_GUY','VALUE_ONLY','DND','WATCH','NEUTRAL']:
         cfg = tags.get(key, {})
         ws.write(r, 0, key, formats['player'])
-        ws.write(r, 1, f"{cfg.get('icon','')} {cfg.get('label', key)}".strip(), formats['tag'].get(key, formats['player']))
+        ws.write(r, 1, cfg.get('label', key), formats['tag'].get(key, formats['player']))
         ws.write(r, 2, cfg.get('meaning', ''), formats['source'])
         r += 1
     ws.write(r + 1, 0, 'Risk / Upside', formats['legend_header'])

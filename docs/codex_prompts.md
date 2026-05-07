@@ -27,7 +27,7 @@ Improve the Draft Cheat Sheet worksheet for laptop use. Keep the checkbox-only i
 ## Google Sheets development preview
 
 ```text
-Generate the 2026 workbook, import it to Google Sheets as a native spreadsheet, use scripts/google_sheets_dev_ranges.py to find the drafted cells, and convert those cells to native Google Sheets checkboxes for preview/testing.
+Generate the 2026 workbook, import it to Google Sheets as a native spreadsheet, use scripts/google_sheets_dev_ranges.py to find drafted/tag cells, then convert drafted cells to native checkboxes, convert tag cells to native dropdowns, and apply dynamic tag colors for preview/testing. For chip-style tag dropdowns, use the hidden Tag Dropdown Template sheet and copy chip-styled template cells by tag value.
 ```
 
 ## Create next season

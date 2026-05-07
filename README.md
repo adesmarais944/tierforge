@@ -75,7 +75,7 @@ Generated workbook:
 seasons/2026/output/2026_fantasy_draft_cheat_sheet.xlsx
 ```
 
-For Google Sheets development previews, ask Codex to import the generated workbook and convert the drafted cells to native Google Sheets checkboxes. This is a development-phase exception for fast sheet testing.
+For Google Sheets development previews, ask Codex to import the generated workbook, convert drafted cells to native checkboxes, convert tag cells to native dropdowns, and apply dynamic tag colors. For chip-style tag dropdowns, Codex should use the hidden `Tag Dropdown Template` sheet and copy chip-styled template cells by tag value. This is a development-phase exception for fast sheet testing.
 
 ## Typical offseason workflow
 
