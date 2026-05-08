@@ -42,3 +42,13 @@ BAL,2026,offense,receiving_continuity,Zay Flowers / Rashod Bateman / Mark Andrew
 BAL,2026,offense,tight_end_loss,Isaiah Likely / Charlie Kolar,TE,free_agency,BAL,,,,rotational,immediate,medium,medium,medium,neutral,-1,,Depth losses leave Mark Andrews more central but reduce heavy-TE flexibility.
 BAL,2026,defense,free_agent_addition,Trey Hendrickson,EDGE,free_agency,CIN,BAL,,,elite_starter,immediate,medium,critical,high,excellent,4,,Major pass-rush addition raises defensive ceiling if healthy.
 BAL,2026,defense,veteran_depth,Calais Campbell,DL,free_agency,,BAL,,,rotational,immediate,medium,medium,medium,good,1,,Veteran defensive line depth supports run defense and leadership.
+BUF,2026,coaching,head_coach_change,Joe Brady,HC,promotion,BUF,BUF,,,starter,immediate,high,critical,high,excellent,3,,Internal promotion preserves Josh Allen offensive structure after elite 2025 run game.
+BUF,2026,coaching,coordinator_change,Pete Carmichael,OC,coaching_hire,DEN,BUF,,,starter,immediate,medium,medium,medium,good,1,,Experienced OC joins Brady while core offensive staff mostly carries over.
+BUF,2026,coaching,coordinator_change,Jim Leonhard,DC,coaching_hire,DEN,BUF,,,starter,immediate,medium,high,medium,good,1,,New defensive coordinator shifts defensive structure after Bobby Babich departure.
+BUF,2026,offense,quarterback_continuity,Josh Allen,QB,returning_starter,BUF,BUF,,,elite_starter,immediate,high,critical,high,excellent,5,,Elite dual-threat QB remains fantasy and real-life engine.
+BUF,2026,offense,backfield_continuity,James Cook,RB,returning_starter,BUF,BUF,,,elite_starter,immediate,high,high,medium,excellent,3,,Cook returns after rushing-title season but likely faces workload regression.
+BUF,2026,offense,receiver_continuity,Khalil Shakir / Dalton Kincaid,WR/TE,returning_starter,BUF,BUF,,,starter,immediate,medium,high,high,good,2,,Middle-of-field target core remains; Kincaid health trending better.
+BUF,2026,offense,veteran_addition,Brandin Cooks,WR,free_agency,NO,BUF,,,rotational,immediate,medium,medium,medium,neutral,1,,Veteran vertical receiver adds depth but not target-dominant role.
+BUF,2026,offense,draft_addition,Skyler Bell,WR,draft_pick,,BUF,4,0,developmental,developmental,medium,medium,medium,good,1,,Day-three receiver adds outside separation but projection should stay modest.
+BUF,2026,defense,scheme_change,Jim Leonhard 3-4 transition,DC,scheme_change,DEN,BUF,,,starter,immediate,medium,high,medium,neutral,-1,,Defensive front transition plus FA churn creates adjustment risk.
+BUF,2026,defense,draft_investment,2026 defensive draft class,DL/LB/DB,draft_pick,,BUF,,,rotational,partial_season,medium,high,medium,good,2,,Multiple defensive picks add depth for Leonhard transition.
