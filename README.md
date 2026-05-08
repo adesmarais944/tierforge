@@ -37,8 +37,13 @@ scripts/
   google_sheets_dev_ranges.py
   validate_players.py
 docs/
-  design_decisions.md
-  codex_prompts.md
+  README.md
+  human/
+    design_decisions.md
+    team-projection-engine.md
+  agents/
+    codex_prompts.md
+    team-macro-recommendation-csv-plan.md
 ```
 
 ## Setup

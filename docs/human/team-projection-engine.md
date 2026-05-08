@@ -94,6 +94,182 @@ team play volume
 
 Player projections must reconcile to team assumptions. Do not create isolated player projections that ignore team volume.
 
+## Plain-English Projection Map
+
+The projection system has one main rule:
+
+```text
+team assumptions are the source of truth for team volume
+player assumptions divide that volume among players
+scoring rules turn player stats into fantasy points
+```
+
+In normal projection builds, this is the path:
+
+```text
+raw/team_assumptions.csv
+  + raw/player_assumptions.csv
+  -> player stat projections
+  -> fantasy points
+  -> overall and position rankings
+```
+
+Think of `team_assumptions.csv` as the team bucket. It answers questions like:
+
+- How many passes will this team throw?
+- How many rushes will this team run?
+- How many passing TDs, rushing TDs, interceptions, passing yards, and rushing yards should the team have?
+
+Think of `player_assumptions.csv` as the player share sheet. It answers questions like:
+
+- What share of team targets does this player get?
+- What share of team rush attempts does this player get?
+- What share of team TDs does this player get?
+- Does this player have an exact override instead of a share?
+
+Example:
+
+```text
+team projected_pass_attempts = 600
+player target_share = 0.25
+
+player targets = 600 * 0.25 = 150
+```
+
+Then rates finish the stat line:
+
+```text
+targets = 150
+catch_rate = 0.70
+yards_per_target = 9.0
+
+receptions = 150 * 0.70 = 105
+receiving_yards = 150 * 9.0 = 1350
+```
+
+Touchdowns work the same way:
+
+```text
+team projected_passing_tds = 30
+player receiving_td_share = 0.30
+
+player receiving_tds = 30 * 0.30 = 9
+```
+
+Explicit player stats win over calculated stats. If `targets` is filled in, the engine uses that value. If `targets` is blank and `target_share` is filled in, the engine calculates targets from team pass attempts. If both are blank, targets become `0`.
+
+After the stat line exists, scoring turns stats into points:
+
+```text
+passing yards / 25
+passing TDs * 4
+interceptions * -2
+rushing yards / 10
+rushing TDs * 6
+receptions * 0.5 for half-PPR, or * 1.0 for full-PPR
+receiving yards / 10
+receiving TDs * 6
+fumbles lost * -2
+```
+
+Final projected points are:
+
+```text
+raw fantasy points + manual_fantasy_point_adjustment
+```
+
+Rankings sort players by final projected fantasy points, with separate overall and position ranks.
+
+## Macro Recommendation Files
+
+There are two processed files that can look like part of the projection math:
+
+```text
+processed/offseason_unit_scores.csv
+processed/team_macro_recommendations.csv
+```
+
+They are decision-support files. They do not directly change player projections unless their recommendations are accepted back into `raw/team_assumptions.csv`.
+
+`offseason_unit_scores.csv` summarizes `raw/offseason_team_changes.csv`. Each team change starts with a `raw_impact_score`, then gets weighted by role, certainty, team need, position value, and scheme fit. The output is a clamped team/unit score from `-10` to `+10`.
+
+Example idea:
+
+```text
+offseason_team_changes.csv
+  -> offense score, defense score, coaching score
+  -> offseason_unit_scores.csv
+```
+
+This file is mostly for audit and review. It helps explain why a team is treated as improved, worse, or mostly unchanged.
+
+`team_macro_recommendations.csv` uses prior-year stats, team assumptions, defensive environment, and offseason changes to suggest new team-level volume and efficiency numbers.
+
+Example idea:
+
+```text
+prior_year_team_stats.csv
+  + team_assumptions.csv
+  + defense_environment.csv
+  + offseason_team_changes.csv
+  -> team_macro_recommendations.csv
+```
+
+The recommendations include values like:
+
+- recommended offensive plays
+- recommended pass rate
+- recommended rush rate
+- recommended pass attempts
+- recommended rush attempts
+- recommended passing yards
+- recommended passing TDs
+- recommended interceptions
+- recommended rushing yards
+- recommended rushing TDs
+
+Those recommendations stay in the processed file until accepted.
+
+To preview a recommendation for one team:
+
+```powershell
+python scripts/apply_team_macro_recommendations.py --season 2026 --team CIN --dry-run
+```
+
+To accept it into `raw/team_assumptions.csv`:
+
+```powershell
+python scripts/apply_team_macro_recommendations.py --season 2026 --team CIN --accept all
+```
+
+Accept modes:
+
+- `volume`: copies recommended plays, pass rate, rush rate, pass attempts, and rush attempts
+- `efficiency`: copies recommended passing/rushing yards, TDs, and interceptions
+- `all`: copies both volume and efficiency fields
+
+After accepting macro recommendations, rebuild projections. At that point, the player projection engine reads the updated `team_assumptions.csv`, and player projections change.
+
+Full mental model:
+
+```text
+offseason changes
+  -> unit scores
+  -> macro recommendations
+  -> optional update to team_assumptions.csv
+  -> player shares calculate stats
+  -> scoring calculates fantasy points
+  -> rankings
+```
+
+If a user is unsure which file to edit, default to this:
+
+```text
+Edit raw/team_assumptions.csv for team volume.
+Edit raw/player_assumptions.csv for player roles.
+Use processed macro files as guidance, not source of truth.
+```
+
 ## Scoring
 
 Required scoring formats:
