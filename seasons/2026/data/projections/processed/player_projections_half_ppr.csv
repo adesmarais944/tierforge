@@ -1,0 +1,9 @@
+player_id,player_name,team_id,position,scoring_format,include_in_rankings,games_projected,targets,receptions,receiving_yards,receiving_tds,carries,rushing_yards,rushing_tds,pass_attempts,passing_yards,passing_tds,interceptions,fumbles_lost,raw_projected_fantasy_points,manual_fantasy_point_adjustment,final_projected_fantasy_points,overall_rank,position_rank,analyst_tag,analyst_note
+joe-burrow,Joe Burrow,CIN,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,651.0,4500.0,34.0,10.0,0.0,296.0,0.0,296.0,,,core,Primary Bengals passer baseline.
+jamarr-chase,Ja'Marr Chase,CIN,WR,half_ppr,True,17.0,185.5,126.2,1781.1,11.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,312.6,0.0,312.6,,,target,Elite target share in concentrated offense.
+tee-higgins,Tee Higgins,CIN,WR,half_ppr,True,16.0,143.2,93.1,1289.0,8.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,226.44,0.0,226.44,,,target,High-value secondary alpha.
+mike-gesicki,Mike Gesicki,CIN,TE,half_ppr,True,17.0,71.6,47.3,558.6,3.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,99.89,0.0,99.89,,,watch,Usable receiving tight end bucket.
+chase-brown,Chase Brown,CIN,RB,half_ppr,True,17.0,65.1,50.8,403.6,2.0,223.4,938.4,6.3,0.0,0.0,0.0,0.0,0.0,209.64,0.0,209.64,,,target,Lead back workload assumption.
+cin-other-wr-te,CIN Other WR/TE,CIN,OTHER,half_ppr,False,17.0,133.5,80.1,934.2,6.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,174.25,0.0,174.25,,,bucket,Receiving reconciliation bucket.
+cin-other-rb-targets,CIN Other RB Targets,CIN,OTHER,half_ppr,False,17.0,52.1,37.5,286.4,1.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.55,0.0,55.55,,,bucket,RB receiving reconciliation bucket.
+cin-other-rushing,CIN Other Rushing,CIN,OTHER,half_ppr,False,17.0,0.0,0.0,0.0,0.0,175.6,702.2,7.7,0.0,0.0,0.0,0.0,0.0,116.42,0.0,116.42,,,bucket,Rushing reconciliation bucket.

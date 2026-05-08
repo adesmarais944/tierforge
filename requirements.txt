@@ -1,2 +1,5 @@
 PyYAML>=6.0
 XlsxWriter>=3.2.0
+pandas>=2.2.0
+pydantic>=2.7.0
+pytest>=8.0.0

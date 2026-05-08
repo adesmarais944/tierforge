@@ -25,6 +25,7 @@ seasons/2026/
     manual_overrides.yaml   # optional player overrides
     settings.yaml           # league size, scoring, display behavior
     adp/                    # dated ADP snapshots
+    projections/            # team projection inputs and outputs
   logic/
     draft_tags.yaml         # green/yellow/red tag definitions
     tier_rules.yaml         # tier naming conventions
@@ -65,6 +66,10 @@ pip install -r requirements.txt
 With the virtualenv activated:
 
 ```bash
+python -m pytest
+python scripts/validate_projections.py --season 2026
+python scripts/build_projections.py --season 2026 --scoring half_ppr
+python scripts/build_projections.py --season 2026 --scoring full_ppr
 python scripts/validate_players.py --season 2026
 python scripts/generate_cheatsheet.py --season 2026
 ```

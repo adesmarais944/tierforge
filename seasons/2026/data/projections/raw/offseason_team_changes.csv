@@ -1,0 +1,5 @@
+team_id,season,unit,change_type,player_or_coach,position,transaction_type,prior_team,new_team,draft_round,draft_pick,expected_role,impact_timing,certainty,unit_need_level,position_value,scheme_fit,raw_impact_score,weighted_impact_score,notes
+CIN,2026,offense,returning_from_injury,Joe Burrow,QB,injury_return,CIN,CIN,,,elite_starter,immediate,high,critical,high,excellent,4,,Healthy Burrow assumption supports high passing baseline.
+CIN,2026,offense,continuity,Ja'Marr Chase / Tee Higgins,WR,re-signing,CIN,CIN,,,elite_starter,immediate,high,critical,high,excellent,3,,Concentrated high-end target tree remains intact.
+CIN,2026,defense,addition,Hypothetical impact starter,DL,free_agency,,CIN,,,starter,immediate,medium,critical,high,good,3,,Placeholder defensive upgrade input for MVP modeling.
+CIN,2026,coaching,continuity,Dan Pitcher,OC,coaching_hire,CIN,CIN,,,starter,immediate,high,medium,medium,good,1,,Offensive continuity supports stable projection process.
