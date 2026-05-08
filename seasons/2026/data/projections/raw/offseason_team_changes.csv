@@ -32,3 +32,13 @@ ATL,2026,offense,continuity,Bijan Robinson,RB,returning_starter,ATL,ATL,,,elite_
 ATL,2026,offense,continuity,Drake London / Kyle Pitts,WR/TE,returning_starter,ATL,ATL,,,elite_starter,immediate,high,critical,high,good,3,,Primary pass catchers return after commanding 2025 target volume.
 ATL,2026,defense,coordinator_continuity,Jeff Ulbrich,DC,retained_coach,ATL,ATL,,,starter,immediate,high,medium,medium,good,1,,Defensive coordinator retained under new Stefanski staff.
 ATL,2026,defense,free_agent_addition,Azeez Ojulari / Samson Ebukam,EDGE,free_agency,NYG/SF,ATL,,,rotational,immediate,medium,high,high,good,2,,Veteran edge additions help pass rush depth.
+BAL,2026,coaching,head_coach_change,Jesse Minter,HC,coaching_hire,LAC,BAL,,,starter,immediate,medium,critical,high,good,1,,New defensive-minded head coach replaces long-time John Harbaugh regime.
+BAL,2026,coaching,coordinator_change,Declan Doyle,OC,coaching_hire,CHI,BAL,,,starter,immediate,low,critical,high,neutral,-2,,Young offensive coordinator replaces Todd Monken after elite multi-year offensive run.
+BAL,2026,offense,quarterback_continuity,Lamar Jackson,QB,returning_starter,BAL,BAL,,,elite_starter,immediate,high,critical,high,excellent,4,,Lamar remains unique rushing/passing engine and stabilizes offense despite staff turnover.
+BAL,2026,offense,backfield_continuity,Derrick Henry,RB,returning_starter,BAL,BAL,,,elite_starter,immediate,medium,high,medium,excellent,3,,Henry returns after 2025 rushing title-level season but age keeps certainty below high.
+BAL,2026,offense,line_loss,Tyler Linderbaum,C,free_agency,BAL,LV,,,elite_starter,immediate,medium,critical,medium,neutral,-4,,Reported loss of Pro Bowl center dents interior line and run/pass efficiency.
+BAL,2026,offense,draft_addition,Olaivavega Ioane,OL,draft_pick,,BAL,1,0,starter,immediate,medium,high,medium,good,2,,First-round guard projected to start and partially offset interior offensive-line losses.
+BAL,2026,offense,receiving_continuity,Zay Flowers / Rashod Bateman / Mark Andrews,WR/TE,returning_starter,BAL,BAL,,,starter,immediate,medium,high,high,good,2,,Core passing-game targets remain in place around Lamar.
+BAL,2026,offense,tight_end_loss,Isaiah Likely / Charlie Kolar,TE,free_agency,BAL,,,,rotational,immediate,medium,medium,medium,neutral,-1,,Depth losses leave Mark Andrews more central but reduce heavy-TE flexibility.
+BAL,2026,defense,free_agent_addition,Trey Hendrickson,EDGE,free_agency,CIN,BAL,,,elite_starter,immediate,medium,critical,high,excellent,4,,Major pass-rush addition raises defensive ceiling if healthy.
+BAL,2026,defense,veteran_depth,Calais Campbell,DL,free_agency,,BAL,,,rotational,immediate,medium,medium,medium,good,1,,Veteran defensive line depth supports run defense and leadership.
