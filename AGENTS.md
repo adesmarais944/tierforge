@@ -58,6 +58,8 @@ python scripts/apply_team_macro_recommendations.py --season 2026 --team <TEAM> -
 
 Do not accept macro recommendations on behalf of the user. Only run `--accept` after the human user explicitly approves the exact mode (`volume`, `efficiency`, or `all`). The command requires `--human-approved` to make that handoff explicit.
 
+After showing a macro dry-run, provide an agent recommendation (`volume`, `efficiency`, `all`, or no accept) with short reasoning about why the volume and efficiency changes do or do not fit the researched team context. This recommendation is advisory only; human sign-off is still required.
+
 ## Required checks before finishing edits
 
 Run:

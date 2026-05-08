@@ -98,7 +98,14 @@ python scripts/build_team_macro_recommendations.py --season 2026
 python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --dry-run
 ```
 
-Stop here and show the dry-run output to the human user. Do not choose an accept mode yourself, even if the diff looks reasonable.
+Stop here and show the dry-run output to the human user. Also provide a recommendation for `volume`, `efficiency`, `all`, or leaving the manual baseline unchanged.
+
+The recommendation must explain:
+
+- why the volume changes do or do not match the researched team context
+- why the efficiency changes do or do not match the researched team context
+- whether `all` would over-amplify or appropriately combine the two
+- which mode the agent would choose, while still requiring human sign-off
 
 Accept only after the human user explicitly approves `volume`, `efficiency`, or `all`:
 
@@ -185,7 +192,7 @@ python scripts/build_team_macro_recommendations.py --season 2026
 python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --dry-run
 ```
 
-Do not silently accept macro recommendations. Show the diff and explain the likely fantasy impact.
+Do not silently accept macro recommendations. Show the diff, explain the likely fantasy impact, and recommend one of `volume`, `efficiency`, `all`, or no accept. The recommendation is advisory only.
 
 6. After explicit user approval, accept the chosen recommendation mode with `--human-approved`, validate, rebuild, and checkpoint.
 
@@ -223,6 +230,7 @@ python scripts/team_projection_status.py --season 2026 --team GB
 - Keep `raw/` as source of truth.
 - Treat `processed/` as generated output or recommendation output.
 - Show macro recommendation diffs before accepting them.
+- Include an agent recommendation and short analysis for `volume`, `efficiency`, `all`, or no accept after every macro dry-run.
 - Never accept macro recommendations unless the human user explicitly approves the exact mode: `volume`, `efficiency`, or `all`.
 - Use `--human-approved` only after that explicit human approval.
 - Run validation and generation before calling work complete.
