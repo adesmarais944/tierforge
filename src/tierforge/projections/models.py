@@ -60,6 +60,46 @@ class DefenseEnvironment(BaseModel):
     analyst_note: str = ""
 
 
+class PriorYearTeamStats(BaseModel):
+    team_id: str
+    season: int
+    team_name: str
+    offensive_plays: float
+    pass_attempts: float
+    rush_attempts: float
+    passing_yards: float
+    passing_tds: float
+    interceptions: float
+    rushing_yards: float
+    rushing_tds: float
+    source_note: str = ""
+
+
+class TeamMacroRecommendation(BaseModel):
+    team_id: str
+    baseline_season: int
+    projection_season: int
+    baseline_offensive_plays: float
+    baseline_pass_attempts: float
+    baseline_rush_attempts: float
+    baseline_pass_rate: float
+    baseline_rush_rate: float
+    pace_adjustment: float
+    pass_rate_adjustment: float
+    efficiency_adjustment: float
+    recommended_offensive_plays: float
+    recommended_pass_rate: float
+    recommended_rush_rate: float
+    recommended_pass_attempts: float
+    recommended_rush_attempts: float
+    recommended_passing_yards: float
+    recommended_passing_tds: float
+    recommended_interceptions: float
+    recommended_rushing_yards: float
+    recommended_rushing_tds: float
+    recommendation_note: str = ""
+
+
 class OffseasonChange(BaseModel):
     team_id: str
     season: int
