@@ -1,16 +1,27 @@
 player_id,player_name,team_id,position,scoring_format,include_in_rankings,games_projected,targets,receptions,receiving_yards,receiving_tds,carries,rushing_yards,rushing_tds,pass_attempts,passing_yards,passing_tds,interceptions,fumbles_lost,raw_projected_fantasy_points,manual_fantasy_point_adjustment,final_projected_fantasy_points,overall_rank,position_rank,analyst_tag,analyst_note
 jamarr-chase,Ja'Marr Chase,CIN,WR,full_ppr,True,17.0,187.5,127.5,1800.3,12.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,381.05,0.0,381.05,1,1,target,Elite target share in concentrated offense.
-joe-burrow,Joe Burrow,CIN,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,658.0,4442.0,35.0,16.0,0.0,285.68,0.0,285.68,2,1,core,Primary Bengals passer baseline.
-tee-higgins,Tee Higgins,CIN,WR,full_ppr,True,16.0,144.8,94.1,1302.8,8.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,276.88,0.0,276.88,3,2,target,High-value secondary alpha.
-jordan-love,Jordan Love,GB,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,46.3,198.9,0.5,535.0,4118.0,27.0,9.0,2.0,273.85,0.0,273.85,4,2,core,Efficient passer gets modest pass-volume bump; small rushing contribution included.
-josh-jacobs,Josh Jacobs,GB,RB,full_ppr,True,16.0,48.1,37.6,308.2,1.1,257.0,1028.0,12.1,0.0,0.0,0.0,0.0,1.0,248.01,0.0,248.01,5,1,core,"Lead back remains TD engine, but pass-rate bump trims rush share slightly."
-chase-brown,Chase Brown,CIN,RB,full_ppr,True,17.0,65.8,51.3,408.0,2.1,239.1,1004.3,6.3,0.0,0.0,0.0,0.0,0.0,242.95,0.0,242.95,6,2,target,Lead back workload assumption.
-jayden-reed,Jayden Reed,GB,WR,full_ppr,True,16.0,107.0,72.8,920.2,4.9,15.4,107.9,0.2,0.0,0.0,0.0,0.0,0.0,205.81,0.0,205.81,7,3,target,Extension plus vacated targets support rebound from injury-shortened 2025.
-christian-watson,Christian Watson,GB,WR,full_ppr,True,16.0,101.7,63.0,1067.3,5.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,205.4,0.0,205.4,8,4,target,Primary outside ceiling bet after Doubs/Wicks departures; health risk remains.
-matthew-golden,Matthew Golden,GB,WR,full_ppr,True,17.0,91.0,57.3,800.4,4.3,10.3,51.4,0.2,0.0,0.0,0.0,0.0,0.0,169.47,0.0,169.47,9,5,target,Former first-round receiver gets expanded role after uneven rookie year.
-tucker-kraft,Tucker Kraft,GB,TE,full_ppr,True,14.0,69.5,50.1,681.6,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,144.16,0.0,144.16,10,1,watch,"Excellent 2025 efficiency, but ACL rehab lowers games and early-season certainty."
-mike-gesicki,Mike Gesicki,CIN,TE,full_ppr,True,17.0,72.4,47.8,564.6,3.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,125.23,0.0,125.23,11,2,watch,Usable receiving tight end bucket.
-emanuel-wilson,Emanuel Wilson,GB,RB,full_ppr,True,17.0,18.7,14.0,108.6,0.3,102.8,421.5,2.5,0.0,0.0,0.0,0.0,0.0,83.79,0.0,83.79,12,3,watch,Primary backup baseline with usable injury contingent value.
-luke-musgrave,Luke Musgrave,GB,TE,full_ppr,True,17.0,37.5,25.5,292.1,1.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,64.4,0.0,64.4,13,3,watch,More useful if Kraft limited; otherwise secondary TE receiving bucket.
-savion-williams,Savion Williams,GB,WR,full_ppr,True,17.0,29.4,17.7,220.7,1.4,10.3,46.3,0.2,0.0,0.0,0.0,0.0,0.0,53.53,0.0,53.53,14,6,watch,Gadget/size role grows with receiver room turnover.
-marshawn-lloyd,MarShawn Lloyd,GB,RB,full_ppr,True,15.0,13.4,10.0,80.2,0.3,51.4,226.2,0.9,0.0,0.0,0.0,0.0,0.0,47.69,0.0,47.69,15,4,watch,Explosive depth back assumption; role depends on health and camp usage.
+trey-mcbride,Trey McBride,ARI,TE,full_ppr,True,17.0,166.8,121.7,1300.6,6.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,292.11,0.0,292.11,2,1,core,Elite target earner remains offensive centerpiece after 2025 TE1-level usage.
+joe-burrow,Joe Burrow,CIN,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,658.0,4442.0,35.0,16.0,0.0,285.68,0.0,285.68,3,1,core,Primary Bengals passer baseline.
+tee-higgins,Tee Higgins,CIN,WR,full_ppr,True,16.0,144.8,94.1,1302.8,8.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,276.88,0.0,276.88,4,2,target,High-value secondary alpha.
+jordan-love,Jordan Love,GB,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,46.3,198.9,0.5,535.0,4118.0,27.0,9.0,2.0,273.85,0.0,273.85,5,2,core,Efficient passer gets modest pass-volume bump; small rushing contribution included.
+josh-jacobs,Josh Jacobs,GB,RB,full_ppr,True,16.0,48.1,37.6,308.2,1.1,257.0,1028.0,12.1,0.0,0.0,0.0,0.0,1.0,248.01,0.0,248.01,6,1,core,"Lead back remains TD engine, but pass-rate bump trims rush share slightly."
+marvin-harrison-jr,Marvin Harrison Jr.,ARI,WR,full_ppr,True,16.0,140.1,86.8,1288.6,5.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,247.39,0.0,247.39,7,3,target,Health rebound and new staff support WR1 target growth.
+chase-brown,Chase Brown,CIN,RB,full_ppr,True,17.0,65.8,51.3,408.0,2.1,239.1,1004.3,6.3,0.0,0.0,0.0,0.0,0.0,242.95,0.0,242.95,8,2,target,Lead back workload assumption.
+jeremiyah-love,Jeremiyah Love,ARI,RB,full_ppr,True,17.0,60.0,44.4,384.2,1.7,187.7,863.6,7.2,0.0,0.0,0.0,0.0,1.0,220.48,0.0,220.48,9,3,target,First-round rookie RB with three-down profile in LaFleur run/play-action reset.
+jacoby-brissett,Jacoby Brissett,ARI,QB,full_ppr,True,14.0,0.0,0.0,0.0,0.0,17.9,66.2,0.6,587.0,3449.6,21.1,10.6,2.0,207.8,0.0,207.8,10,3,watch,Reported 2026 starter; volume useful but ceiling capped on rebuilding offense.
+jayden-reed,Jayden Reed,GB,WR,full_ppr,True,16.0,107.0,72.8,920.2,4.9,15.4,107.9,0.2,0.0,0.0,0.0,0.0,0.0,205.81,0.0,205.81,11,4,target,Extension plus vacated targets support rebound from injury-shortened 2025.
+christian-watson,Christian Watson,GB,WR,full_ppr,True,16.0,101.7,63.0,1067.3,5.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,205.4,0.0,205.4,12,5,target,Primary outside ceiling bet after Doubs/Wicks departures; health risk remains.
+michael-wilson,Michael Wilson,ARI,WR,full_ppr,True,17.0,120.1,75.6,1008.5,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,202.41,0.0,202.41,13,6,target,Reliable 2025 producer remains high-snap outside/slot option.
+matthew-golden,Matthew Golden,GB,WR,full_ppr,True,17.0,91.0,57.3,800.4,4.3,10.3,51.4,0.2,0.0,0.0,0.0,0.0,0.0,169.47,0.0,169.47,14,7,target,Former first-round receiver gets expanded role after uneven rookie year.
+tucker-kraft,Tucker Kraft,GB,TE,full_ppr,True,14.0,69.5,50.1,681.6,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,144.16,0.0,144.16,15,2,watch,"Excellent 2025 efficiency, but ACL rehab lowers games and early-season certainty."
+mike-gesicki,Mike Gesicki,CIN,TE,full_ppr,True,17.0,72.4,47.8,564.6,3.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,125.23,0.0,125.23,16,3,watch,Usable receiving tight end bucket.
+james-conner,James Conner,ARI,RB,full_ppr,True,14.0,33.4,25.0,186.8,1.0,89.4,366.5,3.2,0.0,0.0,0.0,0.0,0.0,105.3,0.0,105.3,17,4,watch,Veteran role trimmed by Jeremiyah Love but still short-yardage/rotation relevant.
+kendrick-bourne,Kendrick Bourne,ARI,WR,full_ppr,True,16.0,53.4,35.2,416.2,1.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,88.36,0.0,88.36,18,8,watch,Veteran receiver addition gives Brissett a steady secondary target.
+emanuel-wilson,Emanuel Wilson,GB,RB,full_ppr,True,17.0,18.7,14.0,108.6,0.3,102.8,421.5,2.5,0.0,0.0,0.0,0.0,0.0,83.79,0.0,83.79,19,5,watch,Primary backup baseline with usable injury contingent value.
+luke-musgrave,Luke Musgrave,GB,TE,full_ppr,True,17.0,37.5,25.5,292.1,1.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,64.4,0.0,64.4,20,4,watch,More useful if Kraft limited; otherwise secondary TE receiving bucket.
+tyler-allgeier,Tyler Allgeier,ARI,RB,full_ppr,True,17.0,13.3,9.3,66.7,0.2,71.5,286.1,2.4,0.0,0.0,0.0,0.0,0.0,60.46,0.0,60.46,21,6,watch,Depth/committee grinder behind Love and Conner.
+savion-williams,Savion Williams,GB,WR,full_ppr,True,17.0,29.4,17.7,220.7,1.4,10.3,46.3,0.2,0.0,0.0,0.0,0.0,0.0,53.53,0.0,53.53,22,9,watch,Gadget/size role grows with receiver room turnover.
+marshawn-lloyd,MarShawn Lloyd,GB,RB,full_ppr,True,15.0,13.4,10.0,80.2,0.3,51.4,226.2,0.9,0.0,0.0,0.0,0.0,0.0,47.69,0.0,47.69,23,7,watch,Explosive depth back assumption; role depends on health and camp usage.
+elijah-higgins,Elijah Higgins,ARI,TE,full_ppr,True,17.0,26.7,18.7,186.8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.11,0.0,43.11,24,5,watch,Secondary TE in McBride-heavy room.
+carson-beck,Carson Beck,ARI,QB,full_ppr,True,5.0,0.0,0.0,0.0,0.0,8.9,31.3,0.2,80.0,470.4,2.9,1.4,1.0,29.55,0.0,29.55,25,4,watch,Developmental rookie path if Cardinals evaluate late-season future.
+trey-benson,Trey Benson,ARI,RB,full_ppr,True,12.0,0.0,0.0,0.0,0.0,35.8,146.6,1.0,0.0,0.0,0.0,0.0,0.0,20.42,0.0,20.42,26,8,watch,Former depth back squeezed by Love addition but retains contingent upside.

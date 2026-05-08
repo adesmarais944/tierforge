@@ -12,3 +12,12 @@ GB,2026,defense,departure,Rashan Gary,EDGE,trade,GB,DAL,,,starter,immediate,medi
 GB,2026,defense,departure,Trevon Diggs,CB,release,GB,,,,rotational,immediate,high,medium,high,neutral,-1,,Short-term late-2025 corner addition was released after season.
 GB,2026,coaching,continuity,Adam Stenavich,OC,returning_coach,GB,GB,,,starter,immediate,high,medium,medium,good,1,,Offensive coordinator continuity keeps projection structure stable.
 GB,2026,coaching,staff_change,Luke Getsy,QB,coaching_hire,GB,GB,,,starter,immediate,medium,medium,medium,good,1,,Getsy returns to quarterback coaching role around Jordan Love.
+ARI,2026,coaching,head_coach_change,Mike LaFleur,HC,coaching_hire,LAR,ARI,,,starter,immediate,medium,critical,high,good,2,,New offensive head coach arrives from Rams and is expected to call plays.
+ARI,2026,coaching,coordinator_change,Nathaniel Hackett,OC,coaching_hire,GB,ARI,,,starter,immediate,medium,high,medium,neutral,1,,Experienced OC supports LaFleur but is not expected to be primary play caller.
+ARI,2026,offense,quarterback_change,Jacoby Brissett,QB,starter_change,ARI,ARI,,,starter,immediate,medium,critical,high,neutral,-2,,Reports name Brissett the 2026 starter after Kyler Murray exit; stable but limited ceiling.
+ARI,2026,offense,draft_addition,Jeremiyah Love,RB,draft_pick,,ARI,1,3,starter,immediate,medium,high,medium,excellent,4,,First-round rookie RB adds explosive three-down profile and shifts offense toward run/play action.
+ARI,2026,offense,free_agent_addition,Isaac Seumalo,OL,free_agency,PIT,ARI,,,starter,immediate,high,high,medium,good,2,,Veteran guard addition helps rebuild offensive line.
+ARI,2026,offense,role_growth,Marvin Harrison Jr.,WR,returning_starter,ARI,ARI,,,starter,immediate,medium,critical,high,good,2,,Health rebound and new offense support larger WR1 role after injury-shortened 2025.
+ARI,2026,offense,continuity,Trey McBride,TE,returning_starter,ARI,ARI,,,elite_starter,immediate,high,critical,high,excellent,3,,Elite target-earner remains centerpiece after massive 2025 season.
+ARI,2026,defense,free_agent_addition,Roy Lopez,DL,free_agency,ARI,ARI,,,starter,immediate,medium,medium,medium,good,1,,Interior defensive continuity/addition helps but does not erase poor 2025 baseline.
+ARI,2026,defense,coordinator_continuity,Nick Rallis,DC,retained_coach,ARI,ARI,,,starter,immediate,high,medium,medium,good,1,,Defensive coordinator retained under new head coach.

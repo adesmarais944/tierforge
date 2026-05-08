@@ -19,3 +19,16 @@ luke-musgrave,Luke Musgrave,GB,TE,full_ppr,True,17.0,37.5,25.5,292.1,1.6,0.0,0.0
 savion-williams,Savion Williams,GB,WR,full_ppr,True,17.0,29.4,17.7,220.7,1.4,10.3,46.3,0.2,0.0,0.0,0.0,0.0,0.0,53.53,0.0,53.53,,,watch,Gadget/size role grows with receiver room turnover.
 gb-other-wr-te,GB Other WR/TE,GB,OTHER,full_ppr,False,17.0,18.7,11.2,131.1,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,42.16,0.0,42.16,,,bucket,Receiving reconciliation bucket for remaining WR/TE/RB targets.
 gb-other-rushing,GB Other Rushing,GB,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,20.6,82.2,1.4,0.0,0.0,0.0,0.0,0.0,16.86,0.0,16.86,,,bucket,Rushing reconciliation bucket.
+jacoby-brissett,Jacoby Brissett,ARI,QB,full_ppr,True,14.0,0.0,0.0,0.0,0.0,17.9,66.2,0.6,587.0,3449.6,21.1,10.6,2.0,207.8,0.0,207.8,,,watch,Reported 2026 starter; volume useful but ceiling capped on rebuilding offense.
+carson-beck,Carson Beck,ARI,QB,full_ppr,True,5.0,0.0,0.0,0.0,0.0,8.9,31.3,0.2,80.0,470.4,2.9,1.4,1.0,29.55,0.0,29.55,,,watch,Developmental rookie path if Cardinals evaluate late-season future.
+jeremiyah-love,Jeremiyah Love,ARI,RB,full_ppr,True,17.0,60.0,44.4,384.2,1.7,187.7,863.6,7.2,0.0,0.0,0.0,0.0,1.0,220.48,0.0,220.48,,,target,First-round rookie RB with three-down profile in LaFleur run/play-action reset.
+james-conner,James Conner,ARI,RB,full_ppr,True,14.0,33.4,25.0,186.8,1.0,89.4,366.5,3.2,0.0,0.0,0.0,0.0,0.0,105.3,0.0,105.3,,,watch,Veteran role trimmed by Jeremiyah Love but still short-yardage/rotation relevant.
+tyler-allgeier,Tyler Allgeier,ARI,RB,full_ppr,True,17.0,13.3,9.3,66.7,0.2,71.5,286.1,2.4,0.0,0.0,0.0,0.0,0.0,60.46,0.0,60.46,,,watch,Depth/committee grinder behind Love and Conner.
+trey-benson,Trey Benson,ARI,RB,full_ppr,True,12.0,0.0,0.0,0.0,0.0,35.8,146.6,1.0,0.0,0.0,0.0,0.0,0.0,20.42,0.0,20.42,,,watch,Former depth back squeezed by Love addition but retains contingent upside.
+trey-mcbride,Trey McBride,ARI,TE,full_ppr,True,17.0,166.8,121.7,1300.6,6.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,292.11,0.0,292.11,,,core,Elite target earner remains offensive centerpiece after 2025 TE1-level usage.
+marvin-harrison-jr,Marvin Harrison Jr.,ARI,WR,full_ppr,True,16.0,140.1,86.8,1288.6,5.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,247.39,0.0,247.39,,,target,Health rebound and new staff support WR1 target growth.
+michael-wilson,Michael Wilson,ARI,WR,full_ppr,True,17.0,120.1,75.6,1008.5,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,202.41,0.0,202.41,,,target,Reliable 2025 producer remains high-snap outside/slot option.
+kendrick-bourne,Kendrick Bourne,ARI,WR,full_ppr,True,16.0,53.4,35.2,416.2,1.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,88.36,0.0,88.36,,,watch,Veteran receiver addition gives Brissett a steady secondary target.
+elijah-higgins,Elijah Higgins,ARI,TE,full_ppr,True,17.0,26.7,18.7,186.8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.11,0.0,43.11,,,watch,Secondary TE in McBride-heavy room.
+ari-other-wr-te,ARI Other WR/TE,ARI,OTHER,full_ppr,False,17.0,53.4,32.0,373.5,1.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,80.89,0.0,80.89,,,bucket,Receiving reconciliation bucket for remaining receivers/tight ends.
+ari-other-rushing,ARI Other Rushing,ARI,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,35.8,143.0,1.4,0.0,0.0,0.0,0.0,0.0,22.94,0.0,22.94,,,bucket,Rushing reconciliation bucket.
