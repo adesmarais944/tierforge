@@ -21,6 +21,11 @@ def main() -> int:
     parser.add_argument("--team", required=True)
     parser.add_argument("--accept", choices=sorted(ACCEPT_MODES))
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--human-approved",
+        action="store_true",
+        help="Required with --accept. Use only after a human has reviewed the dry-run diff and approved the mode.",
+    )
     args = parser.parse_args()
 
     if args.dry_run:
@@ -33,6 +38,8 @@ def main() -> int:
 
     if not args.accept:
         parser.error("Either --dry-run or --accept is required.")
+    if not args.human_approved:
+        parser.error("--accept requires --human-approved after human review of the dry-run diff.")
 
     root = Path(__file__).resolve().parents[1]
     diffs = apply_macro_recommendations(root, args.season, args.team, args.accept)

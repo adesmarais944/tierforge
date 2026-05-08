@@ -48,6 +48,16 @@ Primary files:
 - `seasons/<year>/data/manual_overrides.yaml`
 - `seasons/<year>/logic/draft_tags.yaml`
 
+## Projection macro recommendations
+
+Macro recommendations are advisory. Always run and show the dry-run diff before accepting:
+
+```bash
+python scripts/apply_team_macro_recommendations.py --season 2026 --team <TEAM> --dry-run
+```
+
+Do not accept macro recommendations on behalf of the user. Only run `--accept` after the human user explicitly approves the exact mode (`volume`, `efficiency`, or `all`). The command requires `--human-approved` to make that handoff explicit.
+
 ## Required checks before finishing edits
 
 Run:

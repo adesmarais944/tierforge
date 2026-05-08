@@ -98,12 +98,14 @@ python scripts/build_team_macro_recommendations.py --season 2026
 python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --dry-run
 ```
 
-Accept only after reviewing:
+Stop here and show the dry-run output to the human user. Do not choose an accept mode yourself, even if the diff looks reasonable.
+
+Accept only after the human user explicitly approves `volume`, `efficiency`, or `all`:
 
 ```powershell
-python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --accept volume
-python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --accept efficiency
-python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --accept all
+python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --accept volume --human-approved
+python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --accept efficiency --human-approved
+python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --accept all --human-approved
 ```
 
 7. Validate and build outputs.
@@ -185,7 +187,7 @@ python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --dry
 
 Do not silently accept macro recommendations. Show the diff and explain the likely fantasy impact.
 
-6. After user approval, accept chosen recommendation mode, validate, rebuild, and checkpoint.
+6. After explicit user approval, accept the chosen recommendation mode with `--human-approved`, validate, rebuild, and checkpoint.
 
 ## Checkpoint And Diff Commands
 
@@ -221,5 +223,7 @@ python scripts/team_projection_status.py --season 2026 --team GB
 - Keep `raw/` as source of truth.
 - Treat `processed/` as generated output or recommendation output.
 - Show macro recommendation diffs before accepting them.
+- Never accept macro recommendations unless the human user explicitly approves the exact mode: `volume`, `efficiency`, or `all`.
+- Use `--human-approved` only after that explicit human approval.
 - Run validation and generation before calling work complete.
 - Create checkpoints before and after meaningful projection changes.
