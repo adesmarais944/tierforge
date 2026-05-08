@@ -52,3 +52,12 @@ BUF,2026,offense,veteran_addition,Brandin Cooks,WR,free_agency,NO,BUF,,,rotation
 BUF,2026,offense,draft_addition,Skyler Bell,WR,draft_pick,,BUF,4,0,developmental,developmental,medium,medium,medium,good,1,,Day-three receiver adds outside separation but projection should stay modest.
 BUF,2026,defense,scheme_change,Jim Leonhard 3-4 transition,DC,scheme_change,DEN,BUF,,,starter,immediate,medium,high,medium,neutral,-1,,Defensive front transition plus FA churn creates adjustment risk.
 BUF,2026,defense,draft_investment,2026 defensive draft class,DL/LB/DB,draft_pick,,BUF,,,rotational,partial_season,medium,high,medium,good,2,,Multiple defensive picks add depth for Leonhard transition.
+CAR,2026,coaching,continuity,Dave Canales,HC,returning_coach,CAR,CAR,,,starter,immediate,high,critical,high,good,2,,Canales continuity supports steady offensive development after 2025 playoff step.
+CAR,2026,coaching,play_caller_change,Brad Idzik,OC,play_caller_change,CAR,CAR,,,starter,immediate,medium,high,medium,neutral,0,,Idzik takes over play-calling from Canales within same offensive tree.
+CAR,2026,coaching,staff_addition,Darrell Bevell,Offense,coaching_hire,MIA,CAR,,,starter,immediate,medium,medium,medium,good,1,,Experienced offensive voice supports Bryce Young and Idzik.
+CAR,2026,offense,quarterback_continuity,Bryce Young,QB,returning_starter,CAR,CAR,,,starter,immediate,medium,critical,high,good,2,,Young remains starter after improvement and playoff appearance but still has efficiency volatility.
+CAR,2026,offense,receiver_continuity,Tetairoa McMillan,WR,returning_starter,CAR,CAR,,,starter,immediate,high,critical,high,excellent,3,,McMillan established himself as WR1 with 1000-yard rookie season.
+CAR,2026,offense,receiver_depth,Xavier Legette / Jalen Coker,WR,returning_starter,CAR,CAR,,,starter,immediate,medium,high,medium,good,1,,Young WR depth gives offense more stable target tree.
+CAR,2026,offense,backfield_change,Rico Dowdle / Jonathon Brooks,RB,free_agency_departure,CAR/PIT,CAR,,,starter,immediate,medium,high,medium,neutral,0,,Dowdle left for Pittsburgh; Brooks returns to the Panthers backfield mix behind Hubbard.
+CAR,2026,defense,coordinator_continuity,Ejiro Evero,DC,retained_coach,CAR,CAR,,,starter,immediate,high,medium,medium,good,1,,Defensive continuity after 2025 rebound supports average baseline.
+CAR,2026,defense,secondary_continuity,Tre'von Moehrig / Jaycee Horn,DB,returning_starter,CAR,CAR,,,starter,immediate,medium,medium,medium,good,1,,Secondary pieces help keep defense closer to neutral than prior disaster seasons.

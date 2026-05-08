@@ -69,3 +69,15 @@ dawson-knox,Dawson Knox,BUF,TE,full_ppr,True,17.0,33.5,22.1,244.4,2.4,0.0,0.0,0.
 skyler-bell,Skyler Bell,BUF,WR,full_ppr,True,17.0,19.5,11.3,156.2,0.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.35,0.0,32.35,,,watch,Day-three rookie separator with modest first-year role.
 buf-other-wr-te,BUF Other WR/TE,BUF,OTHER,full_ppr,False,17.0,44.6,25.9,312.5,5.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,87.74,0.0,87.74,,,bucket,Receiving reconciliation bucket for remaining WR/TE/RB targets.
 buf-other-rushing,BUF Other Rushing,BUF,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,83.7,359.9,3.9,0.0,0.0,0.0,0.0,0.0,59.51,0.0,59.51,,,bucket,Rushing reconciliation bucket.
+bryce-young,Bryce Young,CAR,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,33.7,141.4,1.2,541.0,3500.0,23.0,10.0,2.0,229.34,0.0,229.34,,,watch,"Continuity and better weapons help, but still efficiency-volatility baseline."
+chuba-hubbard,Chuba Hubbard,CAR,RB,full_ppr,True,16.0,43.3,32.5,259.7,1.2,192.4,808.1,6.3,0.0,0.0,0.0,0.0,1.0,181.94,0.0,181.94,,,target,Lead back with Dowdle gone; Brooks/Etienne still cap true workhorse ceiling.
+jonathon-brooks,Jonathon Brooks,CAR,RB,full_ppr,True,14.0,24.3,17.5,138.8,0.5,96.2,413.7,2.4,0.0,0.0,0.0,0.0,0.0,89.93,0.0,89.93,,,watch,Back in Panthers equation after Dowdle departure; role depends on health and explosiveness returning.
+trevor-etienne,Trevor Etienne,CAR,RB,full_ppr,True,17.0,10.8,7.6,54.1,0.2,48.1,202.0,1.1,0.0,0.0,0.0,0.0,0.0,40.87,0.0,40.87,,,watch,Rookie/depth back with changeup role after Dowdle exit.
+tetairoa-mcmillan,Tetairoa McMillan,CAR,WR,full_ppr,True,17.0,135.2,81.1,1176.7,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,234.7,0.0,234.7,,,target,Clear WR1 after 1000-yard rookie season; conservative catch rate for Bryce baseline.
+xavier-legette,Xavier Legette,CAR,WR,full_ppr,True,16.0,81.1,47.1,665.4,3.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,134.31,0.0,134.31,,,watch,Former first-round WR remains big-play No. 2/3 option.
+jalen-coker,Jalen Coker,CAR,WR,full_ppr,True,16.0,64.9,41.5,545.3,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,114.02,0.0,114.02,,,watch,Efficient secondary target with role in Canales/Idzik offense.
+ja'tavion-sanders,Ja'Tavion Sanders,CAR,TE,full_ppr,True,16.0,46.0,31.3,312.7,1.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,70.82,0.0,70.82,,,watch,Developing TE target with modest TD projection.
+tommy-tremble,Tommy Tremble,CAR,TE,full_ppr,True,17.0,32.5,22.1,220.7,1.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.43,0.0,52.43,,,watch,Rotational TE with occasional red-zone usage.
+hunter-renfrow,Hunter Renfrow,CAR,WR,full_ppr,True,14.0,29.8,19.6,184.5,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.99,0.0,44.99,,,watch,Slot depth and chain-mover role if active.
+car-other-wr-te,CAR Other WR/TE,CAR,OTHER,full_ppr,False,17.0,73.0,42.4,496.6,4.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,121.0,0.0,121.0,,,bucket,Receiving reconciliation bucket for remaining WR/TE/RB targets.
+car-other-rushing,CAR Other Rushing,CAR,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,110.6,442.5,4.1,0.0,0.0,0.0,0.0,0.0,68.55,0.0,68.55,,,bucket,Rushing reconciliation bucket.
