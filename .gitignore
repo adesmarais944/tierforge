@@ -7,3 +7,5 @@ __pycache__/
 .cache/
 .pytest_cache/
 config.toml
+/seasons/2026/data/projections/processed/*
+/seasons/2026/output/*
