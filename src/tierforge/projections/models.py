@@ -84,9 +84,20 @@ class TeamMacroRecommendation(BaseModel):
     baseline_rush_attempts: float
     baseline_pass_rate: float
     baseline_rush_rate: float
+    baseline_passing_td_rate: float
+    baseline_interception_rate: float
+    baseline_passing_yards_per_attempt: float
+    baseline_rushing_yards_per_attempt: float
+    baseline_rushing_td_rate: float
     pace_adjustment: float
     pass_rate_adjustment: float
     efficiency_adjustment: float
+    offensive_line_adjustment: float
+    regressed_passing_td_rate: float
+    regressed_interception_rate: float
+    regressed_rushing_td_rate: float
+    recommended_passing_yards_per_attempt: float
+    recommended_rushing_yards_per_attempt: float
     recommended_offensive_plays: float
     recommended_pass_rate: float
     recommended_rush_rate: float

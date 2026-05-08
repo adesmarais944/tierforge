@@ -6,7 +6,15 @@ import pandas as pd
 
 from .load_inputs import load_models, season_projection_dir
 from .models import DefenseEnvironment, OffseasonChange, PriorYearTeamStats, TeamAssumption, TeamMacroRecommendation
-from .offseason_changes import aggregate_unit_scores
+from .offseason_changes import aggregate_unit_scores, weighted_impact
+
+
+LEAGUE_AVERAGE_PASSING_TD_RATE = 0.047
+LEAGUE_AVERAGE_INTERCEPTION_RATE = 0.022
+LEAGUE_AVERAGE_PASSING_YARDS_PER_ATTEMPT = 6.5
+LEAGUE_AVERAGE_RUSHING_YARDS_PER_ATTEMPT = 4.4
+LEAGUE_AVERAGE_RUSHING_TD_RATE = 15.9 / 456.3
+OFFENSIVE_LINE_POSITIONS = {"OL", "C", "G", "T", "LG", "RG", "LT", "RT", "IOL", "OT"}
 
 
 RECOMMENDATION_COLUMNS = [
@@ -18,9 +26,20 @@ RECOMMENDATION_COLUMNS = [
     "baseline_rush_attempts",
     "baseline_pass_rate",
     "baseline_rush_rate",
+    "baseline_passing_td_rate",
+    "baseline_interception_rate",
+    "baseline_passing_yards_per_attempt",
+    "baseline_rushing_yards_per_attempt",
+    "baseline_rushing_td_rate",
     "pace_adjustment",
     "pass_rate_adjustment",
     "efficiency_adjustment",
+    "offensive_line_adjustment",
+    "regressed_passing_td_rate",
+    "regressed_interception_rate",
+    "regressed_rushing_td_rate",
+    "recommended_passing_yards_per_attempt",
+    "recommended_rushing_yards_per_attempt",
     "recommended_offensive_plays",
     "recommended_pass_rate",
     "recommended_rush_rate",
@@ -39,6 +58,21 @@ def clamp(value: float, low: float, high: float) -> float:
     return max(low, min(high, value))
 
 
+def blend_with_league_average(team_rate: float, league_rate: float, team_weight: float) -> float:
+    return (team_rate * team_weight) + (league_rate * (1 - team_weight))
+
+
+def offensive_line_impact_score(changes: list[OffseasonChange], team_id: str) -> float:
+    score = 0.0
+    for change in changes:
+        if change.team_id != team_id or change.unit != "offense":
+            continue
+        positions = {position.strip().upper() for position in change.position.replace("/", ",").split(",")}
+        if positions & OFFENSIVE_LINE_POSITIONS:
+            score += change.weighted_impact_score if change.weighted_impact_score is not None else weighted_impact(change)
+    return clamp(score, -10.0, 10.0)
+
+
 def load_team_macro_inputs(
     root: Path, season: str
 ) -> tuple[list[PriorYearTeamStats], list[TeamAssumption], list[DefenseEnvironment], list[OffseasonChange]]:
@@ -55,6 +89,7 @@ def recommend_team_macro(
     team: TeamAssumption,
     defense: DefenseEnvironment | None,
     unit_scores: dict[tuple[str, str], float],
+    changes: list[OffseasonChange] | None = None,
 ) -> TeamMacroRecommendation:
     baseline_attempts = baseline.pass_attempts + baseline.rush_attempts
     baseline_pass_rate = baseline.pass_attempts / baseline_attempts
@@ -90,23 +125,44 @@ def recommend_team_macro(
     recommended_rush_attempts = recommended_offensive_plays - recommended_pass_attempts
 
     efficiency_adjustment = clamp((offense_score * 0.005) + (team.offense_change_score * 0.005), -0.08, 0.08)
+    offensive_line_adjustment = offensive_line_impact_score(changes or [], team.team_id)
     pass_yards_per_attempt = baseline.passing_yards / baseline.pass_attempts
     pass_td_rate = baseline.passing_tds / baseline.pass_attempts
     interception_rate = baseline.interceptions / baseline.pass_attempts
     rush_yards_per_attempt = baseline.rushing_yards / baseline.rush_attempts
     rush_td_rate = baseline.rushing_tds / baseline.rush_attempts
 
-    passing_context = 1 + efficiency_adjustment + (shootout_impact * 0.010)
-    rushing_context = 1 + (efficiency_adjustment * 0.5)
-    recommended_passing_yards = round(recommended_pass_attempts * pass_yards_per_attempt * passing_context)
-    recommended_passing_tds = round(recommended_pass_attempts * pass_td_rate * passing_context)
-    recommended_interceptions = round(recommended_pass_attempts * interception_rate * (1 - (efficiency_adjustment * 0.5)))
-    recommended_rushing_yards = round(recommended_rush_attempts * rush_yards_per_attempt * rushing_context)
-    recommended_rushing_tds = round(recommended_rush_attempts * rush_td_rate * rushing_context)
+    regressed_passing_td_rate = blend_with_league_average(pass_td_rate, LEAGUE_AVERAGE_PASSING_TD_RATE, 0.55)
+    regressed_interception_rate = blend_with_league_average(interception_rate, LEAGUE_AVERAGE_INTERCEPTION_RATE, 0.55)
+    regressed_rushing_td_rate = blend_with_league_average(rush_td_rate, LEAGUE_AVERAGE_RUSHING_TD_RATE, 0.55)
+    regressed_passing_yards_per_attempt = blend_with_league_average(
+        pass_yards_per_attempt, LEAGUE_AVERAGE_PASSING_YARDS_PER_ATTEMPT, 0.85
+    )
+    regressed_rushing_yards_per_attempt = blend_with_league_average(
+        rush_yards_per_attempt, LEAGUE_AVERAGE_RUSHING_YARDS_PER_ATTEMPT, 0.85
+    )
+
+    passing_yards_context = 1 + (efficiency_adjustment * 0.35) + (offensive_line_adjustment * 0.003)
+    rushing_yards_context = 1 + (efficiency_adjustment * 0.25) + (offensive_line_adjustment * 0.010)
+    td_context = 1 + (efficiency_adjustment * 0.30)
+    int_context = 1 - (efficiency_adjustment * 0.30) - (offensive_line_adjustment * 0.003)
+    recommended_passing_yards_per_attempt = clamp(
+        regressed_passing_yards_per_attempt * passing_yards_context, 5.2, 8.2
+    )
+    recommended_rushing_yards_per_attempt = clamp(
+        regressed_rushing_yards_per_attempt * rushing_yards_context, 3.4, 5.4
+    )
+
+    recommended_passing_yards = round(recommended_pass_attempts * recommended_passing_yards_per_attempt)
+    recommended_passing_tds = round(recommended_pass_attempts * regressed_passing_td_rate * td_context)
+    recommended_interceptions = round(recommended_pass_attempts * regressed_interception_rate * int_context)
+    recommended_rushing_yards = round(recommended_rush_attempts * recommended_rushing_yards_per_attempt)
+    recommended_rushing_tds = round(recommended_rush_attempts * regressed_rushing_td_rate * td_context)
 
     note = (
         f"Baseline from {baseline.season}; pace {pace_adjustment:+.1f} plays; "
-        f"pass rate {pass_rate_adjustment:+.3f}; efficiency {efficiency_adjustment:+.3f}."
+        f"pass rate {pass_rate_adjustment:+.3f}; efficiency {efficiency_adjustment:+.3f}; "
+        f"OL {offensive_line_adjustment:+.2f}; TD/INT rates regressed toward league average."
     )
 
     return TeamMacroRecommendation(
@@ -118,9 +174,20 @@ def recommend_team_macro(
         baseline_rush_attempts=baseline.rush_attempts,
         baseline_pass_rate=round(baseline_pass_rate, 3),
         baseline_rush_rate=round(baseline_rush_rate, 3),
+        baseline_passing_td_rate=round(pass_td_rate, 3),
+        baseline_interception_rate=round(interception_rate, 3),
+        baseline_passing_yards_per_attempt=round(pass_yards_per_attempt, 2),
+        baseline_rushing_yards_per_attempt=round(rush_yards_per_attempt, 2),
+        baseline_rushing_td_rate=round(rush_td_rate, 3),
         pace_adjustment=round(pace_adjustment, 1),
         pass_rate_adjustment=round(pass_rate_adjustment, 3),
         efficiency_adjustment=round(efficiency_adjustment, 3),
+        offensive_line_adjustment=round(offensive_line_adjustment, 2),
+        regressed_passing_td_rate=round(regressed_passing_td_rate, 3),
+        regressed_interception_rate=round(regressed_interception_rate, 3),
+        regressed_rushing_td_rate=round(regressed_rushing_td_rate, 3),
+        recommended_passing_yards_per_attempt=round(recommended_passing_yards_per_attempt, 2),
+        recommended_rushing_yards_per_attempt=round(recommended_rushing_yards_per_attempt, 2),
         recommended_offensive_plays=recommended_offensive_plays,
         recommended_pass_rate=recommended_pass_rate,
         recommended_rush_rate=recommended_rush_rate,
@@ -142,7 +209,7 @@ def build_team_macro_recommendations(root: Path, season: str) -> Path:
     unit_scores = aggregate_unit_scores(changes)
 
     recommendations = [
-        recommend_team_macro(baseline_by_team[team.team_id], team, defense_by_team.get(team.team_id), unit_scores)
+        recommend_team_macro(baseline_by_team[team.team_id], team, defense_by_team.get(team.team_id), unit_scores, changes)
         for team in teams
         if team.team_id in baseline_by_team
     ]
