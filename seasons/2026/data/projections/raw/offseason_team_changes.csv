@@ -21,3 +21,14 @@ ARI,2026,offense,role_growth,Marvin Harrison Jr.,WR,returning_starter,ARI,ARI,,,
 ARI,2026,offense,continuity,Trey McBride,TE,returning_starter,ARI,ARI,,,elite_starter,immediate,high,critical,high,excellent,3,,Elite target-earner remains centerpiece after massive 2025 season.
 ARI,2026,defense,free_agent_addition,Roy Lopez,DL,free_agency,ARI,ARI,,,starter,immediate,medium,medium,medium,good,1,,Interior defensive continuity/addition helps but does not erase poor 2025 baseline.
 ARI,2026,defense,coordinator_continuity,Nick Rallis,DC,retained_coach,ARI,ARI,,,starter,immediate,high,medium,medium,good,1,,Defensive coordinator retained under new head coach.
+ATL,2026,coaching,head_coach_change,Kevin Stefanski,HC,coaching_hire,CLE,ATL,,,starter,immediate,medium,critical,high,good,3,,New head coach brings run/play-action structure and offensive credibility.
+ATL,2026,coaching,coordinator_change,Tommy Rees,OC,coaching_hire,CLE,ATL,,,starter,immediate,medium,high,medium,good,1,,Rees follows Stefanski from Cleveland as offensive coordinator.
+ATL,2026,offense,coach_addition,Bill Callahan,OL,coaching_hire,TEN,ATL,,,starter,immediate,high,high,medium,excellent,3,,Elite offensive line coach boosts run-game confidence.
+ATL,2026,offense,quarterback_addition,Tua Tagovailoa,QB,free_agency,MIA,ATL,,,starter,immediate,medium,critical,high,good,3,,Veteran signing creates legitimate QB competition while Michael Penix rehabs ACL.
+ATL,2026,offense,injury_rehab,Michael Penix Jr.,QB,acl_rehab,ATL,ATL,,,starter,partial_season,medium,critical,high,neutral,-2,,Penix has upside but is recovering from 2025 ACL injury with uncertain Week 1 role.
+ATL,2026,offense,release,Kirk Cousins,QB,release,ATL,,,,starter,immediate,high,medium,high,neutral,-1,,Veteran release removes fallback but clarifies new QB room.
+ATL,2026,offense,release,Darnell Mooney,WR,release,ATL,,,,starter,immediate,high,medium,medium,neutral,-2,,Mooney release leaves thinner WR depth behind Drake London.
+ATL,2026,offense,continuity,Bijan Robinson,RB,returning_starter,ATL,ATL,,,elite_starter,immediate,high,critical,high,excellent,4,,Elite dual-threat RB remains offensive engine.
+ATL,2026,offense,continuity,Drake London / Kyle Pitts,WR/TE,returning_starter,ATL,ATL,,,elite_starter,immediate,high,critical,high,good,3,,Primary pass catchers return after commanding 2025 target volume.
+ATL,2026,defense,coordinator_continuity,Jeff Ulbrich,DC,retained_coach,ATL,ATL,,,starter,immediate,high,medium,medium,good,1,,Defensive coordinator retained under new Stefanski staff.
+ATL,2026,defense,free_agent_addition,Azeez Ojulari / Samson Ebukam,EDGE,free_agency,NYG/SF,ATL,,,rotational,immediate,medium,high,high,good,2,,Veteran edge additions help pass rush depth.

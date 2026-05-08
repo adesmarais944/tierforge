@@ -2,3 +2,4 @@ team_id,season,team_name,offensive_plays,pass_attempts,rush_attempts,passing_yar
 CIN,2025,Cincinnati Bengals,1085,640,381,4244,36,17,1591,11,Official Bengals 2025 regular-season team stats.
 GB,2025,Green Bay Packers,1044,489,492,3845,26,7,2037,18,Official Packers/NFL 2025 regular-season team stats; offensive plays include sacks/team plays context.
 ARI,2025,Arizona Cardinals,1107,649,366,4354,29,11,1583,9,Official Cardinals/NFL 2025 regular-season team stats; offensive plays use official team page context.
+ATL,2025,Atlanta Falcons,1087,545,477,3703,19,8,2138,17,Official Falcons/NFL 2025 regular-season team stats; offensive plays include sack context.

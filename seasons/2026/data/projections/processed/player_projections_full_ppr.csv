@@ -32,3 +32,15 @@ kendrick-bourne,Kendrick Bourne,ARI,WR,full_ppr,True,16.0,53.4,35.2,416.2,1.9,0.
 elijah-higgins,Elijah Higgins,ARI,TE,full_ppr,True,17.0,26.7,18.7,186.8,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.11,0.0,43.11,,,watch,Secondary TE in McBride-heavy room.
 ari-other-wr-te,ARI Other WR/TE,ARI,OTHER,full_ppr,False,17.0,53.4,32.0,373.5,1.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,80.89,0.0,80.89,,,bucket,Receiving reconciliation bucket for remaining receivers/tight ends.
 ari-other-rushing,ARI Other Rushing,ARI,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,35.8,143.0,1.4,0.0,0.0,0.0,0.0,0.0,22.94,0.0,22.94,,,bucket,Rushing reconciliation bucket.
+tua-tagovailoa,Tua Tagovailoa,ATL,QB,full_ppr,True,12.0,0.0,0.0,0.0,0.0,10.4,32.3,0.4,355.9,2368.4,14.9,6.8,1.0,144.01,0.0,144.01,,,watch,Veteran bridge/competition QB after Falcons signing; efficient if starting but role not locked.
+michael-penix-jr,Michael Penix Jr.,ATL,QB,full_ppr,True,8.0,0.0,0.0,0.0,0.0,10.4,33.3,0.5,218.1,1451.6,9.1,4.2,1.0,90.76,0.0,90.76,,,watch,ACL rehab creates uncertain early-season role but arm talent remains.
+bijan-robinson,Bijan Robinson,ATL,RB,full_ppr,True,17.0,97.6,74.2,751.4,3.4,281.3,1322.3,10.4,0.0,0.0,0.0,0.0,1.0,362.33,0.0,362.33,,,core,Elite dual-threat back remains centerpiece in Stefanski/Callahan run-friendly setup.
+brian-robinson,Brian Robinson,ATL,RB,full_ppr,True,17.0,14.4,10.3,77.5,0.2,99.0,396.0,3.6,0.0,0.0,0.0,0.0,0.0,80.72,0.0,80.72,,,watch,Power complement behind Bijan; touchdown role depends on game script.
+tyler-goodson,Tyler Goodson,ATL,RB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,31.3,128.2,0.9,0.0,0.0,0.0,0.0,0.0,18.22,0.0,18.22,,,watch,Depth rushing bucket with contingent value.
+drake-london,Drake London,ATL,WR,full_ppr,True,16.0,143.5,90.4,1348.9,6.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,264.18,0.0,264.18,,,target,Clear WR1 after Mooney release; QB volatility only real limiter.
+kyle-pitts,Kyle Pitts Sr.,ATL,TE,full_ppr,True,17.0,114.8,80.4,1010.2,5.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,213.06,0.0,213.06,,,target,Franchise-tagged focal point after leading 2025 receiving yardage.
+jahan-dotson,Jahan Dotson,ATL,WR,full_ppr,True,17.0,63.1,39.1,517.7,2.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,105.32,0.0,105.32,,,watch,Free-agent receiver fills Mooney vacancy but target ceiling capped by London/Pitts/Bijan.
+olamide-zaccheaus,Olamide Zaccheaus,ATL,WR,full_ppr,True,17.0,40.2,25.7,305.4,1.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,64.89,0.0,64.89,,,watch,Familiar depth receiver baseline in thin WR room.
+austin-hooper,Austin Hooper,ATL,TE,full_ppr,True,17.0,23.0,15.6,156.1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36.99,0.0,36.99,,,watch,Veteran TE2 depth behind Pitts.
+atl-other-wr-te,ATL Other WR/TE,ATL,OTHER,full_ppr,False,17.0,77.5,44.9,542.4,3.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,122.23,0.0,122.23,,,bucket,Receiving reconciliation bucket for remaining WR/TE targets.
+atl-other-rushing,ATL Other Rushing,ATL,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,88.6,354.3,2.2,0.0,0.0,0.0,0.0,0.0,48.39,0.0,48.39,,,bucket,Rushing reconciliation bucket.
