@@ -15,6 +15,7 @@ Use these when asking Codex or another coding agent to work in the repo.
 
 - `agents/codex_prompts.md`: reusable prompts for common repo tasks
 - `agents/team-macro-recommendation-csv-plan.md`: implementation plan/history for the macro recommendation layer
+- `agents/team-projection-workflow.md`: agent workflow for statting out teams, processing news, and checkpointing
 
 ## Rule Of Thumb
 

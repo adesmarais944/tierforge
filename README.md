@@ -44,6 +44,7 @@ docs/
   agents/
     codex_prompts.md
     team-macro-recommendation-csv-plan.md
+    team-projection-workflow.md
 ```
 
 ## Setup
