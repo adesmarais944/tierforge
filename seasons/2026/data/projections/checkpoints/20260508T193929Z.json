@@ -1,0 +1,213 @@
+{
+  "checkpoint_id": "20260508T193929Z",
+  "created_at": "2026-05-08T19:39:29Z",
+  "files": {
+    "processed/offseason_unit_scores.csv": {
+      "exists": true,
+      "path": "processed/offseason_unit_scores.csv",
+      "row_count": 2,
+      "row_hashes": {
+        "CIN": "5098e4c6daf167c41ed38fd6cd1d3ee935890a8fed8806ef9424564f86b6deb1",
+        "GB": "3673559acc71709ae5943cf50bdeb6b710b141ebb7b14069df975eacaefc3a6a"
+      },
+      "sha256": "092a1d0479db9fa95367711558a9002e6712fa5c493fb5e81dc5d1ea8775667e",
+      "size_bytes": 140
+    },
+    "processed/player_projections_full_ppr.csv": {
+      "exists": true,
+      "path": "processed/player_projections_full_ppr.csv",
+      "row_count": 20,
+      "row_hashes": {
+        "chase-brown|full_ppr": "f3f673d9784d46210794d7f8517b8a70bab5f06893772d81f5121d57234be8b5",
+        "christian-watson|full_ppr": "bd3508e6bc02d6edd843fd0252b16525579fbf252b19c07897cb6fbb8d5bf44a",
+        "cin-other-rb-targets|full_ppr": "a7a3e2fcf35e745dbd8bcfc5c921226031da48b7e3008275a0f58deecc73ebc6",
+        "cin-other-rushing|full_ppr": "2e9d6913fd3c8c82813e4a47ba725c60453ca715480a5d7f0a41240322497e40",
+        "cin-other-wr-te|full_ppr": "ee8ddd84061a49a70d3287ba244834781cf120470dc75b1b0c76ef66e0f110b5",
+        "emanuel-wilson|full_ppr": "eee4ab39b8feddefc41469a8c2769fcb06bc330b9ae59526e88ddbd4512c3f9b",
+        "gb-other-rushing|full_ppr": "56f2b274b448e0006933fbe0058f7b2966160c90af32d208bf39f60d5705371a",
+        "gb-other-wr-te|full_ppr": "ddf448f31e3f4718227c63de578aabe02062be539040b993216b24a20b66b18c",
+        "jamarr-chase|full_ppr": "d1ea5f76a0765dcc450b2712743451eee074ae68febce5cb945c1be5243f6404",
+        "jayden-reed|full_ppr": "e0b60f944af448e56dfcdb775b00ee328cb1eebcb59b56a105712833995082b1",
+        "joe-burrow|full_ppr": "4c185eceade735ccfd75ffc29c2b362500ee3b7a70d7030046ea7fb17a90f41a",
+        "jordan-love|full_ppr": "29d00006cc798e978cd926198fdc5a8f0a598449de49a67ac9e98258235e1afa",
+        "josh-jacobs|full_ppr": "cab0be2d6c6467e3b0fc814a5c2cfd9a8f90ab5681ef26c48a8d5591d3bfe862",
+        "luke-musgrave|full_ppr": "fdfa807cec71beacc3e93102cfc1f6215dbfe705416b8d6a51a0e5bc65399490",
+        "marshawn-lloyd|full_ppr": "7cf808701947519f12fa3c12788d3ca4dc5505bbeb1dd346da3d10e65b82e9fe",
+        "matthew-golden|full_ppr": "bfb03cbc8691f9c0403a8484d53ddb0a02988c06dc64148a7aa61bca6e617e92",
+        "mike-gesicki|full_ppr": "28d20214cb8fac651f2315f74b66a501737432770ff22ce65ea09b6f46e9893c",
+        "savion-williams|full_ppr": "4f1e96616126612f9c6878e31f01b554a5e419677244dea88417f53755d307b4",
+        "tee-higgins|full_ppr": "e20931510c0d16396de9871c2edc1ce7d376e6a67d2c86c4ed1f7fb1d2712e4e",
+        "tucker-kraft|full_ppr": "9e44aaf49796cf503b8ad832ffb90cfb3d1f66cb5b619ec9d3c282b2138a6ae9"
+      },
+      "sha256": "bb9421dd2a1beb1a4a4982532252e20d846708dfcd7d49b6ae36982bf144a975",
+      "size_bytes": 4196
+    },
+    "processed/player_projections_half_ppr.csv": {
+      "exists": true,
+      "path": "processed/player_projections_half_ppr.csv",
+      "row_count": 20,
+      "row_hashes": {
+        "chase-brown|half_ppr": "658a54b073eaa35dc9fdfe1b0e6612fa4b1c8579bf4e5c19acdb3d02ea770935",
+        "christian-watson|half_ppr": "5690df059f918494c21269802e807fd7a409afc5f1eaf7f5fa7fbbf3adc8f272",
+        "cin-other-rb-targets|half_ppr": "0b059a5ebf486e3201ff4a9855ae5f28041a46ff4c114c6cb6f0abca2d853217",
+        "cin-other-rushing|half_ppr": "ea8f0ab945c1ec52009b4c96f3e1bbc89a5cc559de20c3e1a70ddff12856c5cb",
+        "cin-other-wr-te|half_ppr": "8c4d6aed3d24a21704c2484e4f5a47d4b3b4de46c17dccb0b809e22ed0192ce8",
+        "emanuel-wilson|half_ppr": "498f430028e9f2687bc9c473bef534e53810ff8a62b93f7239a5e51d090ba471",
+        "gb-other-rushing|half_ppr": "03fc12db1e1e5981020dc7ce1be540822e62a84bda60386ef0a03b4a46224a84",
+        "gb-other-wr-te|half_ppr": "b317718ce98467cc088aa69a1dd8f9212c346cd3518e71fc4269bcffed7423c7",
+        "jamarr-chase|half_ppr": "480c36917b213f7ed4ea05ae0eb7b24c05214cf538eed87587a6ba884129cba9",
+        "jayden-reed|half_ppr": "a0a452df36e40d09f74bc3b94b84a7a26c21e4ab848c6a01e0799155419bb51b",
+        "joe-burrow|half_ppr": "d9a9bc84823d7e6d1892b627ab860f120eb077c09a98b9bfc81d826594ac16bd",
+        "jordan-love|half_ppr": "d82d9cc806d49da82b2238b9a7ab3c706bee88ed2a232870e52fd0be0999f4a9",
+        "josh-jacobs|half_ppr": "ad7fae1efe61ec7429ce47cbd003c641760616082b04a0623d45bdacfffc0c09",
+        "luke-musgrave|half_ppr": "ad077cb28d915ef7bfc4c04d74d67e87f3aa73c125da547c69e9bc9bd87dc9ed",
+        "marshawn-lloyd|half_ppr": "e759aadab04f3015e73472b33b2ffd06fd93a5b0d1bfb92134e20d5cef28854c",
+        "matthew-golden|half_ppr": "3d4e5be9c4cc996f278be33767890c6674e0a3561784d7b7e69717ff922ef276",
+        "mike-gesicki|half_ppr": "c028c30a8c18b99fa3bd917e0af292f47085c684353803dba7c8034bf9318a91",
+        "savion-williams|half_ppr": "e5bdc106bc4a0b6e5a95f3c1232305443ba4c6d37d7683557c0aaee6cbf5ac5d",
+        "tee-higgins|half_ppr": "75fdc9421512722cb5414569945b00bb9f6055f9377521a6acb82b11d3601b4b",
+        "tucker-kraft|half_ppr": "f3fa0d912b9917a94f9e13b5a934f4ca585a07798a00aa082b85ec7659f291e3"
+      },
+      "sha256": "7dfb6bec379e5ad730f2baf53f599a1760475830bd602adfd7abf4ae10942d6c",
+      "size_bytes": 4196
+    },
+    "processed/player_rankings_full_ppr.csv": {
+      "exists": true,
+      "path": "processed/player_rankings_full_ppr.csv",
+      "row_count": 15,
+      "row_hashes": {
+        "chase-brown|full_ppr": "f9dfe43545d1e7ca885df61331f65990dcc799ca16ce267d0e957d27740f4470",
+        "christian-watson|full_ppr": "a039fec8e6b96fd75d3eb1af447b4ee7171ccaea0ae530c9faf5b764abdf4263",
+        "emanuel-wilson|full_ppr": "c7ac4d122659a5bcaccb10851c13e577952d76055bccacbb2d424eea5953e314",
+        "jamarr-chase|full_ppr": "057e070c71e7716df31db9085e7f225ac9fcbc33c04e73298b31d92868c2215a",
+        "jayden-reed|full_ppr": "002f5d29032689defadfdbdbd1b303e1199b7d43ee8a0a94105a4a78b5bdf6dc",
+        "joe-burrow|full_ppr": "c18dd8109d3549a95836bb6ea319d5dbfe2fe8194cac37821450ec009e7a133c",
+        "jordan-love|full_ppr": "fad7710c0c2379c1b14b9e7b8f16c49e1e38f379ebf685559c284b19779ad8c6",
+        "josh-jacobs|full_ppr": "8a2fb01effee3e6b9216902a0486320c4d37e8ef3524c082286d4e79b52b2880",
+        "luke-musgrave|full_ppr": "c33ead037bb999ed61b8c45ade93ac84dd87ada0beb4c464cf935c2d19e55547",
+        "marshawn-lloyd|full_ppr": "ab56ca251a69b3c639809ff2029a1ba39e8d39253cdb571c251bbdc838208254",
+        "matthew-golden|full_ppr": "bc74700afd3927f6902b043dc67b45d2a100a69a212ae01ed0683646f9237672",
+        "mike-gesicki|full_ppr": "88975a3eb0df74b05df52744adbfd5ca0c651db21242baacf9aa74725819be9c",
+        "savion-williams|full_ppr": "471bf3f33b0dec89658eeb23e9534ea730d84223649aab72a89a1c621ed06ca0",
+        "tee-higgins|full_ppr": "4264b8549d739833de35b08954015835d011d88f4e3795e62f2ee8dd3308c8f2",
+        "tucker-kraft|full_ppr": "509fee181a6f9cd4155af734fdfb1b23bee312f94e1399a2989bd9dda10d0b5a"
+      },
+      "sha256": "647e44458e6987526594098e1503861b62782e3ef6f9049a10fc6d15c7d88a6a",
+      "size_bytes": 3322
+    },
+    "processed/player_rankings_half_ppr.csv": {
+      "exists": true,
+      "path": "processed/player_rankings_half_ppr.csv",
+      "row_count": 15,
+      "row_hashes": {
+        "chase-brown|half_ppr": "2e5672a944ad0f3505d4e97acca3cbbbac56c7aee5f6d939ff3b228932ff8d54",
+        "christian-watson|half_ppr": "663972721463f513a0b422cf456e940e4b726f67499aa7de3bcbba7921209aa1",
+        "emanuel-wilson|half_ppr": "35e589da767537a9714c1aee761d564e81c4a35542d483985071e6499ee3307d",
+        "jamarr-chase|half_ppr": "15b4473fd7ac6bda95ad7f4f6b5cd9b82a383f78d64bbad1cafd85dee5021ee9",
+        "jayden-reed|half_ppr": "a04062b27a14c796ebd2ea9eeb56c3bcd997513d15d27de1030058180e90e692",
+        "joe-burrow|half_ppr": "78c74f4fc0774ed7c33b220c798b763961e6fe84228705f35264326dbd36fcd1",
+        "jordan-love|half_ppr": "217d61ebf772a46f5b97dd28ef454b38aa2a70acdcc2c7b32189e52559353d7b",
+        "josh-jacobs|half_ppr": "95cfb3732b8e5611407b89f8add10008f8baa3f20669ea9e9011215169b2e58d",
+        "luke-musgrave|half_ppr": "4294ff44a8304c2abb27c1360300f96d8a454cd7d9fc513861d6b3f58f774ac5",
+        "marshawn-lloyd|half_ppr": "069f7c72ce0f61aeee141dbb9bbfbfc0f27af17f9a4b4fdc8de516989074660e",
+        "matthew-golden|half_ppr": "4569191292448d030cb5a83cfbe30f213498f2b83a6d2113160b52190e0221df",
+        "mike-gesicki|half_ppr": "2062771ffa89771c19c0a01da47605903ee0e8a9ecbef54354d0840490b0a50d",
+        "savion-williams|half_ppr": "238ce7b9bc915c76a82714e596c747ff41cc811257136b999e3bb079a8c0f46a",
+        "tee-higgins|half_ppr": "b33c8bf141f020767def74d6728af58690f65f2d84c026811348cd5e6d274aa7",
+        "tucker-kraft|half_ppr": "3787a92a6e7dbc72ff8cfab7fb7a066d084a9434f6ec5e16417cde3ba8ca280f"
+      },
+      "sha256": "0456ad0b87dcee0ea1bf736b617a20e454519dd2287575fa1c42e271fc19c989",
+      "size_bytes": 3324
+    },
+    "processed/team_macro_recommendations.csv": {
+      "exists": true,
+      "path": "processed/team_macro_recommendations.csv",
+      "row_count": 2,
+      "row_hashes": {
+        "CIN": "9b3a7c7e77a0715bb80c3de5bc0add652aa3cf2ad5de17933d9e7fcb75216ea0",
+        "GB": "730ddda1f45ef8e5b7e6e51b236298fe0e6d5a78dc039cc537de1fae20a59f54"
+      },
+      "sha256": "cead0403d4f31b3e04d3318b9239094eb9188dee133f8698e7431e6b9fa7b192",
+      "size_bytes": 1429
+    },
+    "raw/defense_environment.csv": {
+      "exists": true,
+      "path": "raw/defense_environment.csv",
+      "row_count": 2,
+      "row_hashes": {
+        "CIN": "cafbde346fc1949152b500d6d4603f7bd7ddf699ca701f68cdd39787673153a8",
+        "GB": "80aa5fcb4fb8cb58d160275978804162ecd3c071793cca2b1e8271692c3b0d08"
+      },
+      "sha256": "dcd2fa7a4a0bdca113ca6f5434f96715bcd047ff975761894fbd4fc07199abd9",
+      "size_bytes": 637
+    },
+    "raw/news_events.csv": {
+      "exists": false,
+      "path": "raw/news_events.csv"
+    },
+    "raw/offseason_team_changes.csv": {
+      "exists": true,
+      "path": "raw/offseason_team_changes.csv",
+      "row_count": 13,
+      "row_hashes": {
+        "CIN|coaching|Dan Pitcher|coaching_hire|OC": "aa339312877f0b0306859e8e1783dc6589435f82ff3fec66c96ea47f18b507fc",
+        "CIN|defense|Hypothetical impact starter|free_agency|DL": "f0dc161af4dfa42695332f41dd9acfa30af8d2dc9530e4d562991d577d1f5046",
+        "CIN|offense|Ja'Marr Chase / Tee Higgins|re-signing|WR": "8f5aaed838ea9c64818f6ae72f0e0fbf9db0c822c07151308cc1966ce37d5615",
+        "CIN|offense|Joe Burrow|injury_return|QB": "e8aeb247e61a6e70cfbfed7f90ec758d13236600652f7d595881d00adc43842c",
+        "GB|coaching|Adam Stenavich|returning_coach|OC": "320e5c842a024c1b5e6c7a7c198f67950030c4c19bf83e6ff4a02256a9233a59",
+        "GB|coaching|Luke Getsy|coaching_hire|QB": "eac0ae5df8ad414edf1794816de69a1d246cddc3077a1e9df36a2d49165f5179",
+        "GB|defense|Micah Parsons|acl_rehab|EDGE": "54f9d59615d3989229da3a299228a2c231c989732997cdc528e367a875cafa8e",
+        "GB|defense|Rashan Gary|trade|EDGE": "4a03a0726f6541fd5b47ccbddc573c22d9545c068c56043ff8273e568aa9056d",
+        "GB|defense|Trevon Diggs|release|CB": "2c943a035a2d8ec6827af7f83d4b9d0f71c275e7a2368069b340a69372301476",
+        "GB|offense|Jayden Reed|extension|WR": "6eb0ec3082e659e5e53917877278486b4851314dabfc8a907a07c82f783a0e36",
+        "GB|offense|Jordan Love|returning_starter|QB": "f8e550dbb79716e5b7c811472d6a3b8159b4fc3dca968dc5ce0e6be8fd85c7ab",
+        "GB|offense|Romeo Doubs / Dontayvion Wicks|free_agency_trade|WR": "3bfd2b69341a2cb561a1f01f88140c564982438db5f65d3ba312db5fb8585aa2",
+        "GB|offense|Tucker Kraft|acl_rehab|TE": "3727f640e0e6851af25535c6d4178f704b96f80551972766f364f8155d833c97"
+      },
+      "sha256": "3e9808c3ddb8e0c69837c765256f21cef405665b2fa760ebe2067781ca1f2454",
+      "size_bytes": 2662
+    },
+    "raw/player_assumptions.csv": {
+      "exists": true,
+      "path": "raw/player_assumptions.csv",
+      "row_count": 20,
+      "row_hashes": {
+        "chase-brown": "e74c4156b15717aa2364fb34a9c7c4ee6d15487055e1616ecb5f28b43554c9bd",
+        "christian-watson": "a8871823da3b8dbc78b34cad34d7316346ae61e4a2e6ba8fe808b92cbef0fdf9",
+        "cin-other-rb-targets": "4bd08d365666c4161252cba1a5a294764b7226907587f34982db13b06705ada5",
+        "cin-other-rushing": "4d3487142e6c98932a92b6de616278ca4563352346c6df37a7067f358c2f152b",
+        "cin-other-wr-te": "d8ab82e85757e327da2db3b1e3ec5609fac2234cd83e7c2a79193f25aa18bac6",
+        "emanuel-wilson": "f7319bd6f7de6392ca2aaae910cbdd159dd039f2a9764c2946186d01b28cd941",
+        "gb-other-rushing": "a60eba91abb11c9fbce913bb54d00b0fba8d43240dfa1245f4a555ac2ac604ea",
+        "gb-other-wr-te": "504fee7e48a9265ef61d1f860c2f550c87dee18efa988744365deeee423790ea",
+        "jamarr-chase": "9985b8e2a57233f98d9e94197e64ec355af84ced850424ba811759be1e5299c8",
+        "jayden-reed": "e4c2052d2afc4cc3cacff756e6174731bf7995d4516a3f800b0577ef768b95de",
+        "joe-burrow": "1229d8b3ce4842052ac08cb35084af2733388a78032a5177f76337ee3b1959da",
+        "jordan-love": "edb60b52545bbfc8e94c8d661b076f47d4b730296a4f9ee32039a8549e40c18c",
+        "josh-jacobs": "8f955a379ab901e674041fd1600eee07f7e137ebea0d0e052e6936c923523c96",
+        "luke-musgrave": "8f38b875619486245be40a9c9f661159802e42f6e9d68a540f26fdc8ba739e14",
+        "marshawn-lloyd": "16c7d2689ce2fbb7216d87b9b7cf4bbdd2a37157351ea8296f5d1a00bf1837dd",
+        "matthew-golden": "2b731041a2cb008e56db9b9f6b4388790aa8d8caa757ba8c655a233c336ebc96",
+        "mike-gesicki": "baa0f1fd0e39820d0f173922af64dc8edf132c04cb10122ef1fb73d38e451ee0",
+        "savion-williams": "ee2e13766745dd8be9c4b5ee05b0e5a3fbe2bd17ebd0abf648c6b1aa6b8b587e",
+        "tee-higgins": "9593c73d78247eb609399ad54aafbbe1264ee98b7a6a0d611cdc85acef8a2812",
+        "tucker-kraft": "fba9e7e6371ad37e12ff65c543f8b5fca496599b309e525c9e25daca79a7d1da"
+      },
+      "sha256": "23ecd80a05926075102226ab3eea3a6a8eabeb178e4ce01a5e49bcde738101e2",
+      "size_bytes": 4989
+    },
+    "raw/team_assumptions.csv": {
+      "exists": true,
+      "path": "raw/team_assumptions.csv",
+      "row_count": 2,
+      "row_hashes": {
+        "CIN": "6a11807cfe312218ff05f7e1d0e377ae1cecbe30845381965c9b513bb36aaf5e",
+        "GB": "42c6abdade860e12a5eb50c10ac7cb7976f963753366989120effa79ac2fc925"
+      },
+      "sha256": "9747327ee06ce7d10d70d27607b7b8cb57361020e6287994b0b60f96bd9bddfb",
+      "size_bytes": 1529
+    }
+  },
+  "note": "Packers baseline complete; sources checked through 2026-05-08",
+  "season": "2026"
+}

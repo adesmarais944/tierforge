@@ -3,3 +3,12 @@ CIN,2026,offense,returning_from_injury,Joe Burrow,QB,injury_return,CIN,CIN,,,eli
 CIN,2026,offense,continuity,Ja'Marr Chase / Tee Higgins,WR,re-signing,CIN,CIN,,,elite_starter,immediate,high,critical,high,excellent,3,,Concentrated high-end target tree remains intact.
 CIN,2026,defense,addition,Hypothetical impact starter,DL,free_agency,,CIN,,,starter,immediate,medium,critical,high,good,3,,Placeholder defensive upgrade input for MVP modeling.
 CIN,2026,coaching,continuity,Dan Pitcher,OC,coaching_hire,CIN,CIN,,,starter,immediate,high,medium,medium,good,1,,Offensive continuity supports stable projection process.
+GB,2026,offense,continuity,Jordan Love,QB,returning_starter,GB,GB,,,elite_starter,immediate,high,critical,high,excellent,3,,Efficient 2025 passer remains core projection driver.
+GB,2026,offense,role_growth,Jayden Reed,WR,extension,GB,GB,,,starter,immediate,medium,high,high,good,2,,Extension and open target room support rebound after injury-shortened 2025.
+GB,2026,offense,departure,Romeo Doubs / Dontayvion Wicks,WR,free_agency_trade,GB,,,,starter,immediate,high,high,high,neutral,-3,,Leading 2025 receiver left in free agency and Wicks was traded; opening targets but reducing proven depth.
+GB,2026,offense,injury,Tucker Kraft,TE,acl_rehab,GB,GB,,,starter,partial_season,medium,medium,medium,good,-2,,Torn ACL creates offseason/early-season role uncertainty despite strong 2025 efficiency.
+GB,2026,defense,injury,Micah Parsons,EDGE,acl_rehab,GB,GB,,,elite_starter,partial_season,high,critical,high,excellent,-4,,Star pass rusher tore ACL in December 2025; projection assumes limited early impact.
+GB,2026,defense,departure,Rashan Gary,EDGE,trade,GB,DAL,,,starter,immediate,medium,high,high,neutral,-2,,Reported cap-driven edge departure reduces front-seven depth.
+GB,2026,defense,departure,Trevon Diggs,CB,release,GB,,,,rotational,immediate,high,medium,high,neutral,-1,,Short-term late-2025 corner addition was released after season.
+GB,2026,coaching,continuity,Adam Stenavich,OC,returning_coach,GB,GB,,,starter,immediate,high,medium,medium,good,1,,Offensive coordinator continuity keeps projection structure stable.
+GB,2026,coaching,staff_change,Luke Getsy,QB,coaching_hire,GB,GB,,,starter,immediate,medium,medium,medium,good,1,,Getsy returns to quarterback coaching role around Jordan Love.

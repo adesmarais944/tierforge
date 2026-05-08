@@ -1,0 +1,144 @@
+{
+  "checkpoint_id": "20260508T193602Z",
+  "created_at": "2026-05-08T19:36:02Z",
+  "files": {
+    "processed/offseason_unit_scores.csv": {
+      "exists": true,
+      "path": "processed/offseason_unit_scores.csv",
+      "row_count": 1,
+      "row_hashes": {
+        "CIN": "5098e4c6daf167c41ed38fd6cd1d3ee935890a8fed8806ef9424564f86b6deb1"
+      },
+      "sha256": "f18010af45476e8e25014f1c83be1cd25d57934f34473117f1b59e09c13ca7b9",
+      "size_bytes": 87
+    },
+    "processed/player_projections_full_ppr.csv": {
+      "exists": true,
+      "path": "processed/player_projections_full_ppr.csv",
+      "row_count": 8,
+      "row_hashes": {
+        "chase-brown|full_ppr": "f3f673d9784d46210794d7f8517b8a70bab5f06893772d81f5121d57234be8b5",
+        "cin-other-rb-targets|full_ppr": "a7a3e2fcf35e745dbd8bcfc5c921226031da48b7e3008275a0f58deecc73ebc6",
+        "cin-other-rushing|full_ppr": "2e9d6913fd3c8c82813e4a47ba725c60453ca715480a5d7f0a41240322497e40",
+        "cin-other-wr-te|full_ppr": "ee8ddd84061a49a70d3287ba244834781cf120470dc75b1b0c76ef66e0f110b5",
+        "jamarr-chase|full_ppr": "d1ea5f76a0765dcc450b2712743451eee074ae68febce5cb945c1be5243f6404",
+        "joe-burrow|full_ppr": "4c185eceade735ccfd75ffc29c2b362500ee3b7a70d7030046ea7fb17a90f41a",
+        "mike-gesicki|full_ppr": "28d20214cb8fac651f2315f74b66a501737432770ff22ce65ea09b6f46e9893c",
+        "tee-higgins|full_ppr": "e20931510c0d16396de9871c2edc1ce7d376e6a67d2c86c4ed1f7fb1d2712e4e"
+      },
+      "sha256": "b29259cca5c2aaf186c0e300c83247776f247b0d1658e9f4dfac4452a2ffe77e",
+      "size_bytes": 1759
+    },
+    "processed/player_projections_half_ppr.csv": {
+      "exists": true,
+      "path": "processed/player_projections_half_ppr.csv",
+      "row_count": 8,
+      "row_hashes": {
+        "chase-brown|half_ppr": "658a54b073eaa35dc9fdfe1b0e6612fa4b1c8579bf4e5c19acdb3d02ea770935",
+        "cin-other-rb-targets|half_ppr": "0b059a5ebf486e3201ff4a9855ae5f28041a46ff4c114c6cb6f0abca2d853217",
+        "cin-other-rushing|half_ppr": "ea8f0ab945c1ec52009b4c96f3e1bbc89a5cc559de20c3e1a70ddff12856c5cb",
+        "cin-other-wr-te|half_ppr": "8c4d6aed3d24a21704c2484e4f5a47d4b3b4de46c17dccb0b809e22ed0192ce8",
+        "jamarr-chase|half_ppr": "480c36917b213f7ed4ea05ae0eb7b24c05214cf538eed87587a6ba884129cba9",
+        "joe-burrow|half_ppr": "d9a9bc84823d7e6d1892b627ab860f120eb077c09a98b9bfc81d826594ac16bd",
+        "mike-gesicki|half_ppr": "c028c30a8c18b99fa3bd917e0af292f47085c684353803dba7c8034bf9318a91",
+        "tee-higgins|half_ppr": "75fdc9421512722cb5414569945b00bb9f6055f9377521a6acb82b11d3601b4b"
+      },
+      "sha256": "f09768643ff9f1f4effb91a4563be3a640ef5134bb2aebe30f63ff06febb9226",
+      "size_bytes": 1757
+    },
+    "processed/player_rankings_full_ppr.csv": {
+      "exists": true,
+      "path": "processed/player_rankings_full_ppr.csv",
+      "row_count": 5,
+      "row_hashes": {
+        "chase-brown|full_ppr": "f8f83ed866c6032e9607a4bc3573e48096a4de055811455d3319304e9f9ea637",
+        "jamarr-chase|full_ppr": "057e070c71e7716df31db9085e7f225ac9fcbc33c04e73298b31d92868c2215a",
+        "joe-burrow|full_ppr": "c18dd8109d3549a95836bb6ea319d5dbfe2fe8194cac37821450ec009e7a133c",
+        "mike-gesicki|full_ppr": "e6790a318b97b5917fefcb3448db15335376791911b9530f7fd0fb7b303ec586",
+        "tee-higgins|full_ppr": "4264b8549d739833de35b08954015835d011d88f4e3795e62f2ee8dd3308c8f2"
+      },
+      "sha256": "1f0f76709aa5eacee9dfc44129fd4e631e06e4d044de24eea3f18144b670b8e8",
+      "size_bytes": 1230
+    },
+    "processed/player_rankings_half_ppr.csv": {
+      "exists": true,
+      "path": "processed/player_rankings_half_ppr.csv",
+      "row_count": 5,
+      "row_hashes": {
+        "chase-brown|half_ppr": "13fc77442a1794ef976b263f342d939d8d0ce2cb0c50443a5eec441a5544fea7",
+        "jamarr-chase|half_ppr": "15b4473fd7ac6bda95ad7f4f6b5cd9b82a383f78d64bbad1cafd85dee5021ee9",
+        "joe-burrow|half_ppr": "78c74f4fc0774ed7c33b220c798b763961e6fe84228705f35264326dbd36fcd1",
+        "mike-gesicki|half_ppr": "b64d39e6ed4e3e65a8af2292a42de4810a9af978b3df3d7466f7a68a68b35372",
+        "tee-higgins|half_ppr": "396fd8a6cf9f89f0c98ed4b81e7cc20e0fa10e512b426b5bfd08aff4f191a2fe"
+      },
+      "sha256": "4904c4b96474a8e48df3401eaf41d29d8c71e85541d0a3e08d1cb2b92eca81ee",
+      "size_bytes": 1230
+    },
+    "processed/team_macro_recommendations.csv": {
+      "exists": true,
+      "path": "processed/team_macro_recommendations.csv",
+      "row_count": 1,
+      "row_hashes": {
+        "CIN": "9b3a7c7e77a0715bb80c3de5bc0add652aa3cf2ad5de17933d9e7fcb75216ea0"
+      },
+      "sha256": "7bbcccafac202b8d5f8f3b96f734c6b77da18180cf49130b9a9a39689b90446c",
+      "size_bytes": 1123
+    },
+    "raw/defense_environment.csv": {
+      "exists": true,
+      "path": "raw/defense_environment.csv",
+      "row_count": 1,
+      "row_hashes": {
+        "CIN": "cafbde346fc1949152b500d6d4603f7bd7ddf699ca701f68cdd39787673153a8"
+      },
+      "sha256": "2112b1e40af47bed45a4c06b548a9ebe31271a96ad9d7b09e0d757ebff1ec842",
+      "size_bytes": 446
+    },
+    "raw/news_events.csv": {
+      "exists": false,
+      "path": "raw/news_events.csv"
+    },
+    "raw/offseason_team_changes.csv": {
+      "exists": true,
+      "path": "raw/offseason_team_changes.csv",
+      "row_count": 4,
+      "row_hashes": {
+        "CIN|coaching|Dan Pitcher|coaching_hire|OC": "aa339312877f0b0306859e8e1783dc6589435f82ff3fec66c96ea47f18b507fc",
+        "CIN|defense|Hypothetical impact starter|free_agency|DL": "f0dc161af4dfa42695332f41dd9acfa30af8d2dc9530e4d562991d577d1f5046",
+        "CIN|offense|Ja'Marr Chase / Tee Higgins|re-signing|WR": "8f5aaed838ea9c64818f6ae72f0e0fbf9db0c822c07151308cc1966ce37d5615",
+        "CIN|offense|Joe Burrow|injury_return|QB": "e8aeb247e61a6e70cfbfed7f90ec758d13236600652f7d595881d00adc43842c"
+      },
+      "sha256": "f89e988e12946f92e444eb307aafca7bccfafb66ba2a70039440b00810fd883c",
+      "size_bytes": 966
+    },
+    "raw/player_assumptions.csv": {
+      "exists": true,
+      "path": "raw/player_assumptions.csv",
+      "row_count": 8,
+      "row_hashes": {
+        "chase-brown": "e74c4156b15717aa2364fb34a9c7c4ee6d15487055e1616ecb5f28b43554c9bd",
+        "cin-other-rb-targets": "4bd08d365666c4161252cba1a5a294764b7226907587f34982db13b06705ada5",
+        "cin-other-rushing": "4d3487142e6c98932a92b6de616278ca4563352346c6df37a7067f358c2f152b",
+        "cin-other-wr-te": "d8ab82e85757e327da2db3b1e3ec5609fac2234cd83e7c2a79193f25aa18bac6",
+        "jamarr-chase": "9985b8e2a57233f98d9e94197e64ec355af84ced850424ba811759be1e5299c8",
+        "joe-burrow": "1229d8b3ce4842052ac08cb35084af2733388a78032a5177f76337ee3b1959da",
+        "mike-gesicki": "baa0f1fd0e39820d0f173922af64dc8edf132c04cb10122ef1fb73d38e451ee0",
+        "tee-higgins": "9593c73d78247eb609399ad54aafbbe1264ee98b7a6a0d611cdc85acef8a2812"
+      },
+      "sha256": "202308b2d6cce1be6c63ee992f1ffa395c13ce05615328610fda1847e32a426c",
+      "size_bytes": 2159
+    },
+    "raw/team_assumptions.csv": {
+      "exists": true,
+      "path": "raw/team_assumptions.csv",
+      "row_count": 1,
+      "row_hashes": {
+        "CIN": "6a11807cfe312218ff05f7e1d0e377ae1cecbe30845381965c9b513bb36aaf5e"
+      },
+      "sha256": "bc4094618ffc50b5830bd6eaede1049a720eb2544b864e9810cca61ab8d74dae",
+      "size_bytes": 1015
+    }
+  },
+  "note": "Before Packers baseline",
+  "season": "2026"
+}

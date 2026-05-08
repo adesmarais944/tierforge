@@ -1,4 +1,6 @@
 import shutil
+import subprocess
+import sys
 from pathlib import Path
 
 from tierforge.projections.apply_team_macro import (
@@ -15,6 +17,13 @@ def copy_projection_fixture(tmp_path: Path) -> Path:
     return tmp_path
 
 
+def make_cin_volume_stale(root: Path) -> None:
+    path = root / "seasons" / "2026" / "data" / "projections" / "raw" / "team_assumptions.csv"
+    text = path.read_text()
+    text = text.replace("1085,0.606,0.394,658,427", "1000,0.600,0.400,600,400")
+    path.write_text(text)
+
+
 def test_dry_run_diff_does_not_mutate_team_assumptions(tmp_path):
     root = copy_projection_fixture(tmp_path)
     path = root / "seasons" / "2026" / "data" / "projections" / "raw" / "team_assumptions.csv"
@@ -27,6 +36,7 @@ def test_dry_run_diff_does_not_mutate_team_assumptions(tmp_path):
 
 def test_apply_volume_updates_only_volume_fields(tmp_path):
     root = copy_projection_fixture(tmp_path)
+    make_cin_volume_stale(root)
     diffs = apply_macro_recommendations(root, "2026", "CIN", "volume")
     changed_fields = {diff.field for diff in diffs if diff.changed}
     path = root / "seasons" / "2026" / "data" / "projections" / "raw" / "team_assumptions.csv"
@@ -38,7 +48,7 @@ def test_apply_volume_updates_only_volume_fields(tmp_path):
         "projected_pass_attempts",
         "projected_rush_attempts",
     }
-    assert "1085,0.606,0.394,658,427,4500,34,10,1650,14" in text
+    assert "1085,0.606,0.394,658,427,4442,35,16,1824,14" in text
 
 
 def test_apply_all_updates_volume_and_efficiency_fields(tmp_path):
@@ -50,6 +60,30 @@ def test_apply_all_updates_volume_and_efficiency_fields(tmp_path):
 
 
 def test_render_macro_diffs_marks_changed_fields():
-    rendered = render_macro_diffs("CIN", "volume", build_macro_diffs(Path(__file__).resolve().parents[1], "2026", "CIN", "volume"))
-    assert "Team macro recommendation diff: CIN (volume)" in rendered
-    assert "* projected_offensive_plays" in rendered
+    root = Path(__file__).resolve().parents[1]
+    rendered = render_macro_diffs("GB", "volume", build_macro_diffs(root, "2026", "GB", "volume"))
+    assert "Team macro recommendation diff: GB (volume)" in rendered
+    assert "projected_offensive_plays" in rendered
+
+
+def test_accept_cli_requires_human_approval():
+    root = Path(__file__).resolve().parents[1]
+    result = subprocess.run(
+        [
+            sys.executable,
+            str(root / "scripts" / "apply_team_macro_recommendations.py"),
+            "--season",
+            "2026",
+            "--team",
+            "CIN",
+            "--accept",
+            "volume",
+        ],
+        cwd=root,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+
+    assert result.returncode != 0
+    assert "--accept requires --human-approved" in result.stderr
