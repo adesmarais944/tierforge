@@ -60,6 +60,8 @@ Do not accept macro recommendations on behalf of the user. Only run `--accept` a
 
 After showing a macro dry-run, provide an agent recommendation (`volume`, `efficiency`, `all`, or no accept) with short reasoning about why the volume and efficiency changes do or do not fit the researched team context. This recommendation is advisory only; human sign-off is still required.
 
+For team stat-out work, create a completion checkpoint after validation/build even when no macro recommendation is accepted. The note should say the macro was intentionally not accepted.
+
 ## Required checks before finishing edits
 
 Run:

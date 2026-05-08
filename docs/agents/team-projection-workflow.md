@@ -133,8 +133,11 @@ python scripts/team_projection_status.py --season 2026 --team GB
 
 9. Create after checkpoint.
 
+Always create this after-checkpoint once the team baseline is complete, even when no macro recommendation is accepted. In that case, note that the macro was intentionally not accepted.
+
 ```powershell
 python scripts/create_projection_checkpoint.py --season 2026 --note "GB baseline complete; sources checked through YYYY-MM-DD"
+python scripts/create_projection_checkpoint.py --season 2026 --note "BAL baseline complete; macro intentionally not accepted; sources checked through YYYY-MM-DD"
 ```
 
 ## News Since Checkpoint
@@ -194,7 +197,9 @@ python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --dry
 
 Do not silently accept macro recommendations. Show the diff, explain the likely fantasy impact, and recommend one of `volume`, `efficiency`, `all`, or no accept. The recommendation is advisory only.
 
-6. After explicit user approval, accept the chosen recommendation mode with `--human-approved`, validate, rebuild, and checkpoint.
+6. If the user approves a mode, accept it with `--human-approved`, validate, rebuild, and checkpoint.
+
+If the user chooses no accept or agrees with an agent recommendation to leave the manual baseline unchanged, still validate, rebuild, and create an after-checkpoint noting that the macro was intentionally not accepted.
 
 ## Checkpoint And Diff Commands
 
@@ -235,3 +240,4 @@ python scripts/team_projection_status.py --season 2026 --team GB
 - Use `--human-approved` only after that explicit human approval.
 - Run validation and generation before calling work complete.
 - Create checkpoints before and after meaningful projection changes.
+- For team stat-out work, always create a completion checkpoint, even when no macro recommendation is accepted.
