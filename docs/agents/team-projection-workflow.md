@@ -86,6 +86,15 @@ seasons/2026/data/projections/raw/player_assumptions.csv
 
 Use "other" bucket player rows for target/rush/TD reconciliation when needed. Keep bucket rows out of rankings with `include_in_rankings=false`.
 
+Calibration guardrails:
+
+- Treat `games_projected` as context only. The engine does not automatically scale stat shares by games played, so season-long shares must already account for missed time.
+- Do not make first-pass baselines ceiling outcomes. Prefer a strong median/mean case, then use analyst notes for upside.
+- Be conservative with extreme target concentration. A player above roughly 28% target share, 30% receiving TD share, 90 receptions, or 1,200 receiving yards needs a clear reason.
+- Be conservative with RB workhorse profiles. A player above roughly 275 carries or 90 targets should be an obvious offensive centerpiece.
+- Be conservative with QB rushing TD share above roughly 35% unless the offense has a proven goal-line QB identity.
+- If several players on one team all look like ceiling outcomes, redistribute some share to bucket rows instead of ranking every starter at their upside case.
+
 5. Generate macro recommendations.
 
 ```powershell
@@ -106,6 +115,13 @@ The recommendation must explain:
 - why the efficiency changes do or do not match the researched team context
 - whether `all` would over-amplify or appropriately combine the two
 - which mode the agent would choose, while still requiring human sign-off
+
+Default recommendation posture:
+
+- `volume` is usually the most useful macro mode.
+- `efficiency` should be accepted only with strong continuity at QB, play caller, offensive line, and skill roles.
+- `all` should be rare because it can compound volume and efficiency optimism.
+- `no accept` is correct when a team is a deliberate outlier or the macro recommendation conflicts with researched context.
 
 Accept only after the human user explicitly approves `volume`, `efficiency`, or `all`:
 

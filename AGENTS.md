@@ -62,6 +62,8 @@ After showing a macro dry-run, provide an agent recommendation (`volume`, `effic
 
 For team stat-out work, create a completion checkpoint after validation/build even when no macro recommendation is accepted. The note should say the macro was intentionally not accepted.
 
+Projection calibration should prefer strong median/mean baselines over ceiling cases. Be cautious with extreme target concentration, RB workloads above roughly 275 carries or 90 targets, and QB rushing TD shares above roughly 35% unless team context strongly supports it. Remember `games_projected` is context only; player shares must already represent season-long shares.
+
 ## Required checks before finishing edits
 
 Run:
