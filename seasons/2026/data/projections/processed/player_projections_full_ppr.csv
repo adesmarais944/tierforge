@@ -56,19 +56,20 @@ devontez-walker,Devontez Walker,BAL,WR,full_ppr,True,17.0,25.4,14.7,223.6,1.6,0.
 jakobi-lane,Ja'Kobi Lane,BAL,WR,full_ppr,True,17.0,20.8,11.6,170.5,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.59,0.0,35.59,,,watch,Rookie contested-catch option with possible red-zone role.
 bal-other-wr-te,BAL Other WR/TE,BAL,OTHER,full_ppr,False,17.0,41.6,24.1,291.1,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,71.16,0.0,71.16,,,bucket,Receiving reconciliation bucket for remaining WR/TE/RB targets.
 bal-other-rushing,BAL Other Rushing,BAL,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,88.5,398.2,2.0,0.0,0.0,0.0,0.0,0.0,51.82,0.0,51.82,,,bucket,Rushing reconciliation bucket.
-josh-allen,Josh Allen,BUF,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,111.6,558.0,10.6,558.0,4100.0,30.0,10.0,2.0,379.64,0.0,379.64,,,core,Elite dual-threat QB retains overall QB1 path; rush TD share calibrated below peak.
-james-cook,James Cook,BUF,RB,full_ppr,True,16.0,33.5,25.1,214.3,0.9,245.5,1129.4,9.8,0.0,0.0,0.0,0.0,1.0,221.68,0.0,221.68,,,core,Rushing champ regression baked in but still lead back in elite run game.
-ray-davis,Ray Davis,BUF,RB,full_ppr,True,17.0,14.0,10.0,75.3,0.3,83.7,343.2,2.8,0.0,0.0,0.0,0.0,0.0,70.49,0.0,70.49,,,watch,Primary power/relief back behind Cook.
-ty-johnson,Ty Johnson,BUF,RB,full_ppr,True,17.0,27.9,21.2,181.4,0.6,33.5,144.0,0.8,0.0,0.0,0.0,0.0,0.0,62.38,0.0,62.38,,,watch,Passing-down/changeup role retains some spike-week value.
-khalil-shakir,Khalil Shakir,BUF,WR,full_ppr,True,17.0,106.0,76.3,869.4,4.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,192.07,0.0,192.07,,,target,Most stable WR target earner in spread-out Bills passing game.
-dalton-kincaid,Dalton Kincaid,BUF,TE,full_ppr,True,16.0,100.4,70.3,843.7,5.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,185.28,0.0,185.28,,,target,Health rebound gives him TE1 usage upside.
-keon-coleman,Keon Coleman,BUF,WR,full_ppr,True,17.0,78.1,45.3,718.7,4.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,144.18,0.0,144.18,,,watch,Big-bodied second-year receiver with role but uneven separation profile.
-brandin-cooks,Brandin Cooks,BUF,WR,full_ppr,True,15.0,55.8,33.5,502.2,2.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,99.9,0.0,99.9,,,watch,Veteran field-stretcher role after free-agent addition.
-gabe-davis,Gabe Davis,BUF,WR,full_ppr,True,14.0,44.6,25.4,424.1,2.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,84.05,0.0,84.05,,,watch,Boom/bust depth receiver if health cooperates.
-dawson-knox,Dawson Knox,BUF,TE,full_ppr,True,17.0,33.5,22.1,244.4,2.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.94,0.0,60.94,,,watch,TD-dependent TE2 in two-TE packages.
-skyler-bell,Skyler Bell,BUF,WR,full_ppr,True,17.0,19.5,11.3,156.2,0.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,32.35,0.0,32.35,,,watch,Day-three rookie separator with modest first-year role.
-buf-other-wr-te,BUF Other WR/TE,BUF,OTHER,full_ppr,False,17.0,44.6,25.9,312.5,5.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,87.74,0.0,87.74,,,bucket,Receiving reconciliation bucket for remaining WR/TE/RB targets.
-buf-other-rushing,BUF Other Rushing,BUF,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,83.7,359.9,3.9,0.0,0.0,0.0,0.0,0.0,59.51,0.0,59.51,,,bucket,Rushing reconciliation bucket.
+josh-allen,Josh Allen,BUF,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,111.6,558.0,10.6,558.0,4200.0,31.0,10.0,2.0,387.64,0.0,387.64,,,core,Elite dual-threat QB retains overall QB1 path; rush TD share calibrated below peak.
+james-cook,James Cook,BUF,RB,full_ppr,True,16.0,33.5,25.1,214.3,0.9,245.5,1129.4,9.8,0.0,0.0,0.0,0.0,1.0,221.86,0.0,221.86,,,core,Rushing champ regression baked in but still lead back in elite run game.
+ray-davis,Ray Davis,BUF,RB,full_ppr,True,17.0,14.0,10.0,75.3,0.3,83.7,343.2,2.8,0.0,0.0,0.0,0.0,0.0,70.55,0.0,70.55,,,watch,Primary power/relief back behind Cook.
+ty-johnson,Ty Johnson,BUF,RB,full_ppr,True,17.0,27.9,21.2,181.4,0.6,33.5,144.0,0.8,0.0,0.0,0.0,0.0,0.0,62.5,0.0,62.5,,,watch,Passing-down/changeup role retains some spike-week value.
+dj-moore,DJ Moore,BUF,WR,full_ppr,True,17.0,111.6,72.5,982.1,5.6,8.4,46.0,0.3,0.0,0.0,0.0,0.0,0.0,210.51,0.0,210.51,,,target,Bills trade addition and proven Joe Brady fit; projected as top outside target without full alpha monopoly.
+khalil-shakir,Khalil Shakir,BUF,WR,full_ppr,True,17.0,94.9,68.3,758.9,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,170.23,0.0,170.23,,,target,"Stable slot target earner, trimmed by Moore addition."
+dalton-kincaid,Dalton Kincaid,BUF,TE,full_ppr,True,16.0,89.3,62.5,732.1,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,161.75,0.0,161.75,,,target,"Health rebound gives him TE1 usage, but Moore caps target ceiling."
+keon-coleman,Keon Coleman,BUF,WR,full_ppr,True,17.0,55.8,32.4,502.2,3.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,103.04,0.0,103.04,,,watch,Big-bodied role reduced by Moore acquisition.
+brandin-cooks,Brandin Cooks,BUF,WR,full_ppr,True,15.0,30.7,18.4,270.1,1.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.65,0.0,55.65,,,watch,Veteran field-stretcher/depth role after Moore trade.
+gabe-davis,Gabe Davis,BUF,WR,full_ppr,True,14.0,22.3,12.7,207.6,1.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,43.71,0.0,43.71,,,watch,Boom/bust depth receiver if health cooperates; role squeezed by Moore.
+dawson-knox,Dawson Knox,BUF,TE,full_ppr,True,17.0,25.1,16.6,180.8,2.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,47.67,0.0,47.67,,,watch,TD-dependent TE2 in two-TE packages.
+skyler-bell,Skyler Bell,BUF,WR,full_ppr,True,17.0,8.4,4.9,67.0,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.27,0.0,15.27,,,watch,Day-three rookie separator with modest first-year role after Moore addition.
+buf-other-wr-te,BUF Other WR/TE,BUF,OTHER,full_ppr,False,17.0,44.6,25.9,312.5,5.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,88.76,0.0,88.76,,,bucket,Receiving reconciliation bucket for remaining WR/TE/RB targets.
+buf-other-rushing,BUF Other Rushing,BUF,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,75.3,323.9,3.6,0.0,0.0,0.0,0.0,0.0,54.23,0.0,54.23,,,bucket,Rushing reconciliation bucket.
 bryce-young,Bryce Young,CAR,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,33.7,141.4,1.2,541.0,3500.0,23.0,10.0,2.0,229.34,0.0,229.34,,,watch,"Continuity and better weapons help, but still efficiency-volatility baseline."
 chuba-hubbard,Chuba Hubbard,CAR,RB,full_ppr,True,16.0,43.3,32.5,259.7,1.2,192.4,808.1,6.3,0.0,0.0,0.0,0.0,1.0,181.94,0.0,181.94,,,target,Lead back with Dowdle gone; Brooks/Etienne still cap true workhorse ceiling.
 jonathon-brooks,Jonathon Brooks,CAR,RB,full_ppr,True,14.0,24.3,17.5,138.8,0.5,96.2,413.7,2.4,0.0,0.0,0.0,0.0,0.0,89.93,0.0,89.93,,,watch,Back in Panthers equation after Dowdle departure; role depends on health and explosiveness returning.
@@ -81,3 +82,14 @@ tommy-tremble,Tommy Tremble,CAR,TE,full_ppr,True,17.0,32.5,22.1,220.7,1.4,0.0,0.
 hunter-renfrow,Hunter Renfrow,CAR,WR,full_ppr,True,14.0,29.8,19.6,184.5,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.99,0.0,44.99,,,watch,Slot depth and chain-mover role if active.
 car-other-wr-te,CAR Other WR/TE,CAR,OTHER,full_ppr,False,17.0,73.0,42.4,496.6,4.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,121.0,0.0,121.0,,,bucket,Receiving reconciliation bucket for remaining WR/TE/RB targets.
 car-other-rushing,CAR Other Rushing,CAR,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,110.6,442.5,4.1,0.0,0.0,0.0,0.0,0.0,68.55,0.0,68.55,,,bucket,Rushing reconciliation bucket.
+caleb-williams,Caleb Williams,CHI,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,68.0,340.0,3.2,602.0,4100.0,28.0,9.0,2.0,307.44,0.0,307.44,,,core,Franchise passing record plus rushing floor; slight regression from 2025 breakout baked in.
+dandre-swift,D'Andre Swift,CHI,RB,full_ppr,True,16.0,33.1,24.5,198.7,0.8,193.5,890.1,6.5,0.0,0.0,0.0,0.0,1.0,175.3,0.0,175.3,,,target,Lead back in committee after strong 2025 efficiency.
+kyle-monangai,Kyle Monangai,CHI,RB,full_ppr,True,17.0,15.1,10.5,78.3,0.3,141.2,621.3,3.2,0.0,0.0,0.0,0.0,0.0,101.61,0.0,101.61,,,watch,Productive No. 2 back with meaningful rushing share.
+rome-odunze,Rome Odunze,CHI,WR,full_ppr,True,17.0,138.5,85.8,1301.5,6.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,256.32,0.0,256.32,,,target,Primary outside target after DJ Moore trade.
+colston-loveland,Colston Loveland,CHI,TE,full_ppr,True,17.0,108.4,71.5,877.7,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,189.53,0.0,189.53,,,target,High-end receiving TE with more target room after Moore trade.
+luther-burden-iii,Luther Burden III,CHI,WR,full_ppr,True,16.0,90.3,57.8,731.4,3.6,5.2,28.8,0.2,0.0,0.0,0.0,0.0,0.0,156.73,0.0,156.73,,,watch,Explosive slot/YAC option with bigger path after Moore trade.
+cole-kmet,Cole Kmet,CHI,TE,full_ppr,True,17.0,54.2,35.8,390.1,2.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,91.57,0.0,91.57,,,watch,TE2/12 personnel role with TD usefulness.
+zavion-thomas,Zavion Thomas,CHI,WR,full_ppr,True,17.0,27.1,15.7,203.2,1.1,5.2,31.4,0.2,0.0,0.0,0.0,0.0,0.0,46.97,0.0,46.97,,,watch,Rookie slot/speed package role; modest baseline.
+kalif-raymond,Kalif Raymond,CHI,WR,full_ppr,True,17.0,21.1,12.6,147.5,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.75,0.0,30.75,,,watch,Veteran depth/returner with occasional offensive touches.
+chi-other-wr-te,CHI Other WR/TE,CHI,OTHER,full_ppr,False,17.0,114.4,66.3,777.8,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,186.12,0.0,186.12,,,bucket,Receiving reconciliation bucket for post-Moore target tree.
+chi-other-rushing,CHI Other Rushing,CHI,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,109.8,483.3,4.7,0.0,0.0,0.0,0.0,0.0,76.41,0.0,76.41,,,bucket,Rushing reconciliation bucket after removing Moore gadget carries.
