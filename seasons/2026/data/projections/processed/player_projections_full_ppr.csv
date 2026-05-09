@@ -93,3 +93,19 @@ zavion-thomas,Zavion Thomas,CHI,WR,full_ppr,True,17.0,27.1,15.7,203.2,1.1,5.2,31
 kalif-raymond,Kalif Raymond,CHI,WR,full_ppr,True,17.0,21.1,12.6,147.5,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.75,0.0,30.75,,,watch,Veteran depth/returner with occasional offensive touches.
 chi-other-wr-te,CHI Other WR/TE,CHI,OTHER,full_ppr,False,17.0,114.4,66.3,777.8,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,186.12,0.0,186.12,,,bucket,Receiving reconciliation bucket for post-Moore target tree.
 chi-other-rushing,CHI Other Rushing,CHI,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,109.8,483.3,4.7,0.0,0.0,0.0,0.0,0.0,76.41,0.0,76.41,,,bucket,Rushing reconciliation bucket after removing Moore gadget carries.
+shedeur-sanders,Shedeur Sanders,CLE,QB,full_ppr,True,12.0,0.0,0.0,0.0,0.0,37.9,167.0,1.1,324.2,1963.3,12.2,8.7,3.0,127.27,0.0,127.27,,,watch,Largest share in unsettled QB room; youthful upside but 2025 turnover risk keeps baseline modest.
+deshaun-watson,Deshaun Watson,CLE,QB,full_ppr,True,7.0,0.0,0.0,0.0,0.0,17.7,74.4,0.4,167.7,1015.5,6.3,4.5,2.0,62.78,0.0,62.78,,,watch,"Veteran contingency with real path if healthy, but no workhorse assumption."
+dillon-gabriel,Dillon Gabriel,CLE,QB,full_ppr,True,4.0,0.0,0.0,0.0,0.0,7.6,28.8,0.1,55.9,338.5,2.1,1.5,1.0,20.66,0.0,20.66,,,watch,Fallback share after 2025 rookie starts.
+taylen-green,Taylen Green,CLE,QB,full_ppr,True,2.0,0.0,0.0,0.0,0.0,10.1,50.6,0.3,11.2,67.7,0.4,0.3,0.0,10.53,0.0,10.53,,,watch,Developmental rookie with rushing package/late-season contingency.
+quinshon-judkins,Quinshon Judkins,CLE,RB,full_ppr,True,16.0,39.1,27.4,242.6,0.6,217.6,935.6,6.3,0.0,0.0,0.0,0.0,1.0,184.79,0.0,184.79,,,target,Lead runner behind improved OL; receiving role present but Sampson/Fannin cap target upside.
+dylan-sampson,Dylan Sampson,CLE,RB,full_ppr,True,17.0,44.7,33.1,268.3,0.8,91.1,382.5,1.4,0.0,0.0,0.0,0.0,0.0,111.62,0.0,111.62,,,watch,Changeup and receiving back with useful passing-game floor.
+raheim-sanders,Raheim Sanders,CLE,RB,full_ppr,True,16.0,8.4,5.7,47.0,0.0,40.5,166.0,0.7,0.0,0.0,0.0,0.0,0.0,31.19,0.0,31.19,,,watch,Power depth behind Judkins/Sampson.
+harold-fannin-jr,Harold Fannin Jr.,CLE,TE,full_ppr,True,17.0,106.2,72.2,828.4,4.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,181.53,0.0,181.53,,,target,Safest Browns target bet after leading 2025 receiving production.
+jerry-jeudy,Jerry Jeudy,CLE,WR,full_ppr,True,16.0,89.4,55.5,742.4,3.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,148.59,0.0,148.59,,,watch,Veteran WR remains important but rookie additions cap rebound ceiling.
+kc-concepcion,KC Concepcion,CLE,WR,full_ppr,True,17.0,78.3,47.7,657.4,3.1,5.1,30.4,0.1,0.0,0.0,0.0,0.0,0.0,136.25,0.0,136.25,,,watch,First-round explosive slot/movement weapon with gadget carry sprinkle.
+denzel-boston,Denzel Boston,CLE,WR,full_ppr,True,17.0,61.5,36.3,528.8,2.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,103.02,0.0,103.02,,,watch,Second-round contested-catch rookie with immediate outside role.
+cedric-tillman,Cedric Tillman,CLE,WR,full_ppr,True,15.0,55.9,32.4,491.9,2.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,95.47,0.0,95.47,,,watch,Boundary target squeezed by rookie additions but still red-zone relevant.
+isaiah-bond,Isaiah Bond,CLE,WR,full_ppr,True,16.0,44.7,25.0,411.4,1.5,5.1,29.3,0.1,0.0,0.0,0.0,0.0,0.0,78.78,0.0,78.78,,,watch,Speed role with low catch-rate baseline.
+joe-royer,Joe Royer,CLE,TE,full_ppr,True,16.0,22.4,14.3,152.0,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.56,0.0,34.56,,,watch,Rookie TE depth behind Fannin.
+cle-other-wr-te,CLE Other WR/TE,CLE,OTHER,full_ppr,False,17.0,8.4,4.9,57.0,1.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21.91,0.0,21.91,,,bucket,Receiving reconciliation bucket.
+cle-other-rushing,CLE Other Rushing,CLE,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,73.4,293.5,3.4,0.0,0.0,0.0,0.0,0.0,49.51,0.0,49.51,,,bucket,Rushing reconciliation bucket.
