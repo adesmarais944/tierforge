@@ -141,3 +141,16 @@ adam-trautman,Adam Trautman,DEN,TE,half_ppr,True,17.0,21.6,14.3,147.1,1.2,0.0,0.
 justin-joly,Justin Joly,DEN,TE,half_ppr,True,16.0,18.5,11.9,129.8,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.87,0.0,25.87,,,watch,Rookie receiving TE with developmental red-zone path.
 den-other-wr-te,DEN Other WR/TE,DEN,OTHER,half_ppr,False,17.0,46.4,26.9,315.2,3.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,64.97,0.0,64.97,,,bucket,Receiving reconciliation bucket.
 den-other-rushing,DEN Other Rushing,DEN,OTHER,half_ppr,False,17.0,0.0,0.0,0.0,0.0,64.5,258.0,3.9,0.0,0.0,0.0,0.0,0.0,49.26,0.0,49.26,,,bucket,Rushing reconciliation bucket with some Bo Nix rushing moved to backs/other.
+jared-goff,Jared Goff,DET,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,15.5,40.4,0.0,585.1,4410.0,31.4,8.8,2.0,284.24,0.0,284.24,,,core,Elite efficiency QB in stable Campbell offense; slight TD regression from 2025 peak.
+kyle-allen,Kyle Allen,DET,QB,half_ppr,True,3.0,0.0,0.0,0.0,0.0,2.6,6.5,0.0,11.9,90.0,0.6,0.2,0.0,6.45,0.0,6.45,,,watch,Backup contingency only.
+jahmyr-gibbs,Jahmyr Gibbs,DET,RB,half_ppr,True,17.0,95.5,71.6,649.5,2.6,217.6,1087.8,11.0,0.0,0.0,0.0,0.0,1.0,288.91,0.0,288.91,,,target,Explosive lead fantasy back; high-value receiving and rushing role remains.
+david-montgomery,David Montgomery,DET,RB,half_ppr,True,15.0,26.9,19.3,153.1,0.6,145.0,638.2,7.0,0.0,0.0,0.0,0.0,1.0,132.88,0.0,132.88,,,target,Short-yardage hammer remains TD-relevant but Gibbs leads total upside.
+sione-vaki,Sione Vaki,DET,RB,half_ppr,True,16.0,9.0,6.3,49.3,0.0,31.1,127.4,0.9,0.0,0.0,0.0,0.0,0.0,26.08,0.0,26.08,,,watch,Depth/changeup back with small receiving role.
+amon-ra-st-brown,Amon-Ra St. Brown,DET,WR,half_ppr,True,17.0,161.2,112.8,1482.9,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,258.47,0.0,258.47,,,target,Clear target alpha after 1400-yard season.
+jameson-williams,Jameson Williams,DET,WR,half_ppr,True,17.0,113.4,70.3,1134.3,7.0,5.2,31.1,0.0,0.0,0.0,0.0,0.0,0.0,193.94,0.0,193.94,,,target,Explosive WR2 after 1100-yard season; volatile but real target share.
+sam-laporta,Sam LaPorta,DET,TE,half_ppr,True,17.0,95.5,65.0,764.2,5.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,143.45,0.0,143.45,,,target,High-end TE in efficient offense with stable red-zone role.
+isaac-teslaa,Isaac TeSlaa,DET,WR,half_ppr,True,16.0,32.8,19.7,275.8,1.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.95,0.0,48.95,,,watch,Big WR depth with modest target path behind top trio.
+brock-wright,Brock Wright,DET,TE,half_ppr,True,17.0,20.9,13.8,146.3,1.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.2,0.0,29.2,,,watch,Blocking TE with occasional red-zone work.
+kendrick-law,Kendrick Law,DET,WR,half_ppr,True,17.0,14.9,9.0,111.9,0.6,5.2,28.5,0.0,0.0,0.0,0.0,0.0,0.0,22.36,0.0,22.36,,,watch,Rookie gadget/depth WR and special teams option.
+det-other-wr-te,DET Other WR/TE,DET,OTHER,half_ppr,False,17.0,26.9,15.6,182.7,3.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.26,0.0,45.26,,,bucket,Receiving reconciliation bucket.
+det-other-rushing,DET Other Rushing,DET,OTHER,half_ppr,False,17.0,0.0,0.0,0.0,0.0,95.8,383.3,3.1,0.0,0.0,0.0,0.0,0.0,56.81,0.0,56.81,,,bucket,Rushing reconciliation bucket.
