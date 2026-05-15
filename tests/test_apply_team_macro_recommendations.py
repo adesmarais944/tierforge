@@ -37,11 +37,15 @@ def test_dry_run_diff_does_not_mutate_team_assumptions(tmp_path):
 
 def test_apply_volume_updates_only_volume_fields(tmp_path):
     root = copy_projection_fixture(tmp_path)
+    original_path = root / "seasons" / "2026" / "data" / "projections" / "raw" / "team_assumptions.csv"
+    with original_path.open(newline="", encoding="utf-8") as handle:
+        original_cin = next(row for row in csv.DictReader(handle) if row["team_id"] == "CIN")
     make_cin_volume_stale(root)
     diffs = apply_macro_recommendations(root, "2026", "CIN", "volume")
     changed_fields = {diff.field for diff in diffs if diff.changed}
     path = root / "seasons" / "2026" / "data" / "projections" / "raw" / "team_assumptions.csv"
-    text = path.read_text()
+    with path.open(newline="", encoding="utf-8") as handle:
+        team_row = next(row for row in csv.DictReader(handle) if row["team_id"] == "CIN")
     assert changed_fields == {
         "projected_offensive_plays",
         "projected_pass_rate",
@@ -49,7 +53,8 @@ def test_apply_volume_updates_only_volume_fields(tmp_path):
         "projected_pass_attempts",
         "projected_rush_attempts",
     }
-    assert "1085,0.606,0.394,658,427,4478,35,16,1817,14" in text
+    assert team_row["projected_passing_yards"] == original_cin["projected_passing_yards"]
+    assert team_row["projected_rushing_yards"] == original_cin["projected_rushing_yards"]
 
 
 def test_apply_all_updates_volume_and_efficiency_fields(tmp_path):

@@ -69,7 +69,7 @@ def recommend_team_schedule(team: TeamAssumption, schedule: TeamScheduleEnvironm
     rushing_td_adjustment = clamp(round(rush_score * 0.5), -1, 1)
 
     recommended_offensive_plays = round(team.projected_offensive_plays + plays_adjustment)
-    recommended_pass_rate = round(clamp(team.projected_pass_rate + pass_rate_adjustment, 0.50, 0.70), 3)
+    recommended_pass_rate = round(clamp(team.projected_pass_rate + pass_rate_adjustment, 0.40, 0.70), 3)
     recommended_rush_rate = round(1.0 - recommended_pass_rate, 3)
     recommended_pass_attempts = round(recommended_offensive_plays * recommended_pass_rate)
     recommended_rush_attempts = recommended_offensive_plays - recommended_pass_attempts

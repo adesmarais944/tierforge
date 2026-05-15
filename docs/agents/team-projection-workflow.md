@@ -33,6 +33,7 @@ Prefer primary or stable sources for:
 Useful source categories:
 
 - team official site for roster/coaching/news
+- team official site or NFL.com for released schedule context
 - NFL transaction/news pages
 - Pro Football Reference or Stathead-style historical stat pages
 - ESPN/CBS/Sleeper/FantasyPros depth chart or player pages
@@ -73,6 +74,7 @@ Collect:
 - offensive line changes
 - expected skill-player roles
 - projected game-script or pace context
+- released schedule context: bye week, short weeks, international games, primetime/standalone games, rest/travel, fantasy playoff stretch, and rough pass/rush matchup difficulty
 
 4. Edit source CSVs.
 
@@ -83,6 +85,7 @@ seasons/2026/data/projections/raw/team_assumptions.csv
 seasons/2026/data/projections/raw/defense_environment.csv
 seasons/2026/data/projections/raw/offseason_team_changes.csv
 seasons/2026/data/projections/raw/player_assumptions.csv
+seasons/2026/data/projections/raw/team_schedule_environment.csv
 ```
 
 Use "other" bucket player rows for target/rush/TD reconciliation when needed. Keep bucket rows out of rankings with `include_in_rankings=false`.
@@ -132,7 +135,9 @@ python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --acc
 python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --accept all --human-approved
 ```
 
-7. Review schedule recommendation diff when schedule data exists.
+7. Review schedule recommendation diff.
+
+After the NFL schedule release, this is required for every new team stat-out. Add or update the team row in `raw/team_schedule_environment.csv` before building recommendations.
 
 Schedule recommendations are advisory, same as macro recommendations. They use released NFL schedule context to suggest small team-level changes for:
 

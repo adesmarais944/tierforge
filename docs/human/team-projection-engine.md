@@ -264,6 +264,8 @@ processed/team_schedule_recommendations.csv
 
 `team_schedule_environment.csv` stores team-level schedule context such as opponent difficulty, pace environment, rest/travel, bye week, short weeks, international games, and fantasy playoff grade.
 
+After the NFL schedule release, every new team projection should include a schedule environment row before final review. The schedule layer is now part of the normal projection workflow, even when the final recommendation is no accept.
+
 `team_schedule_recommendations.csv` turns that context into small team-level recommendations:
 
 - projected offensive plays

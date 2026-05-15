@@ -64,6 +64,29 @@ For team stat-out work, create a completion checkpoint after validation/build ev
 
 Projection calibration should prefer strong median/mean baselines over ceiling cases. Be cautious with extreme target concentration, RB workloads above roughly 275 carries or 90 targets, and QB rushing TD shares above roughly 35% unless team context strongly supports it. Remember `games_projected` is context only; player shares must already represent season-long shares.
 
+## Projection schedule recommendations
+
+After the NFL schedule release, every new team stat-out must include schedule context.
+
+Add/update a row in:
+
+```bash
+seasons/2026/data/projections/raw/team_schedule_environment.csv
+```
+
+Then build and show the schedule dry-run diff:
+
+```bash
+python scripts/build_team_schedule_recommendations.py --season 2026
+python scripts/apply_team_schedule_recommendations.py --season 2026 --team <TEAM> --dry-run
+```
+
+Schedule recommendations are advisory and conservative. They should be smaller than roster/coaching/macro effects. Use them mostly for small volume/efficiency nudges plus fantasy-playoff notes or close ranking tiebreaks.
+
+Do not accept schedule recommendations on behalf of the user. Only run `--accept` after the human user explicitly approves the exact mode (`volume`, `efficiency`, or `all`). The command requires `--human-approved`.
+
+After showing a schedule dry-run, provide an agent recommendation (`volume`, `efficiency`, `all`, or no accept) with short reasoning. Explain why schedule volume and efficiency changes do or do not fit the researched schedule context. Human sign-off is still required.
+
 ## Required checks before finishing edits
 
 Run:

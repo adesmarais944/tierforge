@@ -83,8 +83,14 @@ def test_schedule_environment_raw_file_loads():
     assert all(row.season == 2026 for row in rows)
 
 
-def test_missing_schedule_recommendation_has_clear_error():
-    root = Path(__file__).resolve().parents[1]
-    build_team_schedule_recommendations(root, "2026")
+def test_missing_schedule_recommendation_has_clear_error(tmp_path):
+    root = tmp_path
+    source = Path(__file__).resolve().parents[1] / "seasons" / "2026" / "data" / "projections"
+    target = root / "seasons" / "2026" / "data" / "projections"
+    import shutil
+
+    shutil.copytree(source, target)
+    recommendation_path = target / "processed" / "team_schedule_recommendations.csv"
+    recommendation_path.write_text(",".join(SCHEDULE_RECOMMENDATION_COLUMNS) + "\n", encoding="utf-8")
     with pytest.raises(ValueError, match="No team_schedule_recommendations row"):
-        build_schedule_diffs(root, "2026", "GB")
+        build_schedule_diffs(root, "2026", "CIN")
