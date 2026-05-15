@@ -2,8 +2,9 @@ from __future__ import annotations
 
 from collections import defaultdict
 from dataclasses import dataclass
+from datetime import date, datetime
 
-from .models import PlayerAssumption, TeamAssumption
+from .models import PlayerAssumption, TeamAssumption, TeamRosterVerification
 
 
 @dataclass
@@ -73,6 +74,44 @@ def validate_player_assumptions(players: list[PlayerAssumption], teams: list[Tea
     for team_id, share in rushing_td_shares.items():
         if share > 1.02:
             errors.append(f"{team_id}: rushing TD shares sum to {share:.3f}")
+    return ValidationResult(errors, warnings)
+
+
+def validate_team_roster_verification(
+    verifications: list[TeamRosterVerification],
+    team_id: str,
+    as_of: date | None = None,
+    max_age_days: int = 14,
+) -> ValidationResult:
+    errors: list[str] = []
+    warnings: list[str] = []
+    as_of = as_of or date.today()
+    team_rows = [row for row in verifications if row.team_id == team_id]
+    if not team_rows:
+        return ValidationResult([f"{team_id}: missing roster verification row"], warnings)
+
+    row = sorted(team_rows, key=lambda item: item.verified_at)[-1]
+    if row.source_count < 2:
+        errors.append(f"{team_id}: roster verification needs at least two cross-checked sources")
+    if not row.primary_roster_source or not row.secondary_roster_source:
+        errors.append(f"{team_id}: roster verification needs primary and secondary sources")
+    for field_name in ("starting_qb", "rb_room", "wr_room", "te_room"):
+        if not getattr(row, field_name):
+            errors.append(f"{team_id}: roster verification missing {field_name}")
+
+    try:
+        verified_at = datetime.strptime(row.verified_at, "%Y-%m-%d").date()
+    except ValueError:
+        errors.append(f"{team_id}: verified_at must use YYYY-MM-DD")
+    else:
+        age_days = (as_of - verified_at).days
+        if age_days < 0:
+            warnings.append(f"{team_id}: roster verification date is in the future")
+        elif age_days > max_age_days:
+            errors.append(f"{team_id}: roster verification is stale ({age_days} days old)")
+
+    if row.unresolved_items:
+        warnings.append(f"{team_id}: unresolved roster items: {row.unresolved_items}")
     return ValidationResult(errors, warnings)
 
 

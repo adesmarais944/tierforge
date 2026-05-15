@@ -8,6 +8,7 @@ Make the workflow repeatable:
 
 ```text
 research real information
+  -> verify current roster/depth chart from cross-checked sources
   -> edit source CSVs
   -> generate macro recommendations
   -> generate schedule recommendations when schedule data exists
@@ -40,6 +41,41 @@ Useful source categories:
 - multiple beat/news sources when interpreting role changes
 
 Do not treat one rumor or one analyst take as enough to move source-of-truth assumptions. Record uncertainty in `analyst_note` or `notes`.
+
+## Roster Verification Layer
+
+Current roster accuracy is a required preflight for every team stat-out and every meaningful team update. Do not edit `raw/player_assumptions.csv` until this is complete.
+
+Use at least two independent sources:
+
+- official team roster or team transaction page
+- NFL.com transaction/news report, ESPN/CBS/NBC/FantasyPros depth chart, or another stable source
+- a third source when transactions are recent, sources conflict, or a fantasy-relevant player is questionable
+
+Record the result in:
+
+```text
+seasons/2026/data/projections/raw/team_roster_verification.csv
+```
+
+The row should capture:
+
+- `verified_at`
+- primary and secondary source URLs/names
+- transaction source when relevant
+- starting QB
+- RB, WR, and TE rooms
+- removed players who should not appear in player assumptions
+- unresolved items that need human review
+- short analyst note
+
+Validate before projection edits:
+
+```powershell
+python scripts/validate_team_roster_verification.py --season 2026 --team GB
+```
+
+If validation fails, stop and fix the roster verification before projecting the team. If sources disagree, do not guess silently. Tell the human user what conflicts and which players are affected.
 
 ## Stat Out A Team
 
@@ -76,7 +112,17 @@ Collect:
 - projected game-script or pace context
 - released schedule context: bye week, short weeks, international games, primetime/standalone games, rest/travel, fantasy playoff stretch, and rough pass/rush matchup difficulty
 
-4. Edit source CSVs.
+4. Verify roster before player assumptions.
+
+Update `raw/team_roster_verification.csv`, then run:
+
+```powershell
+python scripts/validate_team_roster_verification.py --season 2026 --team GB
+```
+
+Only continue once the current QB/RB/WR/TE rooms and removed fantasy-relevant players are recorded.
+
+5. Edit source CSVs.
 
 Primary files:
 
@@ -99,13 +145,13 @@ Calibration guardrails:
 - Be conservative with QB rushing TD share above roughly 35% unless the offense has a proven goal-line QB identity.
 - If several players on one team all look like ceiling outcomes, redistribute some share to bucket rows instead of ranking every starter at their upside case.
 
-5. Generate macro recommendations.
+6. Generate macro recommendations.
 
 ```powershell
 python scripts/build_team_macro_recommendations.py --season 2026
 ```
 
-6. Review team recommendation diff before accepting any macro values.
+7. Review team recommendation diff before accepting any macro values.
 
 ```powershell
 python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --dry-run
@@ -135,7 +181,7 @@ python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --acc
 python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --accept all --human-approved
 ```
 
-7. Review schedule recommendation diff.
+8. Review schedule recommendation diff.
 
 After the NFL schedule release, this is required for every new team stat-out. Add or update the team row in `raw/team_schedule_environment.csv` before building recommendations.
 
@@ -172,7 +218,7 @@ python scripts/apply_team_schedule_recommendations.py --season 2026 --team GB --
 python scripts/apply_team_schedule_recommendations.py --season 2026 --team GB --accept all --human-approved
 ```
 
-8. Validate and build outputs.
+9. Validate and build outputs.
 
 ```powershell
 python scripts/validate_projections.py --season 2026
@@ -182,13 +228,13 @@ python scripts/validate_players.py --season 2026
 python scripts/generate_cheatsheet.py --season 2026
 ```
 
-9. Check status again.
+10. Check status again.
 
 ```powershell
 python scripts/team_projection_status.py --season 2026 --team GB
 ```
 
-10. Create after checkpoint.
+11. Create after checkpoint.
 
 Always create this after-checkpoint once the team baseline is complete, even when no macro recommendation is accepted. In that case, note that the macro was intentionally not accepted.
 
@@ -226,6 +272,8 @@ Cross-check meaningful events before editing:
 - retirements
 - depth chart movement
 - major ADP/role changes
+
+Update `raw/team_roster_verification.csv` and rerun `validate_team_roster_verification.py` whenever the news affects the active roster or role hierarchy.
 
 3. Translate confirmed news into structured changes.
 
@@ -297,6 +345,7 @@ python scripts/team_projection_status.py --season 2026 --team GB
 
 - Research before editing assumptions.
 - Cross-check real-world facts.
+- Verify current roster/depth chart before editing player assumptions.
 - Keep source links or source names in notes when practical.
 - Keep `raw/` as source of truth.
 - Treat `processed/` as generated output or recommendation output.

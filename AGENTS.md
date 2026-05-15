@@ -87,6 +87,24 @@ Do not accept schedule recommendations on behalf of the user. Only run `--accept
 
 After showing a schedule dry-run, provide an agent recommendation (`volume`, `efficiency`, `all`, or no accept) with short reasoning. Explain why schedule volume and efficiency changes do or do not fit the researched schedule context. Human sign-off is still required.
 
+## Projection roster verification
+
+Before statting out or materially updating any team, verify the current roster and depth chart from at least two independent sources. Prefer the official team roster plus NFL/team transaction reporting, then cross-check with a stable depth-chart/news source when roles are unclear.
+
+Record the check in:
+
+```bash
+seasons/2026/data/projections/raw/team_roster_verification.csv
+```
+
+Then run:
+
+```bash
+python scripts/validate_team_roster_verification.py --season 2026 --team <TEAM>
+```
+
+Do this before editing `player_assumptions.csv`. The verification row should include the checked date, source names/URLs, QB/RB/WR/TE room, removed players, unresolved items, and notes. If sources conflict, stop and tell the human user what is unresolved before projecting the affected players.
+
 ## Required checks before finishing edits
 
 Run:

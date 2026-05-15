@@ -163,6 +163,23 @@ class TeamScheduleRecommendation(BaseModel):
     recommendation_note: str = ""
 
 
+class TeamRosterVerification(BaseModel):
+    team_id: str
+    season: int
+    verified_at: str
+    primary_roster_source: str
+    secondary_roster_source: str
+    transaction_source: str = ""
+    source_count: int
+    starting_qb: str = ""
+    rb_room: str = ""
+    wr_room: str = ""
+    te_room: str = ""
+    removed_players: str = ""
+    unresolved_items: str = ""
+    analyst_note: str = ""
+
+
 class OffseasonChange(BaseModel):
     team_id: str
     season: int

@@ -57,6 +57,7 @@ seasons/2026/data/projections/
     team_assumptions.csv
     defense_environment.csv
     offseason_team_changes.csv
+    team_roster_verification.csv
     player_assumptions.csv
   processed/
     player_projections_half_ppr.csv
@@ -157,6 +158,22 @@ player receiving_tds = 30 * 0.30 = 9
 ```
 
 Explicit player stats win over calculated stats. If `targets` is filled in, the engine uses that value. If `targets` is blank and `target_share` is filled in, the engine calculates targets from team pass attempts. If both are blank, targets become `0`.
+
+Before the player share sheet is edited, the team should have a roster verification row:
+
+```text
+raw/team_roster_verification.csv
+```
+
+This file does not change fantasy points by itself. It is an audit/preflight layer that records when the roster was checked, which sources were cross-referenced, the current QB/RB/WR/TE rooms, removed players, and any unresolved items. It exists because bad roster assumptions can make every downstream projection look mathematically clean but football-wrong.
+
+For one team, validate it with:
+
+```powershell
+python scripts/validate_team_roster_verification.py --season 2026 --team HOU
+```
+
+If that check fails, the team should not be considered ready for projection work.
 
 After the stat line exists, scoring turns stats into points:
 
@@ -296,6 +313,8 @@ Schedule effects should stay conservative. Use them mostly for small macro nudge
 Full mental model:
 
 ```text
+roster verification
+  -> player universe and role sanity check
 offseason changes
   -> unit scores
   -> macro recommendations
