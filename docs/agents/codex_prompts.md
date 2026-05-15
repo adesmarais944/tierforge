@@ -18,6 +18,12 @@ I added a new ADP snapshot under seasons/2026/data/adp/. Update players_master.c
 Audit the draft_tag values. Make MY_GUY/VALUE_ONLY/DND/WATCH recommendations but do not apply them until I approve.
 ```
 
+## Stat Out Team
+
+```text
+Stat out <TEAM>. Run the full projection workflow: verify roster/depth chart from cross-checked sources, update roster verification, team assumptions, defense environment, offseason changes, player assumptions, and schedule environment, then build macro and schedule recommendations. Show both dry-runs and give your recommendation for volume, efficiency, all, or no accept. Do not accept macro or schedule recommendations until I explicitly approve the exact mode. Validate, rebuild, regenerate the workbook, and checkpoint.
+```
+
 ## Improve layout
 
 ```text

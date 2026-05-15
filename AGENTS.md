@@ -50,6 +50,15 @@ Primary files:
 
 ## Projection macro recommendations
 
+For every new team stat-out, run the full projection preflight. Do not skip layers:
+
+1. Verify roster/depth chart and run `validate_team_roster_verification.py`.
+2. Add/update team assumptions, defense environment, offseason changes, player assumptions, and schedule environment.
+3. Build macro recommendations and show the macro dry-run.
+4. Build schedule recommendations and show the schedule dry-run.
+5. Provide agent recommendations for macro and schedule modes, but wait for explicit human approval before accepting either.
+6. Validate, build projections, regenerate the workbook, and checkpoint.
+
 Macro recommendations are advisory. Always run and show the dry-run diff before accepting:
 
 ```bash

@@ -18,6 +18,22 @@ research real information
 
 CSV files in `raw/` are source of truth. Files in `processed/` are generated outputs or recommendation surfaces.
 
+## Mandatory Team Stat-Out Gates
+
+Every team stat-out must run all layers. Do not skip one because the request sounds simple.
+
+Required gates:
+
+1. Current status and before-checkpoint when prior data exists.
+2. Real-world research with cross-checked sources.
+3. Roster verification row plus `validate_team_roster_verification.py`.
+4. Team assumptions, defense environment, offseason changes, player assumptions, and schedule environment.
+5. Macro recommendation build plus macro dry-run shown to the human user.
+6. Schedule recommendation build plus schedule dry-run shown to the human user.
+7. Agent recommendation for macro and schedule modes, with human approval required before any accept.
+8. Projection validation, half/full projection builds, player validation, workbook generation.
+9. Final status and completion checkpoint, even when no recommendation is accepted.
+
 ## Source Standard
 
 Use real information and cross-check important facts before editing assumptions.
@@ -122,7 +138,7 @@ python scripts/validate_team_roster_verification.py --season 2026 --team GB
 
 Only continue once the current QB/RB/WR/TE rooms and removed fantasy-relevant players are recorded.
 
-5. Edit source CSVs.
+5. Edit all source CSVs required by the projection layers.
 
 Primary files:
 
@@ -131,6 +147,13 @@ seasons/2026/data/projections/raw/team_assumptions.csv
 seasons/2026/data/projections/raw/defense_environment.csv
 seasons/2026/data/projections/raw/offseason_team_changes.csv
 seasons/2026/data/projections/raw/player_assumptions.csv
+seasons/2026/data/projections/raw/team_schedule_environment.csv
+```
+
+Every new team must have rows in the roster and schedule layer files before final review:
+
+```text
+seasons/2026/data/projections/raw/team_roster_verification.csv
 seasons/2026/data/projections/raw/team_schedule_environment.csv
 ```
 
