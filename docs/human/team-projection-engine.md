@@ -187,6 +187,7 @@ There are two processed files that can look like part of the projection math:
 ```text
 processed/offseason_unit_scores.csv
 processed/team_macro_recommendations.csv
+processed/team_schedule_recommendations.csv
 ```
 
 They are decision-support files. They do not directly change player projections unless their recommendations are accepted back into `raw/team_assumptions.csv`.
@@ -249,6 +250,46 @@ Accept modes:
 - `all`: copies both volume and efficiency fields
 
 After accepting macro recommendations, rebuild projections. At that point, the player projection engine reads the updated `team_assumptions.csv`, and player projections change.
+
+### Schedule recommendations
+
+The released NFL schedule should be modeled as a small advisory layer, not as a full projection rewrite.
+
+Schedule source files:
+
+```text
+raw/team_schedule_environment.csv
+processed/team_schedule_recommendations.csv
+```
+
+`team_schedule_environment.csv` stores team-level schedule context such as opponent difficulty, pace environment, rest/travel, bye week, short weeks, international games, and fantasy playoff grade.
+
+`team_schedule_recommendations.csv` turns that context into small team-level recommendations:
+
+- projected offensive plays
+- pass/rush split
+- passing/rushing yards
+- passing/rushing TDs
+- interceptions
+
+Schedule recommendations are advisory only. They do not affect player projections until accepted into `raw/team_assumptions.csv`.
+
+Build and dry-run:
+
+```powershell
+python scripts/build_team_schedule_recommendations.py --season 2026
+python scripts/apply_team_schedule_recommendations.py --season 2026 --team CIN --dry-run
+```
+
+Accept only after human approval:
+
+```powershell
+python scripts/apply_team_schedule_recommendations.py --season 2026 --team CIN --accept volume --human-approved
+python scripts/apply_team_schedule_recommendations.py --season 2026 --team CIN --accept efficiency --human-approved
+python scripts/apply_team_schedule_recommendations.py --season 2026 --team CIN --accept all --human-approved
+```
+
+Schedule effects should stay conservative. Use them mostly for small macro nudges and fantasy-playoff notes or tiebreaks.
 
 Full mental model:
 

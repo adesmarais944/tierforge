@@ -1,6 +1,7 @@
 import shutil
 import subprocess
 import sys
+import csv
 from pathlib import Path
 
 from tierforge.projections.apply_team_macro import (
@@ -48,15 +49,20 @@ def test_apply_volume_updates_only_volume_fields(tmp_path):
         "projected_pass_attempts",
         "projected_rush_attempts",
     }
-    assert "1085,0.606,0.394,658,427,4442,35,16,1824,14" in text
+    assert "1085,0.606,0.394,658,427,4478,35,16,1817,14" in text
 
 
 def test_apply_all_updates_volume_and_efficiency_fields(tmp_path):
     root = copy_projection_fixture(tmp_path)
     apply_macro_recommendations(root, "2026", "CIN", "all")
     path = root / "seasons" / "2026" / "data" / "projections" / "raw" / "team_assumptions.csv"
-    text = path.read_text()
-    assert "1085,0.606,0.394,658,427,4442,35,16,1824,14" in text
+    macro_path = root / "seasons" / "2026" / "data" / "projections" / "processed" / "team_macro_recommendations.csv"
+    with path.open(newline="", encoding="utf-8") as handle:
+        team_row = next(row for row in csv.DictReader(handle) if row["team_id"] == "CIN")
+    with macro_path.open(newline="", encoding="utf-8") as handle:
+        macro_row = next(row for row in csv.DictReader(handle) if row["team_id"] == "CIN")
+    assert team_row["projected_passing_yards"] == str(int(round(float(macro_row["recommended_passing_yards"]))))
+    assert team_row["projected_rushing_yards"] == str(int(round(float(macro_row["recommended_rushing_yards"]))))
 
 
 def test_render_macro_diffs_marks_changed_fields():

@@ -111,6 +111,58 @@ class TeamMacroRecommendation(BaseModel):
     recommendation_note: str = ""
 
 
+ScheduleGrade = Literal["very_easy", "easy", "neutral", "hard", "very_hard"]
+PaceGrade = Literal["slower", "neutral", "faster"]
+RestTravelGrade = Literal["negative", "neutral", "positive"]
+FantasyPlayoffGrade = Literal["bad", "neutral", "good"]
+
+
+class TeamScheduleEnvironment(BaseModel):
+    team_id: str
+    season: int
+    schedule_source: str = ""
+    last_updated: str = ""
+    opponent_win_pct_rank: Optional[int] = None
+    opponent_defense_rank: Optional[int] = None
+    opponent_offense_rank: Optional[int] = None
+    pass_defense_difficulty: ScheduleGrade = "neutral"
+    rush_defense_difficulty: ScheduleGrade = "neutral"
+    pace_environment: PaceGrade = "neutral"
+    rest_travel_grade: RestTravelGrade = "neutral"
+    bye_week: Optional[int] = None
+    short_week_count: int = 0
+    international_game_count: int = 0
+    primetime_count: int = 0
+    fantasy_playoff_grade: FantasyPlayoffGrade = "neutral"
+    playoff_pass_defense_difficulty: ScheduleGrade = "neutral"
+    playoff_rush_defense_difficulty: ScheduleGrade = "neutral"
+    notes: str = ""
+
+
+class TeamScheduleRecommendation(BaseModel):
+    team_id: str
+    season: int
+    plays_adjustment: float
+    pass_rate_adjustment: float
+    passing_yards_adjustment_pct: float
+    rushing_yards_adjustment_pct: float
+    passing_td_adjustment: float
+    interception_adjustment: float
+    rushing_td_adjustment: float
+    recommended_offensive_plays: float
+    recommended_pass_rate: float
+    recommended_rush_rate: float
+    recommended_pass_attempts: float
+    recommended_rush_attempts: float
+    recommended_passing_yards: float
+    recommended_passing_tds: float
+    recommended_interceptions: float
+    recommended_rushing_yards: float
+    recommended_rushing_tds: float
+    fantasy_playoff_note: str = ""
+    recommendation_note: str = ""
+
+
 class OffseasonChange(BaseModel):
     team_id: str
     season: int

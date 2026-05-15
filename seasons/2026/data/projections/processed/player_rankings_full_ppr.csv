@@ -7,7 +7,7 @@ jahmyr-gibbs,Jahmyr Gibbs,DET,RB,full_ppr,True,17.0,95.5,71.6,649.5,2.6,217.6,10
 amon-ra-st-brown,Amon-Ra St. Brown,DET,WR,full_ppr,True,17.0,161.2,112.8,1482.9,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,314.89,0.0,314.89,6,2,target,Clear target alpha after 1400-yard season.
 caleb-williams,Caleb Williams,CHI,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,68.0,340.0,3.2,602.0,4100.0,28.0,9.0,2.0,307.44,0.0,307.44,7,3,core,Franchise passing record plus rushing floor; slight regression from 2025 breakout baked in.
 ceedee-lamb,CeeDee Lamb,DAL,WR,full_ppr,True,17.0,153.2,104.2,1440.5,7.8,2.6,15.4,0.0,0.0,0.0,0.0,0.0,0.0,296.6,0.0,296.6,8,3,target,Healthy alpha target earner projected clearly ahead of Pickens.
-joe-burrow,Joe Burrow,CIN,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,658.0,4442.0,35.0,16.0,0.0,285.68,0.0,285.68,9,4,core,Primary Bengals passer baseline.
+joe-burrow,Joe Burrow,CIN,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,658.0,4478.0,35.0,16.0,0.0,287.12,0.0,287.12,9,4,core,Primary Bengals passer baseline.
 jared-goff,Jared Goff,DET,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,15.5,40.4,0.0,585.1,4410.0,31.4,8.8,2.0,284.24,0.0,284.24,10,5,core,Elite efficiency QB in stable Campbell offense; slight TD regression from 2025 peak.
 bo-nix,Bo Nix,DEN,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,46.4,204.3,1.9,599.5,4074.0,28.1,10.7,2.0,281.79,0.0,281.79,11,6,core,Payton QB with Waddle added; ankle surgery/cleanup lowers designed rushing and TD baseline.
 jordan-love,Jordan Love,GB,QB,full_ppr,True,17.0,0.0,0.0,0.0,0.0,46.3,198.9,0.5,535.0,4118.0,27.0,9.0,2.0,273.85,0.0,273.85,12,7,core,Efficient passer gets modest pass-volume bump; small rushing contribution included.

@@ -10,6 +10,7 @@ Make the workflow repeatable:
 research real information
   -> edit source CSVs
   -> generate macro recommendations
+  -> generate schedule recommendations when schedule data exists
   -> validate and build projections
   -> checkpoint the whole projection system
 ```
@@ -131,7 +132,42 @@ python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --acc
 python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --accept all --human-approved
 ```
 
-7. Validate and build outputs.
+7. Review schedule recommendation diff when schedule data exists.
+
+Schedule recommendations are advisory, same as macro recommendations. They use released NFL schedule context to suggest small team-level changes for:
+
+- total plays
+- pass/rush split
+- passing/rushing yardage
+- TD and INT environment
+- fantasy playoff notes for rankings/tag tiebreaks
+
+Commands:
+
+```powershell
+python scripts/build_team_schedule_recommendations.py --season 2026
+python scripts/apply_team_schedule_recommendations.py --season 2026 --team GB --dry-run
+```
+
+Do not silently accept schedule recommendations. Show the dry-run, explain volume and efficiency impact, and recommend `volume`, `efficiency`, `all`, or no accept.
+
+Default schedule posture:
+
+- Schedule effects should be smaller than roster/coaching/team macro effects.
+- Use schedule mostly for small volume/efficiency nudges and draft-room notes.
+- Avoid moving stars heavily because of a few hard matchups.
+- Fantasy playoff schedule should mostly affect `R/U`, notes, and close ranking tiebreaks, not large base-point changes.
+- Accept only after the human user explicitly approves `volume`, `efficiency`, or `all`.
+
+Accept commands:
+
+```powershell
+python scripts/apply_team_schedule_recommendations.py --season 2026 --team GB --accept volume --human-approved
+python scripts/apply_team_schedule_recommendations.py --season 2026 --team GB --accept efficiency --human-approved
+python scripts/apply_team_schedule_recommendations.py --season 2026 --team GB --accept all --human-approved
+```
+
+8. Validate and build outputs.
 
 ```powershell
 python scripts/validate_projections.py --season 2026
@@ -141,13 +177,13 @@ python scripts/validate_players.py --season 2026
 python scripts/generate_cheatsheet.py --season 2026
 ```
 
-8. Check status again.
+9. Check status again.
 
 ```powershell
 python scripts/team_projection_status.py --season 2026 --team GB
 ```
 
-9. Create after checkpoint.
+10. Create after checkpoint.
 
 Always create this after-checkpoint once the team baseline is complete, even when no macro recommendation is accepted. In that case, note that the macro was intentionally not accepted.
 
@@ -205,15 +241,24 @@ Use notes to explain why a change was made and what sources support it.
 python scripts/build_team_macro_recommendations.py --season 2026
 ```
 
-5. Show macro diff before applying.
+5. Rebuild schedule recommendations if schedule context changed.
+
+```powershell
+python scripts/build_team_schedule_recommendations.py --season 2026
+```
+
+6. Show macro and schedule diffs before applying.
 
 ```powershell
 python scripts/apply_team_macro_recommendations.py --season 2026 --team GB --dry-run
+python scripts/apply_team_schedule_recommendations.py --season 2026 --team GB --dry-run
 ```
 
 Do not silently accept macro recommendations. Show the diff, explain the likely fantasy impact, and recommend one of `volume`, `efficiency`, `all`, or no accept. The recommendation is advisory only.
 
-6. If the user approves a mode, accept it with `--human-approved`, validate, rebuild, and checkpoint.
+Do not silently accept schedule recommendations either. Schedule recommendations need the same human approval rule.
+
+7. If the user approves a mode, accept it with `--human-approved`, validate, rebuild, and checkpoint.
 
 If the user chooses no accept or agrees with an agent recommendation to leave the manual baseline unchanged, still validate, rebuild, and create an after-checkpoint noting that the macro was intentionally not accepted.
 
@@ -251,8 +296,11 @@ python scripts/team_projection_status.py --season 2026 --team GB
 - Keep `raw/` as source of truth.
 - Treat `processed/` as generated output or recommendation output.
 - Show macro recommendation diffs before accepting them.
+- Show schedule recommendation diffs before accepting them.
 - Include an agent recommendation and short analysis for `volume`, `efficiency`, `all`, or no accept after every macro dry-run.
+- Include an agent recommendation and short analysis for `volume`, `efficiency`, `all`, or no accept after every schedule dry-run.
 - Never accept macro recommendations unless the human user explicitly approves the exact mode: `volume`, `efficiency`, or `all`.
+- Never accept schedule recommendations unless the human user explicitly approves the exact mode: `volume`, `efficiency`, or `all`.
 - Use `--human-approved` only after that explicit human approval.
 - Run validation and generation before calling work complete.
 - Create checkpoints before and after meaningful projection changes.
