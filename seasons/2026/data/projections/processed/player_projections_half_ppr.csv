@@ -141,16 +141,30 @@ adam-trautman,Adam Trautman,DEN,TE,half_ppr,True,17.0,21.6,14.3,147.1,1.2,0.0,0.
 justin-joly,Justin Joly,DEN,TE,half_ppr,True,16.0,18.5,11.9,129.8,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.87,0.0,25.87,,,watch,Rookie receiving TE with developmental red-zone path.
 den-other-wr-te,DEN Other WR/TE,DEN,OTHER,half_ppr,False,17.0,46.4,26.9,315.2,3.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,64.97,0.0,64.97,,,bucket,Receiving reconciliation bucket.
 den-other-rushing,DEN Other Rushing,DEN,OTHER,half_ppr,False,17.0,0.0,0.0,0.0,0.0,64.5,258.0,3.9,0.0,0.0,0.0,0.0,0.0,49.26,0.0,49.26,,,bucket,Rushing reconciliation bucket with some Bo Nix rushing moved to backs/other.
-jared-goff,Jared Goff,DET,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,15.5,40.4,0.0,585.1,4339.4,31.4,8.8,2.0,281.42,0.0,281.42,,,core,Elite efficiency QB in stable Campbell offense; slight TD regression from 2025 peak.
-kyle-allen,Kyle Allen,DET,QB,half_ppr,True,3.0,0.0,0.0,0.0,0.0,2.6,6.5,0.0,11.9,88.6,0.6,0.2,0.0,6.39,0.0,6.39,,,watch,Backup contingency only.
-jahmyr-gibbs,Jahmyr Gibbs,DET,RB,half_ppr,True,17.0,95.5,71.6,649.5,2.6,217.6,1087.8,11.0,0.0,0.0,0.0,0.0,1.0,288.91,0.0,288.91,,,target,Explosive lead fantasy back; high-value receiving and rushing role remains.
-david-montgomery,David Montgomery,DET,RB,half_ppr,True,15.0,26.9,19.3,153.1,0.6,145.0,638.2,7.0,0.0,0.0,0.0,0.0,1.0,132.88,0.0,132.88,,,target,Short-yardage hammer remains TD-relevant but Gibbs leads total upside.
-sione-vaki,Sione Vaki,DET,RB,half_ppr,True,16.0,9.0,6.3,49.3,0.0,31.1,127.4,0.9,0.0,0.0,0.0,0.0,0.0,26.08,0.0,26.08,,,watch,Depth/changeup back with small receiving role.
-amon-ra-st-brown,Amon-Ra St. Brown,DET,WR,half_ppr,True,17.0,161.2,112.8,1482.9,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,258.47,0.0,258.47,,,target,Clear target alpha after 1400-yard season.
-jameson-williams,Jameson Williams,DET,WR,half_ppr,True,17.0,113.4,70.3,1134.3,7.0,5.2,31.1,0.0,0.0,0.0,0.0,0.0,0.0,193.94,0.0,193.94,,,target,Explosive WR2 after 1100-yard season; volatile but real target share.
-sam-laporta,Sam LaPorta,DET,TE,half_ppr,True,17.0,95.5,65.0,764.2,5.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,143.45,0.0,143.45,,,target,High-end TE in efficient offense with stable red-zone role.
-isaac-teslaa,Isaac TeSlaa,DET,WR,half_ppr,True,16.0,32.8,19.7,275.8,1.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.95,0.0,48.95,,,watch,Big WR depth with modest target path behind top trio.
-brock-wright,Brock Wright,DET,TE,half_ppr,True,17.0,20.9,13.8,146.3,1.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.2,0.0,29.2,,,watch,Blocking TE with occasional red-zone work.
-kendrick-law,Kendrick Law,DET,WR,half_ppr,True,17.0,14.9,9.0,111.9,0.6,5.2,28.5,0.0,0.0,0.0,0.0,0.0,0.0,22.36,0.0,22.36,,,watch,Rookie gadget/depth WR and special teams option.
-det-other-wr-te,DET Other WR/TE,DET,OTHER,half_ppr,False,17.0,26.9,15.6,182.7,3.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.26,0.0,45.26,,,bucket,Receiving reconciliation bucket.
-det-other-rushing,DET Other Rushing,DET,OTHER,half_ppr,False,17.0,0.0,0.0,0.0,0.0,95.8,383.3,3.1,0.0,0.0,0.0,0.0,0.0,56.81,0.0,56.81,,,bucket,Rushing reconciliation bucket.
+jared-goff,Jared Goff,DET,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,15.4,40.0,0.0,590.0,4269.9,31.4,8.8,2.0,278.6,0.0,278.6,,,core,Elite efficiency QB in stable Campbell offense; slight TD regression from 2025 peak.
+kyle-allen,Kyle Allen,DET,QB,half_ppr,True,3.0,0.0,0.0,0.0,0.0,2.6,6.4,0.0,12.0,87.1,0.6,0.2,0.0,6.33,0.0,6.33,,,watch,Backup contingency only.
+jahmyr-gibbs,Jahmyr Gibbs,DET,RB,half_ppr,True,17.0,102.3,76.8,695.9,2.7,246.2,1231.2,11.2,0.0,0.0,0.0,0.0,1.0,312.61,0.0,312.61,,,target,Explosive lead fantasy back stays central after Montgomery trade but Pacheco takes some power work.
+isiah-pacheco,Isiah Pacheco,DET,RB,half_ppr,True,16.0,21.1,14.7,122.2,0.3,102.6,441.2,4.4,0.0,0.0,0.0,0.0,0.0,92.03,0.0,92.03,,,watch,Veteran RB2 signed to replace part of Montgomery's early-down role behind Gibbs.
+sione-vaki,Sione Vaki,DET,RB,half_ppr,True,16.0,9.0,6.3,49.7,0.0,20.5,84.1,0.6,0.0,0.0,0.0,0.0,0.0,20.14,0.0,20.14,,,watch,Depth/changeup back behind Gibbs and Pacheco.
+amon-ra-st-brown,Amon-Ra St. Brown,DET,WR,half_ppr,True,17.0,162.5,113.8,1495.4,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,260.19,0.0,260.19,,,target,Clear target alpha after 1400-yard season.
+jameson-williams,Jameson Williams,DET,WR,half_ppr,True,17.0,114.4,70.9,1143.8,7.0,5.1,30.8,0.0,0.0,0.0,0.0,0.0,0.0,195.16,0.0,195.16,,,target,Explosive WR2 after 1100-yard season; volatile but real target share.
+sam-laporta,Sam LaPorta,DET,TE,half_ppr,True,17.0,96.3,65.5,770.6,5.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,144.36,0.0,144.36,,,target,High-end TE in efficient offense with stable red-zone role.
+isaac-teslaa,Isaac TeSlaa,DET,WR,half_ppr,True,16.0,33.1,19.9,278.1,1.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.27,0.0,49.27,,,watch,Big WR depth with modest target path behind top trio.
+brock-wright,Brock Wright,DET,TE,half_ppr,True,17.0,21.1,13.9,147.5,1.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.38,0.0,29.38,,,watch,Blocking TE with occasional red-zone work.
+kendrick-law,Kendrick Law,DET,WR,half_ppr,True,17.0,15.1,9.0,112.9,0.6,5.1,28.2,0.0,0.0,0.0,0.0,0.0,0.0,22.46,0.0,22.46,,,watch,Rookie gadget/depth WR and special teams option.
+det-other-wr-te,DET Other WR/TE,DET,OTHER,half_ppr,False,17.0,27.1,15.7,184.2,3.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.44,0.0,46.44,,,bucket,Receiving reconciliation bucket.
+det-other-rushing,DET Other Rushing,DET,OTHER,half_ppr,False,17.0,0.0,0.0,0.0,0.0,115.4,461.7,3.8,0.0,0.0,0.0,0.0,0.0,68.97,0.0,68.97,,,bucket,Rushing reconciliation bucket after Montgomery trade and Pacheco signing.
+cj-stroud,C.J. Stroud,HOU,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,27.8,116.7,1.1,580.8,3936.0,25.9,9.6,2.0,256.31,0.0,256.31,,,core,Stroud rebound baseline with stable Caley system and deep WR group.
+davis-mills,Davis Mills,HOU,QB,half_ppr,True,3.0,0.0,0.0,0.0,0.0,2.5,9.6,0.0,24.2,164.0,1.1,0.4,0.0,11.04,0.0,11.04,,,watch,Backup contingency only.
+david-montgomery,David Montgomery,HOU,RB,half_ppr,True,16.0,36.3,26.1,206.9,0.8,191.9,806.0,5.9,0.0,0.0,0.0,0.0,0.0,154.5,0.0,154.5,,,target,Trade acquisition projects as Houston's power and goal-line back with Chubb and Mixon gone.
+woody-marks,Woody Marks,HOU,RB,half_ppr,True,17.0,48.4,35.8,300.1,1.1,131.3,525.2,3.1,0.0,0.0,0.0,0.0,0.0,125.4,0.0,125.4,,,watch,Versatile receiving complement after Montgomery trade.
+jawhar-jordan,Jawhar Jordan,HOU,RB,half_ppr,True,16.0,12.1,8.2,66.5,0.0,20.2,82.8,0.4,0.0,0.0,0.0,0.0,0.0,21.57,0.0,21.57,,,watch,Depth speed back after productive 2025 relief work.
+nico-collins,Nico Collins,HOU,WR,half_ppr,True,17.0,133.1,87.8,1304.4,6.8,2.5,15.1,0.0,0.0,0.0,0.0,0.0,0.0,216.38,0.0,216.38,,,target,Clear alpha and best explosive receiver.
+jayden-higgins,Jayden Higgins,HOU,WR,half_ppr,True,17.0,84.7,52.5,745.4,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,126.71,0.0,126.71,,,target,Big secondary target after strong rookie TD production.
+christian-kirk,Christian Kirk,HOU,WR,half_ppr,True,16.0,66.5,43.9,519.1,2.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86.83,0.0,86.83,,,watch,Slot veteran with chain-moving role.
+tank-dell,Tank Dell,HOU,WR,half_ppr,True,14.0,42.4,26.3,372.7,1.9,2.5,15.1,0.0,0.0,0.0,0.0,0.0,0.0,63.25,0.0,63.25,,,watch,Explosive role but moderated for health and target competition.
+dalton-schultz,Dalton Schultz,HOU,TE,half_ppr,True,17.0,66.5,45.3,465.8,2.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,83.79,0.0,83.79,,,watch,High-floor TE target but TD ceiling lower with WR depth.
+jaylin-noel,Jaylin Noel,HOU,WR,half_ppr,True,16.0,30.2,18.8,235.9,1.1,2.5,13.9,0.0,0.0,0.0,0.0,0.0,0.0,40.84,0.0,40.84,,,watch,Depth WR with some slot/gadget usage.
+cade-stover,Cade Stover,HOU,TE,half_ppr,True,16.0,18.1,11.8,118.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.94,0.0,20.94,,,watch,TE2 developmental role.
+hou-other-wr-te,HOU Other WR/TE,HOU,OTHER,half_ppr,False,17.0,66.5,38.6,452.5,5.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.19,0.0,100.19,,,bucket,Receiving reconciliation bucket for deep WR TE room.
+hou-other-rushing,HOU Other Rushing,HOU,OTHER,half_ppr,False,17.0,0.0,0.0,0.0,0.0,123.7,482.5,3.5,0.0,0.0,0.0,0.0,0.0,69.25,0.0,69.25,,,bucket,Rushing reconciliation bucket.
