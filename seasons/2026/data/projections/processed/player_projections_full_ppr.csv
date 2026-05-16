@@ -168,3 +168,18 @@ jaylin-noel,Jaylin Noel,HOU,WR,full_ppr,True,16.0,30.2,18.8,235.9,1.1,2.5,13.9,0
 cade-stover,Cade Stover,HOU,TE,full_ppr,True,16.0,18.1,11.8,118.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26.84,0.0,26.84,,,watch,TE2 developmental role.
 hou-other-wr-te,HOU Other WR/TE,HOU,OTHER,full_ppr,False,17.0,66.5,38.6,452.5,5.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,119.49,0.0,119.49,,,bucket,Receiving reconciliation bucket for deep WR TE room.
 hou-other-rushing,HOU Other Rushing,HOU,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,123.7,482.5,3.5,0.0,0.0,0.0,0.0,0.0,69.25,0.0,69.25,,,bucket,Rushing reconciliation bucket.
+daniel-jones,Daniel Jones,IND,QB,full_ppr,True,16.0,0.0,0.0,0.0,0.0,41.4,157.5,4.1,506.0,3531.0,23.0,12.0,2.0,245.91,0.0,245.91,,,core,Baseline Colts starter after efficient 2025; some rushing TD value but not projected as elite passer.
+anthony-richardson,Anthony Richardson Sr.,IND,QB,full_ppr,True,8.0,2.8,1.5,17.9,0.0,18.1,90.7,0.7,27.5,191.9,1.2,0.7,1.0,25.88,0.0,25.88,,,watch,High-variance backup contingency with rushing upside if Jones misses time.
+riley-leonard,Riley Leonard,IND,QB,full_ppr,True,4.0,0.0,0.0,0.0,0.0,5.2,23.3,0.2,16.5,115.1,0.8,0.4,0.0,10.54,0.0,10.54,,,watch,Developmental/backup passer bucket after 2025 relief work.
+jonathan-taylor,Jonathan Taylor,IND,RB,full_ppr,True,16.0,55.0,40.7,429.0,2.2,274.5,1345.2,16.1,0.0,0.0,0.0,0.0,1.0,326.22,0.0,326.22,,,target,Elite rushing centerpiece but carry share regressed below 2025 peak.
+dj-giddens,DJ Giddens,IND,RB,full_ppr,True,16.0,16.5,11.2,95.7,0.2,46.6,186.5,0.7,0.0,0.0,0.0,0.0,0.0,45.08,0.0,45.08,,,watch,Primary reserve back with limited standalone role behind Taylor.
+ulysses-bentley,Ulysses Bentley IV,IND,RB,full_ppr,True,16.0,8.2,5.8,45.4,0.0,20.7,85.0,0.2,0.0,0.0,0.0,0.0,0.0,20.19,0.0,20.19,,,watch,Depth/changeup back.
+alec-pierce,Alec Pierce,IND,WR,full_ppr,True,17.0,110.0,66.0,1188.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,220.8,0.0,220.8,,,target,Outside alpha after Pittman trade but efficiency regressed from 2025 spike.
+josh-downs,Josh Downs,IND,WR,full_ppr,True,17.0,93.5,63.6,748.0,3.5,2.6,12.9,0.0,0.0,0.0,0.0,0.0,0.0,160.68,0.0,160.68,,,target,Primary slot receiver and volume stabilizer.
+tyler-warren,Tyler Warren,IND,TE,full_ppr,True,17.0,104.5,71.1,856.9,4.5,5.2,12.9,0.5,0.0,0.0,0.0,0.0,0.0,187.81,0.0,187.81,,,target,High-end TE role after strong 2025 and Pittman departure.
+anthony-gould,Anthony Gould,IND,WR,full_ppr,True,16.0,30.2,17.5,235.9,1.0,2.6,18.1,0.0,0.0,0.0,0.0,0.0,0.0,48.95,0.0,48.95,,,watch,Speed/returner profile with modest offensive target path.
+nick-westbrook-ikhine,Nick Westbrook-Ikhine,IND,WR,full_ppr,True,16.0,27.5,16.5,220.0,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.0,0.0,46.0,,,watch,Veteran depth receiver with low-volume TD-chase profile.
+adonai-mitchell,Adonai Mitchell,IND,WR,full_ppr,True,16.0,24.8,13.9,227.7,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.13,0.0,41.13,,,watch,Downfield depth option behind Pierce and Downs.
+mo-alie-cox,Mo Alie-Cox,IND,TE,full_ppr,True,16.0,13.8,8.5,96.2,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.15,0.0,24.15,,,watch,Blocking TE with occasional red-zone usage.
+ind-other-wr-te,IND Other WR/TE,IND,OTHER,full_ppr,False,17.0,63.2,36.7,430.1,4.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,106.69,0.0,106.69,,,bucket,Receiving reconciliation bucket for post-Pittman depth.
+ind-other-rushing,IND Other Rushing,IND,OTHER,full_ppr,False,17.0,0.0,0.0,0.0,0.0,101.0,404.0,0.5,0.0,0.0,0.0,0.0,0.0,43.16,0.0,43.16,,,bucket,Rushing reconciliation bucket.

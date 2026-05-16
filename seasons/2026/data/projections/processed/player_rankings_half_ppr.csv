@@ -2,143 +2,156 @@ player_id,player_name,team_id,position,scoring_format,include_in_rankings,games_
 josh-allen,Josh Allen,BUF,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,111.6,558.0,10.6,558.0,4133.0,31.0,10.0,2.0,384.96,0.0,384.96,1,1,core,Elite dual-threat QB retains overall QB1 path; rush TD share calibrated below peak.
 lamar-jackson,Lamar Jackson,BAL,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,127.2,763.1,9.0,462.0,3450.0,23.0,10.0,2.0,336.31,0.0,336.31,2,2,core,Lamar remains the full offense; rushing keeps elite fantasy floor despite new OC.
 jahmyr-gibbs,Jahmyr Gibbs,DET,RB,half_ppr,True,17.0,102.3,76.8,695.9,2.7,246.2,1231.2,11.2,0.0,0.0,0.0,0.0,1.0,312.61,0.0,312.61,3,1,target,Explosive lead fantasy back stays central after Montgomery trade but Pacheco takes some power work.
-caleb-williams,Caleb Williams,CHI,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,68.0,340.0,3.2,602.0,4034.0,28.0,9.0,2.0,304.8,0.0,304.8,4,3,core,Franchise passing record plus rushing floor; slight regression from 2025 breakout baked in.
-bijan-robinson,Bijan Robinson,ATL,RB,half_ppr,True,17.0,89.0,66.7,649.5,2.9,265.7,1222.3,9.4,0.0,0.0,0.0,0.0,1.0,291.98,0.0,291.98,5,2,core,"Elite dual-threat back remains centerpiece, but workload calibrated below ceiling."
-jamarr-chase,Ja'Marr Chase,CIN,WR,half_ppr,True,17.0,177.7,120.8,1616.7,11.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,289.28,0.0,289.28,6,1,target,Elite target share in concentrated offense; calibrated below ceiling outcome.
-joe-burrow,Joe Burrow,CIN,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,658.0,4514.0,35.0,16.0,0.0,288.56,0.0,288.56,7,4,core,Primary Bengals passer baseline.
-bo-nix,Bo Nix,DEN,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,46.4,204.3,1.9,599.5,4025.5,28.1,10.7,2.0,279.85,0.0,279.85,8,5,core,Payton QB with Waddle added; ankle surgery/cleanup lowers designed rushing and TD baseline.
-jared-goff,Jared Goff,DET,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,15.4,40.0,0.0,590.0,4269.9,31.4,8.8,2.0,278.6,0.0,278.6,9,6,core,Elite efficiency QB in stable Campbell offense; slight TD regression from 2025 peak.
-jordan-love,Jordan Love,GB,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,46.3,198.9,0.5,535.0,4118.0,27.0,9.0,2.0,273.85,0.0,273.85,10,7,core,Efficient passer gets modest pass-volume bump; small rushing contribution included.
-dak-prescott,Dak Prescott,DAL,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,20.5,86.0,0.9,588.5,4176.0,28.8,12.5,2.0,266.98,0.0,266.98,11,8,core,Healthy Dak with elite WR duo; slight regression from 2025 passing peak.
-amon-ra-st-brown,Amon-Ra St. Brown,DET,WR,half_ppr,True,17.0,162.5,113.8,1495.4,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,260.19,0.0,260.19,12,2,target,Clear target alpha after 1400-yard season.
-cj-stroud,C.J. Stroud,HOU,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,27.8,116.7,1.1,580.8,3936.0,25.9,9.6,2.0,256.31,0.0,256.31,13,9,core,Stroud rebound baseline with stable Caley system and deep WR group.
-ceedee-lamb,CeeDee Lamb,DAL,WR,half_ppr,True,17.0,153.2,104.2,1440.5,7.8,2.6,15.4,0.0,0.0,0.0,0.0,0.0,0.0,244.5,0.0,244.5,14,3,target,Healthy alpha target earner projected clearly ahead of Pickens.
-bryce-young,Bryce Young,CAR,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,33.7,141.4,1.2,541.0,3500.0,23.0,10.0,2.0,229.34,0.0,229.34,15,10,watch,"Continuity and better weapons help, but still efficiency-volatility baseline."
-josh-jacobs,Josh Jacobs,GB,RB,half_ppr,True,16.0,48.1,37.6,308.2,1.1,257.0,1028.0,12.1,0.0,0.0,0.0,0.0,1.0,229.23,0.0,229.23,16,3,core,"Lead back remains TD engine, but pass-rate bump trims rush share slightly."
-drake-london,Drake London,ATL,WR,half_ppr,True,16.0,143.5,90.4,1348.9,6.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,218.97,0.0,218.97,17,4,target,Clear WR1 after Mooney release; QB volatility only real limiter.
-chase-brown,Chase Brown,CIN,RB,half_ppr,True,17.0,65.8,51.3,408.0,2.1,239.1,1004.3,6.3,0.0,0.0,0.0,0.0,0.0,217.29,0.0,217.29,18,4,target,Lead back workload assumption.
-nico-collins,Nico Collins,HOU,WR,half_ppr,True,17.0,133.1,87.8,1304.4,6.8,2.5,15.1,0.0,0.0,0.0,0.0,0.0,0.0,216.38,0.0,216.38,19,5,target,Clear alpha and best explosive receiver.
-rome-odunze,Rome Odunze,CHI,WR,half_ppr,True,17.0,138.5,85.8,1301.5,6.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,213.39,0.0,213.39,20,6,target,Primary outside target after DJ Moore trade.
-james-cook,James Cook,BUF,RB,half_ppr,True,16.0,33.5,25.1,214.3,0.9,245.5,1129.4,9.8,0.0,0.0,0.0,0.0,1.0,209.3,0.0,209.3,21,5,core,Rushing champ regression baked in but still lead back in elite run game.
-tee-higgins,Tee Higgins,CIN,WR,half_ppr,True,16.0,134.9,87.7,1187.0,7.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,208.74,0.0,208.74,22,7,target,High-value secondary alpha; season share accounts for missed-time risk.
-jacoby-brissett,Jacoby Brissett,ARI,QB,half_ppr,True,14.0,0.0,0.0,0.0,0.0,18.0,66.5,0.6,579.9,3449.6,21.1,10.6,2.0,207.83,0.0,207.83,23,11,watch,Reported 2026 starter; volume useful but ceiling capped on rebuilding offense.
-derrick-henry,Derrick Henry,BAL,RB,half_ppr,True,16.0,16.2,11.6,88.9,0.2,237.8,1212.7,11.5,0.0,0.0,0.0,0.0,1.0,204.37,0.0,204.37,24,6,core,Still lead hammer in league-best rushing ecosystem; age and OL change add risk.
-javonte-williams,Javonte Williams,DAL,RB,half_ppr,True,16.0,42.9,30.9,236.0,1.2,235.5,1036.3,8.8,0.0,0.0,0.0,0.0,1.0,200.92,0.0,200.92,25,7,target,RB1 after 1200-yard 2025 season; workload strong but not full bellcow.
-jameson-williams,Jameson Williams,DET,WR,half_ppr,True,17.0,114.4,70.9,1143.8,7.0,5.1,30.8,0.0,0.0,0.0,0.0,0.0,0.0,195.16,0.0,195.16,26,8,target,Explosive WR2 after 1100-yard season; volatile but real target share.
-tetairoa-mcmillan,Tetairoa McMillan,CAR,WR,half_ppr,True,17.0,135.2,81.1,1176.7,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,194.12,0.0,194.12,27,9,target,Clear WR1 after 1000-yard rookie season; conservative catch rate for Bryce baseline.
-jaylen-waddle,Jaylen Waddle,DEN,WR,half_ppr,True,17.0,123.6,81.6,1149.5,6.1,2.6,15.5,0.0,0.0,0.0,0.0,0.0,0.0,193.82,0.0,193.82,28,10,target,Premium trade addition and best separator; not full alpha due Sutton/Payton spread.
-trey-mcbride,Trey McBride,ARI,TE,half_ppr,True,17.0,145.0,104.4,1072.9,5.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,192.6,0.0,192.6,29,1,core,"Elite target earner remains centerpiece, but Brissett/Beck baseline trims ceiling volume."
-jeremiyah-love,Jeremiyah Love,ARI,RB,half_ppr,True,17.0,59.3,43.9,379.6,1.7,179.6,808.2,6.7,0.0,0.0,0.0,0.0,1.0,189.12,0.0,189.12,30,8,target,First-round rookie RB with three-down profile in LaFleur run/play-action reset.
-marvin-harrison-jr,Marvin Harrison Jr.,ARI,WR,half_ppr,True,16.0,131.8,81.7,1159.8,4.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,185.64,0.0,185.64,31,11,target,Health rebound and new staff support WR1 role; QB uncertainty caps baseline.
-george-pickens,George Pickens,DAL,WR,half_ppr,True,17.0,113.4,71.4,1111.4,6.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,184.66,0.0,184.66,32,12,target,"Franchise-tagged after elite 2025, but target share regresses with healthy Lamb back in lead role."
-zay-flowers,Zay Flowers,BAL,WR,half_ppr,True,16.0,115.5,79.7,1062.6,4.8,5.5,38.7,0.2,0.0,0.0,0.0,0.0,0.0,180.46,0.0,180.46,33,13,target,Primary target earner in low-volume but efficient passing offense.
-dj-moore,DJ Moore,BUF,WR,half_ppr,True,17.0,111.6,72.5,982.1,5.6,8.4,46.0,0.3,0.0,0.0,0.0,0.0,0.0,174.24,0.0,174.24,34,14,target,Bills trade addition and proven Joe Brady fit; projected as top outside target without full alpha monopoly.
-christian-watson,Christian Watson,GB,WR,half_ppr,True,16.0,101.7,63.0,1067.3,5.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,173.88,0.0,173.88,35,15,target,Primary outside ceiling bet after Doubs/Wicks departures; health risk remains.
-kyle-pitts,Kyle Pitts Sr.,ATL,TE,half_ppr,True,17.0,114.8,80.4,1010.2,5.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,172.88,0.0,172.88,36,2,target,Franchise-tagged focal point after leading 2025 receiving yardage.
-quinshon-judkins,Quinshon Judkins,CLE,RB,half_ppr,True,16.0,39.3,27.5,243.5,0.6,218.0,937.4,6.3,0.0,0.0,0.0,0.0,1.0,171.42,0.0,171.42,37,9,target,Lead runner behind improved OL; receiving role present but Sampson/Fannin cap target upside.
-jayden-reed,Jayden Reed,GB,WR,half_ppr,True,16.0,107.0,72.8,920.2,4.9,15.4,107.9,0.2,0.0,0.0,0.0,0.0,0.0,169.43,0.0,169.43,38,16,target,Extension plus vacated targets support rebound from injury-shortened 2025.
-chuba-hubbard,Chuba Hubbard,CAR,RB,half_ppr,True,16.0,43.3,32.5,259.7,1.2,192.4,808.1,6.3,0.0,0.0,0.0,0.0,1.0,165.71,0.0,165.71,39,10,target,Lead back with Dowdle gone; Brooks/Etienne still cap true workhorse ceiling.
-dandre-swift,D'Andre Swift,CHI,RB,half_ppr,True,16.0,33.1,24.5,198.7,0.8,193.5,890.1,6.5,0.0,0.0,0.0,0.0,1.0,163.05,0.0,163.05,40,11,target,Lead back in committee after strong 2025 efficiency.
-courtland-sutton,Courtland Sutton,DEN,WR,half_ppr,True,17.0,105.1,64.1,924.5,5.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,157.56,0.0,157.56,41,17,target,Primary X receiver remains strong red-zone piece with Waddle easing coverage.
-david-montgomery,David Montgomery,HOU,RB,half_ppr,True,16.0,36.3,26.1,206.9,0.8,191.9,806.0,5.9,0.0,0.0,0.0,0.0,0.0,154.5,0.0,154.5,42,12,target,Trade acquisition projects as Houston's power and goal-line back with Chubb and Mixon gone.
-jk-dobbins,J.K. Dobbins,DEN,RB,half_ppr,True,15.0,34.0,24.5,203.9,0.9,185.8,817.3,6.1,0.0,0.0,0.0,0.0,1.0,154.3,0.0,154.3,43,13,target,Lead early-down back but committee and health history cap workload.
-colston-loveland,Colston Loveland,CHI,TE,half_ppr,True,17.0,108.4,71.5,877.7,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,153.77,0.0,153.77,44,3,target,High-end receiving TE with more target room after Moore trade.
-harold-fannin-jr,Harold Fannin Jr.,CLE,TE,half_ppr,True,17.0,106.6,72.5,831.4,4.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,145.84,0.0,145.84,45,4,target,Safest Browns target bet after leading 2025 receiving production.
-sam-laporta,Sam LaPorta,DET,TE,half_ppr,True,17.0,96.3,65.5,770.6,5.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,144.36,0.0,144.36,46,5,target,High-end TE in efficient offense with stable red-zone role.
-tua-tagovailoa,Tua Tagovailoa,ATL,QB,half_ppr,True,12.0,0.0,0.0,0.0,0.0,10.4,32.3,0.4,355.9,2368.4,14.9,6.8,1.0,144.01,0.0,144.01,47,12,watch,Veteran bridge/competition QB after Falcons signing; efficient if starting but role not locked.
-jake-ferguson,Jake Ferguson,DAL,TE,half_ppr,True,17.0,98.1,68.7,725.8,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,142.91,0.0,142.91,48,6,target,Trusted TE and red-zone piece after strong 2025 TD season.
-matthew-golden,Matthew Golden,GB,WR,half_ppr,True,17.0,91.0,57.3,800.4,4.3,10.3,51.4,0.2,0.0,0.0,0.0,0.0,0.0,140.83,0.0,140.83,49,18,target,Former first-round receiver gets expanded role after uneven rookie year.
-michael-wilson,Michael Wilson,ARI,WR,half_ppr,True,17.0,105.4,66.4,843.5,3.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,139.17,0.0,139.17,50,19,target,"Reliable producer, but baseline redistributes some volume to buckets."
-khalil-shakir,Khalil Shakir,BUF,WR,half_ppr,True,17.0,94.9,68.3,758.9,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,136.08,0.0,136.08,51,20,target,"Stable slot target earner, trimmed by Moore addition."
-rj-harvey,RJ Harvey,DEN,RB,half_ppr,True,17.0,55.6,41.2,344.8,1.2,123.8,520.1,3.1,0.0,0.0,0.0,0.0,0.0,132.4,0.0,132.4,52,14,watch,Passing-game RB with room to grow in year two.
-dalton-kincaid,Dalton Kincaid,BUF,TE,half_ppr,True,16.0,89.3,62.5,732.1,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,130.5,0.0,130.5,53,7,target,"Health rebound gives him TE1 usage, but Moore caps target ceiling."
-shedeur-sanders,Shedeur Sanders,CLE,QB,half_ppr,True,12.0,0.0,0.0,0.0,0.0,38.0,167.3,1.1,325.4,1994.6,12.2,8.7,3.0,128.56,0.0,128.56,54,13,watch,Largest share in unsettled QB room; youthful upside but 2025 turnover risk keeps baseline modest.
-luther-burden-iii,Luther Burden III,CHI,WR,half_ppr,True,16.0,90.3,57.8,731.4,3.6,5.2,28.8,0.2,0.0,0.0,0.0,0.0,0.0,127.84,0.0,127.84,55,21,watch,Explosive slot/YAC option with bigger path after Moore trade.
-jayden-higgins,Jayden Higgins,HOU,WR,half_ppr,True,17.0,84.7,52.5,745.4,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,126.71,0.0,126.71,56,22,target,Big secondary target after strong rookie TD production.
-woody-marks,Woody Marks,HOU,RB,half_ppr,True,17.0,48.4,35.8,300.1,1.1,131.3,525.2,3.1,0.0,0.0,0.0,0.0,0.0,125.4,0.0,125.4,57,15,watch,Versatile receiving complement after Montgomery trade.
-mark-andrews,Mark Andrews,BAL,TE,half_ppr,True,17.0,83.2,56.5,665.3,5.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,125.16,0.0,125.16,58,8,target,TE room departures can consolidate high-value targets back to Andrews.
-jerry-jeudy,Jerry Jeudy,CLE,WR,half_ppr,True,16.0,89.8,55.7,745.0,3.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,121.23,0.0,121.23,59,23,watch,Veteran WR remains important but rookie additions cap rebound ceiling.
-tucker-kraft,Tucker Kraft,GB,TE,half_ppr,True,14.0,69.5,50.1,681.6,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,119.12,0.0,119.12,60,9,watch,"Excellent 2025 efficiency, but ACL rehab lowers games and early-season certainty."
-rashod-bateman,Rashod Bateman,BAL,WR,half_ppr,True,16.0,73.9,45.8,702.2,3.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,115.22,0.0,115.22,61,24,watch,Outside starter with volatile weekly target volume.
-kc-concepcion,KC Concepcion,CLE,WR,half_ppr,True,17.0,78.5,47.9,659.7,3.1,5.1,30.4,0.1,0.0,0.0,0.0,0.0,0.0,112.71,0.0,112.71,62,25,watch,First-round explosive slot/movement weapon with gadget carry sprinkle.
-xavier-legette,Xavier Legette,CAR,WR,half_ppr,True,16.0,81.1,47.1,665.4,3.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,110.78,0.0,110.78,63,26,watch,Former first-round WR remains big-play No. 2/3 option.
-troy-franklin,Troy Franklin,DEN,WR,half_ppr,True,17.0,74.2,44.5,622.9,3.8,2.6,14.2,0.0,0.0,0.0,0.0,0.0,0.0,108.58,0.0,108.58,64,27,watch,Returning WR2/3 with vertical role squeezed by Waddle.
-mike-gesicki,Mike Gesicki,CIN,TE,half_ppr,True,17.0,72.4,47.8,564.6,3.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,101.34,0.0,101.34,65,10,watch,Usable receiving tight end bucket.
-kyle-monangai,Kyle Monangai,CHI,RB,half_ppr,True,17.0,15.1,10.5,78.3,0.3,141.2,621.3,3.2,0.0,0.0,0.0,0.0,0.0,96.35,0.0,96.35,66,16,watch,Productive No. 2 back with meaningful rushing share.
-dylan-sampson,Dylan Sampson,CLE,RB,half_ppr,True,17.0,44.9,33.2,269.3,0.8,91.3,383.3,1.4,0.0,0.0,0.0,0.0,0.0,95.3,0.0,95.3,67,17,watch,Changeup and receiving back with useful passing-game floor.
-jalen-coker,Jalen Coker,CAR,WR,half_ppr,True,16.0,64.9,41.5,545.3,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,93.25,0.0,93.25,68,28,watch,Efficient secondary target with role in Canales/Idzik offense.
-james-conner,James Conner,ARI,RB,half_ppr,True,14.0,33.0,24.7,184.5,1.0,89.8,368.2,3.2,0.0,0.0,0.0,0.0,0.0,92.59,0.0,92.59,69,18,watch,Veteran role trimmed by Jeremiyah Love but still short-yardage/rotation relevant.
-isiah-pacheco,Isiah Pacheco,DET,RB,half_ppr,True,16.0,21.1,14.7,122.2,0.3,102.6,441.2,4.4,0.0,0.0,0.0,0.0,0.0,92.03,0.0,92.03,70,19,watch,Veteran RB2 signed to replace part of Montgomery's early-down role behind Gibbs.
-michael-penix-jr,Michael Penix Jr.,ATL,QB,half_ppr,True,8.0,0.0,0.0,0.0,0.0,10.4,33.3,0.5,218.1,1451.6,9.1,4.2,1.0,90.76,0.0,90.76,71,14,watch,ACL rehab creates uncertain early-season role but arm talent remains.
-keon-coleman,Keon Coleman,BUF,WR,half_ppr,True,17.0,55.8,32.4,502.2,3.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86.86,0.0,86.86,72,29,watch,Big-bodied role reduced by Moore acquisition.
-christian-kirk,Christian Kirk,HOU,WR,half_ppr,True,16.0,66.5,43.9,519.1,2.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86.83,0.0,86.83,73,30,watch,Slot veteran with chain-moving role.
-jahan-dotson,Jahan Dotson,ATL,WR,half_ppr,True,17.0,63.1,39.1,517.7,2.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,85.75,0.0,85.75,74,31,watch,Free-agent receiver fills Mooney vacancy but target ceiling capped by London/Pitts/Bijan.
-marvin-mims-jr,Marvin Mims Jr.,DEN,WR,half_ppr,True,17.0,55.6,34.5,511.7,2.6,2.6,16.8,0.0,0.0,0.0,0.0,0.0,0.0,85.75,0.0,85.75,75,32,watch,Explosive package player with lower target floor after Waddle trade.
-denzel-boston,Denzel Boston,CLE,WR,half_ppr,True,17.0,61.7,36.4,530.7,2.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,85.14,0.0,85.14,76,33,watch,Second-round contested-catch rookie with immediate outside role.
-jaydon-blue,Jaydon Blue,DAL,RB,half_ppr,True,16.0,21.5,15.0,133.0,0.6,97.3,437.8,2.7,0.0,0.0,0.0,0.0,0.0,84.51,0.0,84.51,77,20,watch,Explosive RB2 competition role behind Williams.
-dalton-schultz,Dalton Schultz,HOU,TE,half_ppr,True,17.0,66.5,45.3,465.8,2.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,83.79,0.0,83.79,78,11,watch,High-floor TE target but TD ceiling lower with WR depth.
-jonathon-brooks,Jonathon Brooks,CAR,RB,half_ppr,True,14.0,24.3,17.5,138.8,0.5,96.2,413.7,2.4,0.0,0.0,0.0,0.0,0.0,81.17,0.0,81.17,79,21,watch,Back in Panthers equation after Dowdle departure; role depends on health and explosiveness returning.
-cedric-tillman,Cedric Tillman,CLE,WR,half_ppr,True,15.0,56.1,32.5,493.7,2.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,79.5,0.0,79.5,80,34,watch,Boundary target squeezed by rookie additions but still red-zone relevant.
-evan-engram,Evan Engram,DEN,TE,half_ppr,True,16.0,58.7,38.7,422.7,2.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,79.05,0.0,79.05,81,12,watch,Move TE role remains but target ceiling falls with deeper WR room.
-emanuel-wilson,Emanuel Wilson,GB,RB,half_ppr,True,17.0,18.7,14.0,108.6,0.3,102.8,421.5,2.5,0.0,0.0,0.0,0.0,0.0,76.77,0.0,76.77,82,22,watch,Primary backup baseline with usable injury contingent value.
-brian-robinson,Brian Robinson,ATL,RB,half_ppr,True,17.0,14.4,10.3,77.5,0.2,99.0,396.0,3.6,0.0,0.0,0.0,0.0,0.0,75.55,0.0,75.55,83,23,watch,Power complement behind Bijan; touchdown role depends on game script.
-deandre-hopkins,DeAndre Hopkins,BAL,WR,half_ppr,True,15.0,50.8,31.5,426.9,2.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,75.0,0.0,75.0,84,35,watch,Veteran red-zone/possession role if roster spot and snaps hold.
-cole-kmet,Cole Kmet,CHI,TE,half_ppr,True,17.0,54.2,35.8,390.1,2.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,73.69,0.0,73.69,85,13,watch,TE2/12 personnel role with TD usefulness.
-ryan-flournoy,Ryan Flournoy,DAL,WR,half_ppr,True,16.0,49.0,29.4,411.9,2.7,2.6,14.1,0.0,0.0,0.0,0.0,0.0,0.0,73.51,0.0,73.51,86,36,watch,Secondary WR with enough 2025 production for real role.
-kendrick-bourne,Kendrick Bourne,ARI,WR,half_ppr,True,16.0,52.7,34.8,411.2,1.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,70.04,0.0,70.04,87,37,watch,Veteran receiver addition gives Brissett a steady secondary target.
-isaiah-bond,Isaiah Bond,CLE,WR,half_ppr,True,16.0,44.9,25.1,412.9,1.5,5.1,29.4,0.1,0.0,0.0,0.0,0.0,0.0,66.46,0.0,66.46,88,38,watch,Speed role with low catch-rate baseline.
-justice-hill,Justice Hill,BAL,RB,half_ppr,True,17.0,27.7,21.1,166.3,0.5,60.8,273.7,1.5,0.0,0.0,0.0,0.0,0.0,66.3,0.0,66.3,89,24,watch,Passing-down/changeup role with contingent value.
-ray-davis,Ray Davis,BUF,RB,half_ppr,True,17.0,14.0,10.0,75.3,0.3,83.7,343.2,2.8,0.0,0.0,0.0,0.0,0.0,65.53,0.0,65.53,90,25,watch,Primary power/relief back behind Cook.
-deshaun-watson,Deshaun Watson,CLE,QB,half_ppr,True,7.0,0.0,0.0,0.0,0.0,17.7,74.5,0.4,168.3,1031.7,6.3,4.5,2.0,63.44,0.0,63.44,91,15,watch,"Veteran contingency with real path if healthy, but no workhorse assumption."
-tank-dell,Tank Dell,HOU,WR,half_ppr,True,14.0,42.4,26.3,372.7,1.9,2.5,15.1,0.0,0.0,0.0,0.0,0.0,0.0,63.25,0.0,63.25,92,39,watch,Explosive role but moderated for health and target competition.
-tyler-allgeier,Tyler Allgeier,ARI,RB,half_ppr,True,17.0,13.2,9.2,65.9,0.2,71.8,287.4,2.4,0.0,0.0,0.0,0.0,0.0,55.78,0.0,55.78,93,26,watch,Depth/committee grinder behind Love and Conner.
-ja'tavion-sanders,Ja'Tavion Sanders,CAR,TE,half_ppr,True,16.0,46.0,31.3,312.7,1.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.18,0.0,55.18,94,14,watch,Developing TE target with modest TD projection.
-kavontae-turpin,KaVontae Turpin,DAL,WR,half_ppr,True,17.0,33.7,20.6,303.4,1.8,2.6,15.4,0.0,0.0,0.0,0.0,0.0,0.0,52.96,0.0,52.96,95,40,watch,Explosive package player and returner with limited steady volume.
-olamide-zaccheaus,Olamide Zaccheaus,ATL,WR,half_ppr,True,17.0,40.2,25.7,305.4,1.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.03,0.0,52.03,96,41,watch,Familiar depth receiver baseline in thin WR room.
-ty-johnson,Ty Johnson,BUF,RB,half_ppr,True,17.0,27.9,21.2,181.4,0.6,33.5,144.0,0.8,0.0,0.0,0.0,0.0,0.0,51.89,0.0,51.89,97,27,watch,Passing-down/changeup role retains some spike-week value.
-luke-musgrave,Luke Musgrave,GB,TE,half_ppr,True,17.0,37.5,25.5,292.1,1.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.66,0.0,51.66,98,15,watch,More useful if Kraft limited; otherwise secondary TE receiving bucket.
-isaac-teslaa,Isaac TeSlaa,DET,WR,half_ppr,True,16.0,33.1,19.9,278.1,1.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.27,0.0,49.27,99,42,watch,Big WR depth with modest target path behind top trio.
-brandin-cooks,Brandin Cooks,BUF,WR,half_ppr,True,15.0,30.7,18.4,270.1,1.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.44,0.0,46.44,100,43,watch,Veteran field-stretcher/depth role after Moore trade.
-savion-williams,Savion Williams,GB,WR,half_ppr,True,17.0,29.4,17.7,220.7,1.4,10.3,46.3,0.2,0.0,0.0,0.0,0.0,0.0,44.7,0.0,44.7,101,44,watch,Gadget/size role grows with receiver room turnover.
-marshawn-lloyd,MarShawn Lloyd,GB,RB,half_ppr,True,15.0,13.4,10.0,80.2,0.3,51.4,226.2,0.9,0.0,0.0,0.0,0.0,0.0,42.68,0.0,42.68,102,28,watch,Explosive depth back assumption; role depends on health and camp usage.
-tommy-tremble,Tommy Tremble,CAR,TE,half_ppr,True,17.0,32.5,22.1,220.7,1.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.39,0.0,41.39,103,16,watch,Rotational TE with occasional red-zone usage.
-jaylin-noel,Jaylin Noel,HOU,WR,half_ppr,True,16.0,30.2,18.8,235.9,1.1,2.5,13.9,0.0,0.0,0.0,0.0,0.0,0.0,40.84,0.0,40.84,104,45,watch,Depth WR with some slot/gadget usage.
-dawson-knox,Dawson Knox,BUF,TE,half_ppr,True,17.0,25.1,16.6,180.8,2.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.39,0.0,39.39,105,17,watch,TD-dependent TE2 in two-TE packages.
-devontez-walker,Devontez Walker,BAL,WR,half_ppr,True,17.0,25.4,14.7,223.6,1.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.39,0.0,39.39,106,46,watch,Vertical depth role competing with rookie WRs.
-zavion-thomas,Zavion Thomas,CHI,WR,half_ppr,True,17.0,27.1,15.7,203.2,1.1,5.2,31.4,0.2,0.0,0.0,0.0,0.0,0.0,39.11,0.0,39.11,107,47,watch,Rookie slot/speed package role; modest baseline.
-jonah-coleman,Jonah Coleman,DEN,RB,half_ppr,True,16.0,9.3,6.3,51.0,0.1,51.6,211.6,1.4,0.0,0.0,0.0,0.0,0.0,38.44,0.0,38.44,108,29,watch,Rookie power/changeup back behind Dobbins and Harvey.
-gabe-davis,Gabe Davis,BUF,WR,half_ppr,True,14.0,22.3,12.7,207.6,1.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.35,0.0,37.35,109,48,watch,Boom/bust depth receiver if health cooperates; role squeezed by Moore.
-trevor-etienne,Trevor Etienne,CAR,RB,half_ppr,True,17.0,10.8,7.6,54.1,0.2,48.1,202.0,1.1,0.0,0.0,0.0,0.0,0.0,37.08,0.0,37.08,110,30,watch,Rookie/depth back with changeup role after Dowdle exit.
-hunter-renfrow,Hunter Renfrow,CAR,WR,half_ppr,True,14.0,29.8,19.6,184.5,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.17,0.0,35.17,111,49,watch,Slot depth and chain-mover role if active.
-elijah-higgins,Elijah Higgins,ARI,TE,half_ppr,True,17.0,26.4,18.5,184.5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.44,0.0,33.44,112,18,watch,Secondary TE in McBride-heavy room.
-jaleel-mclaughlin,Jaleel McLaughlin,DEN,RB,half_ppr,True,16.0,15.5,11.1,92.7,0.3,31.0,133.1,0.5,0.0,0.0,0.0,0.0,0.0,32.94,0.0,32.94,113,31,watch,Depth speed back with occasional receiving work.
-hunter-luepke,Hunter Luepke,DAL,RB,half_ppr,True,17.0,15.3,11.0,98.1,0.6,20.5,77.8,0.9,0.0,0.0,0.0,0.0,0.0,31.81,0.0,31.81,114,32,watch,Fullback/H-back utility role with small but sticky touch share.
-jalen-tolbert,Jalen Tolbert,DAL,WR,half_ppr,True,16.0,21.5,12.4,175.9,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.02,0.0,31.02,115,50,watch,Depth WR squeezed by Pickens/Lamb/Ferguson.
-luke-schoonmaker,Luke Schoonmaker,DAL,TE,half_ppr,True,17.0,24.5,16.2,171.6,0.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.66,0.0,30.66,116,19,watch,Rotational TE behind Ferguson.
-malik-davis,Malik Davis,DAL,RB,half_ppr,True,16.0,9.2,6.3,50.6,0.0,41.0,167.9,0.9,0.0,0.0,0.0,0.0,0.0,30.08,0.0,30.08,117,33,watch,Depth runner with limited receiving baseline.
-jakobi-lane,Ja'Kobi Lane,BAL,WR,half_ppr,True,17.0,20.8,11.6,170.5,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.77,0.0,29.77,118,51,watch,Rookie contested-catch option with possible red-zone role.
-carson-beck,Carson Beck,ARI,QB,half_ppr,True,5.0,0.0,0.0,0.0,0.0,9.0,31.4,0.2,79.1,470.4,2.9,1.4,1.0,29.56,0.0,29.56,119,16,watch,Developmental rookie path if Cardinals evaluate late-season future.
-brock-wright,Brock Wright,DET,TE,half_ppr,True,17.0,21.1,13.9,147.5,1.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.38,0.0,29.38,120,20,watch,Blocking TE with occasional red-zone work.
-austin-hooper,Austin Hooper,ATL,TE,half_ppr,True,17.0,23.0,15.6,156.1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.18,0.0,29.18,121,21,watch,Veteran TE2 depth behind Pitts.
-adam-trautman,Adam Trautman,DEN,TE,half_ppr,True,17.0,21.6,14.3,147.1,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.81,0.0,28.81,122,22,watch,Inline TE with touchdown-dependent fantasy value.
-raheim-sanders,Raheim Sanders,CLE,RB,half_ppr,True,16.0,8.4,5.7,47.1,0.0,40.6,166.3,0.7,0.0,0.0,0.0,0.0,0.0,28.4,0.0,28.4,123,34,watch,Power depth behind Judkins/Sampson.
-joe-royer,Joe Royer,CLE,TE,half_ppr,True,16.0,22.4,14.4,152.6,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27.48,0.0,27.48,124,23,watch,Rookie TE depth behind Fannin.
-rasheen-ali,Rasheen Ali,BAL,RB,half_ppr,True,17.0,6.9,4.9,34.6,0.2,33.2,142.7,0.8,0.0,0.0,0.0,0.0,0.0,26.04,0.0,26.04,125,35,watch,Depth back behind Henry/Hill.
-justin-joly,Justin Joly,DEN,TE,half_ppr,True,16.0,18.5,11.9,129.8,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.87,0.0,25.87,126,24,watch,Rookie receiving TE with developmental red-zone path.
-kalif-raymond,Kalif Raymond,CHI,WR,half_ppr,True,17.0,21.1,12.6,147.5,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.43,0.0,24.43,127,52,watch,Veteran depth/returner with occasional offensive touches.
-kendrick-law,Kendrick Law,DET,WR,half_ppr,True,17.0,15.1,9.0,112.9,0.6,5.1,28.2,0.0,0.0,0.0,0.0,0.0,0.0,22.46,0.0,22.46,128,53,watch,Rookie gadget/depth WR and special teams option.
-jawhar-jordan,Jawhar Jordan,HOU,RB,half_ppr,True,16.0,12.1,8.2,66.5,0.0,20.2,82.8,0.4,0.0,0.0,0.0,0.0,0.0,21.57,0.0,21.57,129,36,watch,Depth speed back after productive 2025 relief work.
-cade-stover,Cade Stover,HOU,TE,half_ppr,True,16.0,18.1,11.8,118.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.94,0.0,20.94,130,25,watch,TE2 developmental role.
-dillon-gabriel,Dillon Gabriel,CLE,QB,half_ppr,True,4.0,0.0,0.0,0.0,0.0,7.6,28.9,0.1,56.1,343.9,2.1,1.5,1.0,20.89,0.0,20.89,131,17,watch,Fallback share after 2025 rookie starts.
-trey-benson,Trey Benson,ARI,RB,half_ppr,True,12.0,0.0,0.0,0.0,0.0,35.9,147.3,1.0,0.0,0.0,0.0,0.0,0.0,20.49,0.0,20.49,132,37,watch,Former depth back squeezed by Love addition but retains contingent upside.
-sione-vaki,Sione Vaki,DET,RB,half_ppr,True,16.0,9.0,6.3,49.7,0.0,20.5,84.1,0.6,0.0,0.0,0.0,0.0,0.0,20.14,0.0,20.14,133,38,watch,Depth/changeup back behind Gibbs and Pacheco.
-brevyn-spann-ford,Brevyn Spann-Ford,DAL,TE,half_ppr,True,17.0,15.3,10.0,107.3,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.31,0.0,19.31,134,26,watch,Depth TE with occasional red-zone usage.
-anthony-smith,Anthony Smith,DAL,WR,half_ppr,True,17.0,15.3,8.6,122.6,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.35,0.0,18.35,135,54,watch,Seventh-round rookie depth receiver.
-tyler-goodson,Tyler Goodson,ATL,RB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,31.3,128.2,0.9,0.0,0.0,0.0,0.0,0.0,18.22,0.0,18.22,136,39,watch,Depth rushing bucket with contingent value.
-phil-mafah,Phil Mafah,DAL,RB,half_ppr,True,16.0,0.0,0.0,0.0,0.0,25.6,102.4,0.9,0.0,0.0,0.0,0.0,0.0,15.34,0.0,15.34,137,40,watch,Power depth and short-yardage contingency.
-skyler-bell,Skyler Bell,BUF,WR,half_ppr,True,17.0,8.4,4.9,67.0,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.84,0.0,12.84,138,55,watch,Day-three rookie separator with modest first-year role after Moore addition.
-joe-milton-iii,Joe Milton III,DAL,QB,half_ppr,True,3.0,0.0,0.0,0.0,0.0,2.6,10.2,0.0,24.5,174.0,1.2,0.5,0.0,11.74,0.0,11.74,139,18,watch,Backup contingency only.
-sam-ehlinger,Sam Ehlinger,DEN,QB,half_ppr,True,3.0,0.0,0.0,0.0,0.0,5.2,23.2,0.2,18.5,124.5,0.9,0.3,0.0,11.14,0.0,11.14,140,19,watch,Backup contingency only.
-davis-mills,Davis Mills,HOU,QB,half_ppr,True,3.0,0.0,0.0,0.0,0.0,2.5,9.6,0.0,24.2,164.0,1.1,0.4,0.0,11.04,0.0,11.04,141,20,watch,Backup contingency only.
-taylen-green,Taylen Green,CLE,QB,half_ppr,True,2.0,0.0,0.0,0.0,0.0,10.1,50.7,0.3,11.2,68.8,0.4,0.3,0.0,10.58,0.0,10.58,142,21,watch,Developmental rookie with rushing package/late-season contingency.
-kyle-allen,Kyle Allen,DET,QB,half_ppr,True,3.0,0.0,0.0,0.0,0.0,2.6,6.4,0.0,12.0,87.1,0.6,0.2,0.0,6.33,0.0,6.33,143,22,watch,Backup contingency only.
+jonathan-taylor,Jonathan Taylor,IND,RB,half_ppr,True,16.0,55.0,40.7,429.0,2.2,274.5,1345.2,16.1,0.0,0.0,0.0,0.0,1.0,305.87,0.0,305.87,4,2,target,Elite rushing centerpiece but carry share regressed below 2025 peak.
+caleb-williams,Caleb Williams,CHI,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,68.0,340.0,3.2,602.0,4034.0,28.0,9.0,2.0,304.8,0.0,304.8,5,3,core,Franchise passing record plus rushing floor; slight regression from 2025 breakout baked in.
+bijan-robinson,Bijan Robinson,ATL,RB,half_ppr,True,17.0,89.0,66.7,649.5,2.9,265.7,1222.3,9.4,0.0,0.0,0.0,0.0,1.0,291.98,0.0,291.98,6,3,core,"Elite dual-threat back remains centerpiece, but workload calibrated below ceiling."
+jamarr-chase,Ja'Marr Chase,CIN,WR,half_ppr,True,17.0,177.7,120.8,1616.7,11.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,289.28,0.0,289.28,7,1,target,Elite target share in concentrated offense; calibrated below ceiling outcome.
+joe-burrow,Joe Burrow,CIN,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,658.0,4514.0,35.0,16.0,0.0,288.56,0.0,288.56,8,4,core,Primary Bengals passer baseline.
+bo-nix,Bo Nix,DEN,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,46.4,204.3,1.9,599.5,4025.5,28.1,10.7,2.0,279.85,0.0,279.85,9,5,core,Payton QB with Waddle added; ankle surgery/cleanup lowers designed rushing and TD baseline.
+jared-goff,Jared Goff,DET,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,15.4,40.0,0.0,590.0,4269.9,31.4,8.8,2.0,278.6,0.0,278.6,10,6,core,Elite efficiency QB in stable Campbell offense; slight TD regression from 2025 peak.
+jordan-love,Jordan Love,GB,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,46.3,198.9,0.5,535.0,4118.0,27.0,9.0,2.0,273.85,0.0,273.85,11,7,core,Efficient passer gets modest pass-volume bump; small rushing contribution included.
+dak-prescott,Dak Prescott,DAL,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,20.5,86.0,0.9,588.5,4176.0,28.8,12.5,2.0,266.98,0.0,266.98,12,8,core,Healthy Dak with elite WR duo; slight regression from 2025 passing peak.
+amon-ra-st-brown,Amon-Ra St. Brown,DET,WR,half_ppr,True,17.0,162.5,113.8,1495.4,9.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,260.19,0.0,260.19,13,2,target,Clear target alpha after 1400-yard season.
+cj-stroud,C.J. Stroud,HOU,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,27.8,116.7,1.1,580.8,3936.0,25.9,9.6,2.0,256.31,0.0,256.31,14,9,core,Stroud rebound baseline with stable Caley system and deep WR group.
+daniel-jones,Daniel Jones,IND,QB,half_ppr,True,16.0,0.0,0.0,0.0,0.0,41.4,157.5,4.1,506.0,3531.0,23.0,12.0,2.0,245.91,0.0,245.91,15,10,core,Baseline Colts starter after efficient 2025; some rushing TD value but not projected as elite passer.
+ceedee-lamb,CeeDee Lamb,DAL,WR,half_ppr,True,17.0,153.2,104.2,1440.5,7.8,2.6,15.4,0.0,0.0,0.0,0.0,0.0,0.0,244.5,0.0,244.5,16,3,target,Healthy alpha target earner projected clearly ahead of Pickens.
+bryce-young,Bryce Young,CAR,QB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,33.7,141.4,1.2,541.0,3500.0,23.0,10.0,2.0,229.34,0.0,229.34,17,11,watch,"Continuity and better weapons help, but still efficiency-volatility baseline."
+josh-jacobs,Josh Jacobs,GB,RB,half_ppr,True,16.0,48.1,37.6,308.2,1.1,257.0,1028.0,12.1,0.0,0.0,0.0,0.0,1.0,229.23,0.0,229.23,18,4,core,"Lead back remains TD engine, but pass-rate bump trims rush share slightly."
+drake-london,Drake London,ATL,WR,half_ppr,True,16.0,143.5,90.4,1348.9,6.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,218.97,0.0,218.97,19,4,target,Clear WR1 after Mooney release; QB volatility only real limiter.
+chase-brown,Chase Brown,CIN,RB,half_ppr,True,17.0,65.8,51.3,408.0,2.1,239.1,1004.3,6.3,0.0,0.0,0.0,0.0,0.0,217.29,0.0,217.29,20,5,target,Lead back workload assumption.
+nico-collins,Nico Collins,HOU,WR,half_ppr,True,17.0,133.1,87.8,1304.4,6.8,2.5,15.1,0.0,0.0,0.0,0.0,0.0,0.0,216.38,0.0,216.38,21,5,target,Clear alpha and best explosive receiver.
+rome-odunze,Rome Odunze,CHI,WR,half_ppr,True,17.0,138.5,85.8,1301.5,6.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,213.39,0.0,213.39,22,6,target,Primary outside target after DJ Moore trade.
+james-cook,James Cook,BUF,RB,half_ppr,True,16.0,33.5,25.1,214.3,0.9,245.5,1129.4,9.8,0.0,0.0,0.0,0.0,1.0,209.3,0.0,209.3,23,6,core,Rushing champ regression baked in but still lead back in elite run game.
+tee-higgins,Tee Higgins,CIN,WR,half_ppr,True,16.0,134.9,87.7,1187.0,7.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,208.74,0.0,208.74,24,7,target,High-value secondary alpha; season share accounts for missed-time risk.
+jacoby-brissett,Jacoby Brissett,ARI,QB,half_ppr,True,14.0,0.0,0.0,0.0,0.0,18.0,66.5,0.6,579.9,3449.6,21.1,10.6,2.0,207.83,0.0,207.83,25,12,watch,Reported 2026 starter; volume useful but ceiling capped on rebuilding offense.
+derrick-henry,Derrick Henry,BAL,RB,half_ppr,True,16.0,16.2,11.6,88.9,0.2,237.8,1212.7,11.5,0.0,0.0,0.0,0.0,1.0,204.37,0.0,204.37,26,7,core,Still lead hammer in league-best rushing ecosystem; age and OL change add risk.
+javonte-williams,Javonte Williams,DAL,RB,half_ppr,True,16.0,42.9,30.9,236.0,1.2,235.5,1036.3,8.8,0.0,0.0,0.0,0.0,1.0,200.92,0.0,200.92,27,8,target,RB1 after 1200-yard 2025 season; workload strong but not full bellcow.
+jameson-williams,Jameson Williams,DET,WR,half_ppr,True,17.0,114.4,70.9,1143.8,7.0,5.1,30.8,0.0,0.0,0.0,0.0,0.0,0.0,195.16,0.0,195.16,28,8,target,Explosive WR2 after 1100-yard season; volatile but real target share.
+tetairoa-mcmillan,Tetairoa McMillan,CAR,WR,half_ppr,True,17.0,135.2,81.1,1176.7,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,194.12,0.0,194.12,29,9,target,Clear WR1 after 1000-yard rookie season; conservative catch rate for Bryce baseline.
+jaylen-waddle,Jaylen Waddle,DEN,WR,half_ppr,True,17.0,123.6,81.6,1149.5,6.1,2.6,15.5,0.0,0.0,0.0,0.0,0.0,0.0,193.82,0.0,193.82,30,10,target,Premium trade addition and best separator; not full alpha due Sutton/Payton spread.
+trey-mcbride,Trey McBride,ARI,TE,half_ppr,True,17.0,145.0,104.4,1072.9,5.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,192.6,0.0,192.6,31,1,core,"Elite target earner remains centerpiece, but Brissett/Beck baseline trims ceiling volume."
+jeremiyah-love,Jeremiyah Love,ARI,RB,half_ppr,True,17.0,59.3,43.9,379.6,1.7,179.6,808.2,6.7,0.0,0.0,0.0,0.0,1.0,189.12,0.0,189.12,32,9,target,First-round rookie RB with three-down profile in LaFleur run/play-action reset.
+alec-pierce,Alec Pierce,IND,WR,half_ppr,True,17.0,110.0,66.0,1188.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,187.8,0.0,187.8,33,11,target,Outside alpha after Pittman trade but efficiency regressed from 2025 spike.
+marvin-harrison-jr,Marvin Harrison Jr.,ARI,WR,half_ppr,True,16.0,131.8,81.7,1159.8,4.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,185.64,0.0,185.64,34,12,target,Health rebound and new staff support WR1 role; QB uncertainty caps baseline.
+george-pickens,George Pickens,DAL,WR,half_ppr,True,17.0,113.4,71.4,1111.4,6.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,184.66,0.0,184.66,35,13,target,"Franchise-tagged after elite 2025, but target share regresses with healthy Lamb back in lead role."
+zay-flowers,Zay Flowers,BAL,WR,half_ppr,True,16.0,115.5,79.7,1062.6,4.8,5.5,38.7,0.2,0.0,0.0,0.0,0.0,0.0,180.46,0.0,180.46,36,14,target,Primary target earner in low-volume but efficient passing offense.
+dj-moore,DJ Moore,BUF,WR,half_ppr,True,17.0,111.6,72.5,982.1,5.6,8.4,46.0,0.3,0.0,0.0,0.0,0.0,0.0,174.24,0.0,174.24,37,15,target,Bills trade addition and proven Joe Brady fit; projected as top outside target without full alpha monopoly.
+christian-watson,Christian Watson,GB,WR,half_ppr,True,16.0,101.7,63.0,1067.3,5.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,173.88,0.0,173.88,38,16,target,Primary outside ceiling bet after Doubs/Wicks departures; health risk remains.
+kyle-pitts,Kyle Pitts Sr.,ATL,TE,half_ppr,True,17.0,114.8,80.4,1010.2,5.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,172.88,0.0,172.88,39,2,target,Franchise-tagged focal point after leading 2025 receiving yardage.
+quinshon-judkins,Quinshon Judkins,CLE,RB,half_ppr,True,16.0,39.3,27.5,243.5,0.6,218.0,937.4,6.3,0.0,0.0,0.0,0.0,1.0,171.42,0.0,171.42,40,10,target,Lead runner behind improved OL; receiving role present but Sampson/Fannin cap target upside.
+jayden-reed,Jayden Reed,GB,WR,half_ppr,True,16.0,107.0,72.8,920.2,4.9,15.4,107.9,0.2,0.0,0.0,0.0,0.0,0.0,169.43,0.0,169.43,41,17,target,Extension plus vacated targets support rebound from injury-shortened 2025.
+chuba-hubbard,Chuba Hubbard,CAR,RB,half_ppr,True,16.0,43.3,32.5,259.7,1.2,192.4,808.1,6.3,0.0,0.0,0.0,0.0,1.0,165.71,0.0,165.71,42,11,target,Lead back with Dowdle gone; Brooks/Etienne still cap true workhorse ceiling.
+dandre-swift,D'Andre Swift,CHI,RB,half_ppr,True,16.0,33.1,24.5,198.7,0.8,193.5,890.1,6.5,0.0,0.0,0.0,0.0,1.0,163.05,0.0,163.05,43,12,target,Lead back in committee after strong 2025 efficiency.
+courtland-sutton,Courtland Sutton,DEN,WR,half_ppr,True,17.0,105.1,64.1,924.5,5.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,157.56,0.0,157.56,44,18,target,Primary X receiver remains strong red-zone piece with Waddle easing coverage.
+david-montgomery,David Montgomery,HOU,RB,half_ppr,True,16.0,36.3,26.1,206.9,0.8,191.9,806.0,5.9,0.0,0.0,0.0,0.0,0.0,154.5,0.0,154.5,45,13,target,Trade acquisition projects as Houston's power and goal-line back with Chubb and Mixon gone.
+jk-dobbins,J.K. Dobbins,DEN,RB,half_ppr,True,15.0,34.0,24.5,203.9,0.9,185.8,817.3,6.1,0.0,0.0,0.0,0.0,1.0,154.3,0.0,154.3,46,14,target,Lead early-down back but committee and health history cap workload.
+colston-loveland,Colston Loveland,CHI,TE,half_ppr,True,17.0,108.4,71.5,877.7,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,153.77,0.0,153.77,47,3,target,High-end receiving TE with more target room after Moore trade.
+tyler-warren,Tyler Warren,IND,TE,half_ppr,True,17.0,104.5,71.1,856.9,4.5,5.2,12.9,0.5,0.0,0.0,0.0,0.0,0.0,152.28,0.0,152.28,48,4,target,High-end TE role after strong 2025 and Pittman departure.
+harold-fannin-jr,Harold Fannin Jr.,CLE,TE,half_ppr,True,17.0,106.6,72.5,831.4,4.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,145.84,0.0,145.84,49,5,target,Safest Browns target bet after leading 2025 receiving production.
+sam-laporta,Sam LaPorta,DET,TE,half_ppr,True,17.0,96.3,65.5,770.6,5.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,144.36,0.0,144.36,50,6,target,High-end TE in efficient offense with stable red-zone role.
+tua-tagovailoa,Tua Tagovailoa,ATL,QB,half_ppr,True,12.0,0.0,0.0,0.0,0.0,10.4,32.3,0.4,355.9,2368.4,14.9,6.8,1.0,144.01,0.0,144.01,51,13,watch,Veteran bridge/competition QB after Falcons signing; efficient if starting but role not locked.
+jake-ferguson,Jake Ferguson,DAL,TE,half_ppr,True,17.0,98.1,68.7,725.8,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,142.91,0.0,142.91,52,7,target,Trusted TE and red-zone piece after strong 2025 TD season.
+matthew-golden,Matthew Golden,GB,WR,half_ppr,True,17.0,91.0,57.3,800.4,4.3,10.3,51.4,0.2,0.0,0.0,0.0,0.0,0.0,140.83,0.0,140.83,53,19,target,Former first-round receiver gets expanded role after uneven rookie year.
+michael-wilson,Michael Wilson,ARI,WR,half_ppr,True,17.0,105.4,66.4,843.5,3.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,139.17,0.0,139.17,54,20,target,"Reliable producer, but baseline redistributes some volume to buckets."
+khalil-shakir,Khalil Shakir,BUF,WR,half_ppr,True,17.0,94.9,68.3,758.9,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,136.08,0.0,136.08,55,21,target,"Stable slot target earner, trimmed by Moore addition."
+rj-harvey,RJ Harvey,DEN,RB,half_ppr,True,17.0,55.6,41.2,344.8,1.2,123.8,520.1,3.1,0.0,0.0,0.0,0.0,0.0,132.4,0.0,132.4,56,15,watch,Passing-game RB with room to grow in year two.
+dalton-kincaid,Dalton Kincaid,BUF,TE,half_ppr,True,16.0,89.3,62.5,732.1,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,130.5,0.0,130.5,57,8,target,"Health rebound gives him TE1 usage, but Moore caps target ceiling."
+josh-downs,Josh Downs,IND,WR,half_ppr,True,17.0,93.5,63.6,748.0,3.5,2.6,12.9,0.0,0.0,0.0,0.0,0.0,0.0,128.88,0.0,128.88,58,22,target,Primary slot receiver and volume stabilizer.
+shedeur-sanders,Shedeur Sanders,CLE,QB,half_ppr,True,12.0,0.0,0.0,0.0,0.0,38.0,167.3,1.1,325.4,1994.6,12.2,8.7,3.0,128.56,0.0,128.56,59,14,watch,Largest share in unsettled QB room; youthful upside but 2025 turnover risk keeps baseline modest.
+luther-burden-iii,Luther Burden III,CHI,WR,half_ppr,True,16.0,90.3,57.8,731.4,3.6,5.2,28.8,0.2,0.0,0.0,0.0,0.0,0.0,127.84,0.0,127.84,60,23,watch,Explosive slot/YAC option with bigger path after Moore trade.
+jayden-higgins,Jayden Higgins,HOU,WR,half_ppr,True,17.0,84.7,52.5,745.4,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,126.71,0.0,126.71,61,24,target,Big secondary target after strong rookie TD production.
+woody-marks,Woody Marks,HOU,RB,half_ppr,True,17.0,48.4,35.8,300.1,1.1,131.3,525.2,3.1,0.0,0.0,0.0,0.0,0.0,125.4,0.0,125.4,62,16,watch,Versatile receiving complement after Montgomery trade.
+mark-andrews,Mark Andrews,BAL,TE,half_ppr,True,17.0,83.2,56.5,665.3,5.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,125.16,0.0,125.16,63,9,target,TE room departures can consolidate high-value targets back to Andrews.
+jerry-jeudy,Jerry Jeudy,CLE,WR,half_ppr,True,16.0,89.8,55.7,745.0,3.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,121.23,0.0,121.23,64,25,watch,Veteran WR remains important but rookie additions cap rebound ceiling.
+tucker-kraft,Tucker Kraft,GB,TE,half_ppr,True,14.0,69.5,50.1,681.6,4.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,119.12,0.0,119.12,65,10,watch,"Excellent 2025 efficiency, but ACL rehab lowers games and early-season certainty."
+rashod-bateman,Rashod Bateman,BAL,WR,half_ppr,True,16.0,73.9,45.8,702.2,3.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,115.22,0.0,115.22,66,26,watch,Outside starter with volatile weekly target volume.
+kc-concepcion,KC Concepcion,CLE,WR,half_ppr,True,17.0,78.5,47.9,659.7,3.1,5.1,30.4,0.1,0.0,0.0,0.0,0.0,0.0,112.71,0.0,112.71,67,27,watch,First-round explosive slot/movement weapon with gadget carry sprinkle.
+xavier-legette,Xavier Legette,CAR,WR,half_ppr,True,16.0,81.1,47.1,665.4,3.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,110.78,0.0,110.78,68,28,watch,Former first-round WR remains big-play No. 2/3 option.
+troy-franklin,Troy Franklin,DEN,WR,half_ppr,True,17.0,74.2,44.5,622.9,3.8,2.6,14.2,0.0,0.0,0.0,0.0,0.0,0.0,108.58,0.0,108.58,69,29,watch,Returning WR2/3 with vertical role squeezed by Waddle.
+mike-gesicki,Mike Gesicki,CIN,TE,half_ppr,True,17.0,72.4,47.8,564.6,3.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,101.34,0.0,101.34,70,11,watch,Usable receiving tight end bucket.
+kyle-monangai,Kyle Monangai,CHI,RB,half_ppr,True,17.0,15.1,10.5,78.3,0.3,141.2,621.3,3.2,0.0,0.0,0.0,0.0,0.0,96.35,0.0,96.35,71,17,watch,Productive No. 2 back with meaningful rushing share.
+dylan-sampson,Dylan Sampson,CLE,RB,half_ppr,True,17.0,44.9,33.2,269.3,0.8,91.3,383.3,1.4,0.0,0.0,0.0,0.0,0.0,95.3,0.0,95.3,72,18,watch,Changeup and receiving back with useful passing-game floor.
+jalen-coker,Jalen Coker,CAR,WR,half_ppr,True,16.0,64.9,41.5,545.3,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,93.25,0.0,93.25,73,30,watch,Efficient secondary target with role in Canales/Idzik offense.
+james-conner,James Conner,ARI,RB,half_ppr,True,14.0,33.0,24.7,184.5,1.0,89.8,368.2,3.2,0.0,0.0,0.0,0.0,0.0,92.59,0.0,92.59,74,19,watch,Veteran role trimmed by Jeremiyah Love but still short-yardage/rotation relevant.
+isiah-pacheco,Isiah Pacheco,DET,RB,half_ppr,True,16.0,21.1,14.7,122.2,0.3,102.6,441.2,4.4,0.0,0.0,0.0,0.0,0.0,92.03,0.0,92.03,75,20,watch,Veteran RB2 signed to replace part of Montgomery's early-down role behind Gibbs.
+michael-penix-jr,Michael Penix Jr.,ATL,QB,half_ppr,True,8.0,0.0,0.0,0.0,0.0,10.4,33.3,0.5,218.1,1451.6,9.1,4.2,1.0,90.76,0.0,90.76,76,15,watch,ACL rehab creates uncertain early-season role but arm talent remains.
+keon-coleman,Keon Coleman,BUF,WR,half_ppr,True,17.0,55.8,32.4,502.2,3.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86.86,0.0,86.86,77,31,watch,Big-bodied role reduced by Moore acquisition.
+christian-kirk,Christian Kirk,HOU,WR,half_ppr,True,16.0,66.5,43.9,519.1,2.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,86.83,0.0,86.83,78,32,watch,Slot veteran with chain-moving role.
+jahan-dotson,Jahan Dotson,ATL,WR,half_ppr,True,17.0,63.1,39.1,517.7,2.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,85.75,0.0,85.75,79,33,watch,Free-agent receiver fills Mooney vacancy but target ceiling capped by London/Pitts/Bijan.
+marvin-mims-jr,Marvin Mims Jr.,DEN,WR,half_ppr,True,17.0,55.6,34.5,511.7,2.6,2.6,16.8,0.0,0.0,0.0,0.0,0.0,0.0,85.75,0.0,85.75,80,34,watch,Explosive package player with lower target floor after Waddle trade.
+denzel-boston,Denzel Boston,CLE,WR,half_ppr,True,17.0,61.7,36.4,530.7,2.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,85.14,0.0,85.14,81,35,watch,Second-round contested-catch rookie with immediate outside role.
+jaydon-blue,Jaydon Blue,DAL,RB,half_ppr,True,16.0,21.5,15.0,133.0,0.6,97.3,437.8,2.7,0.0,0.0,0.0,0.0,0.0,84.51,0.0,84.51,82,21,watch,Explosive RB2 competition role behind Williams.
+dalton-schultz,Dalton Schultz,HOU,TE,half_ppr,True,17.0,66.5,45.3,465.8,2.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,83.79,0.0,83.79,83,12,watch,High-floor TE target but TD ceiling lower with WR depth.
+jonathon-brooks,Jonathon Brooks,CAR,RB,half_ppr,True,14.0,24.3,17.5,138.8,0.5,96.2,413.7,2.4,0.0,0.0,0.0,0.0,0.0,81.17,0.0,81.17,84,22,watch,Back in Panthers equation after Dowdle departure; role depends on health and explosiveness returning.
+cedric-tillman,Cedric Tillman,CLE,WR,half_ppr,True,15.0,56.1,32.5,493.7,2.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,79.5,0.0,79.5,85,36,watch,Boundary target squeezed by rookie additions but still red-zone relevant.
+evan-engram,Evan Engram,DEN,TE,half_ppr,True,16.0,58.7,38.7,422.7,2.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,79.05,0.0,79.05,86,13,watch,Move TE role remains but target ceiling falls with deeper WR room.
+emanuel-wilson,Emanuel Wilson,GB,RB,half_ppr,True,17.0,18.7,14.0,108.6,0.3,102.8,421.5,2.5,0.0,0.0,0.0,0.0,0.0,76.77,0.0,76.77,87,23,watch,Primary backup baseline with usable injury contingent value.
+brian-robinson,Brian Robinson,ATL,RB,half_ppr,True,17.0,14.4,10.3,77.5,0.2,99.0,396.0,3.6,0.0,0.0,0.0,0.0,0.0,75.55,0.0,75.55,88,24,watch,Power complement behind Bijan; touchdown role depends on game script.
+deandre-hopkins,DeAndre Hopkins,BAL,WR,half_ppr,True,15.0,50.8,31.5,426.9,2.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,75.0,0.0,75.0,89,37,watch,Veteran red-zone/possession role if roster spot and snaps hold.
+cole-kmet,Cole Kmet,CHI,TE,half_ppr,True,17.0,54.2,35.8,390.1,2.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,73.69,0.0,73.69,90,14,watch,TE2/12 personnel role with TD usefulness.
+ryan-flournoy,Ryan Flournoy,DAL,WR,half_ppr,True,16.0,49.0,29.4,411.9,2.7,2.6,14.1,0.0,0.0,0.0,0.0,0.0,0.0,73.51,0.0,73.51,91,38,watch,Secondary WR with enough 2025 production for real role.
+kendrick-bourne,Kendrick Bourne,ARI,WR,half_ppr,True,16.0,52.7,34.8,411.2,1.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,70.04,0.0,70.04,92,39,watch,Veteran receiver addition gives Brissett a steady secondary target.
+isaiah-bond,Isaiah Bond,CLE,WR,half_ppr,True,16.0,44.9,25.1,412.9,1.5,5.1,29.4,0.1,0.0,0.0,0.0,0.0,0.0,66.46,0.0,66.46,93,40,watch,Speed role with low catch-rate baseline.
+justice-hill,Justice Hill,BAL,RB,half_ppr,True,17.0,27.7,21.1,166.3,0.5,60.8,273.7,1.5,0.0,0.0,0.0,0.0,0.0,66.3,0.0,66.3,94,25,watch,Passing-down/changeup role with contingent value.
+ray-davis,Ray Davis,BUF,RB,half_ppr,True,17.0,14.0,10.0,75.3,0.3,83.7,343.2,2.8,0.0,0.0,0.0,0.0,0.0,65.53,0.0,65.53,95,26,watch,Primary power/relief back behind Cook.
+deshaun-watson,Deshaun Watson,CLE,QB,half_ppr,True,7.0,0.0,0.0,0.0,0.0,17.7,74.5,0.4,168.3,1031.7,6.3,4.5,2.0,63.44,0.0,63.44,96,16,watch,"Veteran contingency with real path if healthy, but no workhorse assumption."
+tank-dell,Tank Dell,HOU,WR,half_ppr,True,14.0,42.4,26.3,372.7,1.9,2.5,15.1,0.0,0.0,0.0,0.0,0.0,0.0,63.25,0.0,63.25,97,41,watch,Explosive role but moderated for health and target competition.
+tyler-allgeier,Tyler Allgeier,ARI,RB,half_ppr,True,17.0,13.2,9.2,65.9,0.2,71.8,287.4,2.4,0.0,0.0,0.0,0.0,0.0,55.78,0.0,55.78,98,27,watch,Depth/committee grinder behind Love and Conner.
+ja'tavion-sanders,Ja'Tavion Sanders,CAR,TE,half_ppr,True,16.0,46.0,31.3,312.7,1.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,55.18,0.0,55.18,99,15,watch,Developing TE target with modest TD projection.
+kavontae-turpin,KaVontae Turpin,DAL,WR,half_ppr,True,17.0,33.7,20.6,303.4,1.8,2.6,15.4,0.0,0.0,0.0,0.0,0.0,0.0,52.96,0.0,52.96,100,42,watch,Explosive package player and returner with limited steady volume.
+olamide-zaccheaus,Olamide Zaccheaus,ATL,WR,half_ppr,True,17.0,40.2,25.7,305.4,1.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.03,0.0,52.03,101,43,watch,Familiar depth receiver baseline in thin WR room.
+ty-johnson,Ty Johnson,BUF,RB,half_ppr,True,17.0,27.9,21.2,181.4,0.6,33.5,144.0,0.8,0.0,0.0,0.0,0.0,0.0,51.89,0.0,51.89,102,28,watch,Passing-down/changeup role retains some spike-week value.
+luke-musgrave,Luke Musgrave,GB,TE,half_ppr,True,17.0,37.5,25.5,292.1,1.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.66,0.0,51.66,103,16,watch,More useful if Kraft limited; otherwise secondary TE receiving bucket.
+isaac-teslaa,Isaac TeSlaa,DET,WR,half_ppr,True,16.0,33.1,19.9,278.1,1.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,49.27,0.0,49.27,104,44,watch,Big WR depth with modest target path behind top trio.
+brandin-cooks,Brandin Cooks,BUF,WR,half_ppr,True,15.0,30.7,18.4,270.1,1.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.44,0.0,46.44,105,45,watch,Veteran field-stretcher/depth role after Moore trade.
+savion-williams,Savion Williams,GB,WR,half_ppr,True,17.0,29.4,17.7,220.7,1.4,10.3,46.3,0.2,0.0,0.0,0.0,0.0,0.0,44.7,0.0,44.7,106,46,watch,Gadget/size role grows with receiver room turnover.
+marshawn-lloyd,MarShawn Lloyd,GB,RB,half_ppr,True,15.0,13.4,10.0,80.2,0.3,51.4,226.2,0.9,0.0,0.0,0.0,0.0,0.0,42.68,0.0,42.68,107,29,watch,Explosive depth back assumption; role depends on health and camp usage.
+tommy-tremble,Tommy Tremble,CAR,TE,half_ppr,True,17.0,32.5,22.1,220.7,1.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41.39,0.0,41.39,108,17,watch,Rotational TE with occasional red-zone usage.
+jaylin-noel,Jaylin Noel,HOU,WR,half_ppr,True,16.0,30.2,18.8,235.9,1.1,2.5,13.9,0.0,0.0,0.0,0.0,0.0,0.0,40.84,0.0,40.84,109,47,watch,Depth WR with some slot/gadget usage.
+anthony-gould,Anthony Gould,IND,WR,half_ppr,True,16.0,30.2,17.5,235.9,1.0,2.6,18.1,0.0,0.0,0.0,0.0,0.0,0.0,40.18,0.0,40.18,110,48,watch,Speed/returner profile with modest offensive target path.
+dj-giddens,DJ Giddens,IND,RB,half_ppr,True,16.0,16.5,11.2,95.7,0.2,46.6,186.5,0.7,0.0,0.0,0.0,0.0,0.0,39.47,0.0,39.47,111,30,watch,Primary reserve back with limited standalone role behind Taylor.
+dawson-knox,Dawson Knox,BUF,TE,half_ppr,True,17.0,25.1,16.6,180.8,2.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.39,0.0,39.39,112,18,watch,TD-dependent TE2 in two-TE packages.
+devontez-walker,Devontez Walker,BAL,WR,half_ppr,True,17.0,25.4,14.7,223.6,1.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.39,0.0,39.39,113,49,watch,Vertical depth role competing with rookie WRs.
+zavion-thomas,Zavion Thomas,CHI,WR,half_ppr,True,17.0,27.1,15.7,203.2,1.1,5.2,31.4,0.2,0.0,0.0,0.0,0.0,0.0,39.11,0.0,39.11,114,50,watch,Rookie slot/speed package role; modest baseline.
+jonah-coleman,Jonah Coleman,DEN,RB,half_ppr,True,16.0,9.3,6.3,51.0,0.1,51.6,211.6,1.4,0.0,0.0,0.0,0.0,0.0,38.44,0.0,38.44,115,31,watch,Rookie power/changeup back behind Dobbins and Harvey.
+nick-westbrook-ikhine,Nick Westbrook-Ikhine,IND,WR,half_ppr,True,16.0,27.5,16.5,220.0,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.75,0.0,37.75,116,51,watch,Veteran depth receiver with low-volume TD-chase profile.
+gabe-davis,Gabe Davis,BUF,WR,half_ppr,True,14.0,22.3,12.7,207.6,1.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,37.35,0.0,37.35,117,52,watch,Boom/bust depth receiver if health cooperates; role squeezed by Moore.
+trevor-etienne,Trevor Etienne,CAR,RB,half_ppr,True,17.0,10.8,7.6,54.1,0.2,48.1,202.0,1.1,0.0,0.0,0.0,0.0,0.0,37.08,0.0,37.08,118,32,watch,Rookie/depth back with changeup role after Dowdle exit.
+hunter-renfrow,Hunter Renfrow,CAR,WR,half_ppr,True,14.0,29.8,19.6,184.5,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.17,0.0,35.17,119,53,watch,Slot depth and chain-mover role if active.
+adonai-mitchell,Adonai Mitchell,IND,WR,half_ppr,True,16.0,24.8,13.9,227.7,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,34.2,0.0,34.2,120,54,watch,Downfield depth option behind Pierce and Downs.
+elijah-higgins,Elijah Higgins,ARI,TE,half_ppr,True,17.0,26.4,18.5,184.5,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,33.44,0.0,33.44,121,19,watch,Secondary TE in McBride-heavy room.
+jaleel-mclaughlin,Jaleel McLaughlin,DEN,RB,half_ppr,True,16.0,15.5,11.1,92.7,0.3,31.0,133.1,0.5,0.0,0.0,0.0,0.0,0.0,32.94,0.0,32.94,122,33,watch,Depth speed back with occasional receiving work.
+hunter-luepke,Hunter Luepke,DAL,RB,half_ppr,True,17.0,15.3,11.0,98.1,0.6,20.5,77.8,0.9,0.0,0.0,0.0,0.0,0.0,31.81,0.0,31.81,123,34,watch,Fullback/H-back utility role with small but sticky touch share.
+jalen-tolbert,Jalen Tolbert,DAL,WR,half_ppr,True,16.0,21.5,12.4,175.9,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,31.02,0.0,31.02,124,55,watch,Depth WR squeezed by Pickens/Lamb/Ferguson.
+luke-schoonmaker,Luke Schoonmaker,DAL,TE,half_ppr,True,17.0,24.5,16.2,171.6,0.9,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,30.66,0.0,30.66,125,20,watch,Rotational TE behind Ferguson.
+malik-davis,Malik Davis,DAL,RB,half_ppr,True,16.0,9.2,6.3,50.6,0.0,41.0,167.9,0.9,0.0,0.0,0.0,0.0,0.0,30.08,0.0,30.08,126,35,watch,Depth runner with limited receiving baseline.
+jakobi-lane,Ja'Kobi Lane,BAL,WR,half_ppr,True,17.0,20.8,11.6,170.5,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.77,0.0,29.77,127,56,watch,Rookie contested-catch option with possible red-zone role.
+carson-beck,Carson Beck,ARI,QB,half_ppr,True,5.0,0.0,0.0,0.0,0.0,9.0,31.4,0.2,79.1,470.4,2.9,1.4,1.0,29.56,0.0,29.56,128,17,watch,Developmental rookie path if Cardinals evaluate late-season future.
+brock-wright,Brock Wright,DET,TE,half_ppr,True,17.0,21.1,13.9,147.5,1.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.38,0.0,29.38,129,21,watch,Blocking TE with occasional red-zone work.
+austin-hooper,Austin Hooper,ATL,TE,half_ppr,True,17.0,23.0,15.6,156.1,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.18,0.0,29.18,130,22,watch,Veteran TE2 depth behind Pitts.
+adam-trautman,Adam Trautman,DEN,TE,half_ppr,True,17.0,21.6,14.3,147.1,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.81,0.0,28.81,131,23,watch,Inline TE with touchdown-dependent fantasy value.
+raheim-sanders,Raheim Sanders,CLE,RB,half_ppr,True,16.0,8.4,5.7,47.1,0.0,40.6,166.3,0.7,0.0,0.0,0.0,0.0,0.0,28.4,0.0,28.4,132,36,watch,Power depth behind Judkins/Sampson.
+joe-royer,Joe Royer,CLE,TE,half_ppr,True,16.0,22.4,14.4,152.6,0.8,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27.48,0.0,27.48,133,24,watch,Rookie TE depth behind Fannin.
+rasheen-ali,Rasheen Ali,BAL,RB,half_ppr,True,17.0,6.9,4.9,34.6,0.2,33.2,142.7,0.8,0.0,0.0,0.0,0.0,0.0,26.04,0.0,26.04,134,37,watch,Depth back behind Henry/Hill.
+justin-joly,Justin Joly,DEN,TE,half_ppr,True,16.0,18.5,11.9,129.8,1.2,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.87,0.0,25.87,135,25,watch,Rookie receiving TE with developmental red-zone path.
+anthony-richardson,Anthony Richardson Sr.,IND,QB,half_ppr,True,8.0,2.8,1.5,17.9,0.0,18.1,90.7,0.7,27.5,191.9,1.2,0.7,1.0,25.12,0.0,25.12,136,18,watch,High-variance backup contingency with rushing upside if Jones misses time.
+kalif-raymond,Kalif Raymond,CHI,WR,half_ppr,True,17.0,21.1,12.6,147.5,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24.43,0.0,24.43,137,57,watch,Veteran depth/returner with occasional offensive touches.
+kendrick-law,Kendrick Law,DET,WR,half_ppr,True,17.0,15.1,9.0,112.9,0.6,5.1,28.2,0.0,0.0,0.0,0.0,0.0,0.0,22.46,0.0,22.46,138,58,watch,Rookie gadget/depth WR and special teams option.
+jawhar-jordan,Jawhar Jordan,HOU,RB,half_ppr,True,16.0,12.1,8.2,66.5,0.0,20.2,82.8,0.4,0.0,0.0,0.0,0.0,0.0,21.57,0.0,21.57,139,38,watch,Depth speed back after productive 2025 relief work.
+cade-stover,Cade Stover,HOU,TE,half_ppr,True,16.0,18.1,11.8,118.0,0.5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.94,0.0,20.94,140,26,watch,TE2 developmental role.
+dillon-gabriel,Dillon Gabriel,CLE,QB,half_ppr,True,4.0,0.0,0.0,0.0,0.0,7.6,28.9,0.1,56.1,343.9,2.1,1.5,1.0,20.89,0.0,20.89,141,19,watch,Fallback share after 2025 rookie starts.
+trey-benson,Trey Benson,ARI,RB,half_ppr,True,12.0,0.0,0.0,0.0,0.0,35.9,147.3,1.0,0.0,0.0,0.0,0.0,0.0,20.49,0.0,20.49,142,39,watch,Former depth back squeezed by Love addition but retains contingent upside.
+sione-vaki,Sione Vaki,DET,RB,half_ppr,True,16.0,9.0,6.3,49.7,0.0,20.5,84.1,0.6,0.0,0.0,0.0,0.0,0.0,20.14,0.0,20.14,143,40,watch,Depth/changeup back behind Gibbs and Pacheco.
+mo-alie-cox,Mo Alie-Cox,IND,TE,half_ppr,True,16.0,13.8,8.5,96.2,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.89,0.0,19.89,144,27,watch,Blocking TE with occasional red-zone usage.
+brevyn-spann-ford,Brevyn Spann-Ford,DAL,TE,half_ppr,True,17.0,15.3,10.0,107.3,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.31,0.0,19.31,145,28,watch,Depth TE with occasional red-zone usage.
+anthony-smith,Anthony Smith,DAL,WR,half_ppr,True,17.0,15.3,8.6,122.6,0.3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.35,0.0,18.35,146,59,watch,Seventh-round rookie depth receiver.
+tyler-goodson,Tyler Goodson,ATL,RB,half_ppr,True,17.0,0.0,0.0,0.0,0.0,31.3,128.2,0.9,0.0,0.0,0.0,0.0,0.0,18.22,0.0,18.22,147,41,watch,Depth rushing bucket with contingent value.
+ulysses-bentley,Ulysses Bentley IV,IND,RB,half_ppr,True,16.0,8.2,5.8,45.4,0.0,20.7,85.0,0.2,0.0,0.0,0.0,0.0,0.0,17.3,0.0,17.3,148,42,watch,Depth/changeup back.
+phil-mafah,Phil Mafah,DAL,RB,half_ppr,True,16.0,0.0,0.0,0.0,0.0,25.6,102.4,0.9,0.0,0.0,0.0,0.0,0.0,15.34,0.0,15.34,149,43,watch,Power depth and short-yardage contingency.
+skyler-bell,Skyler Bell,BUF,WR,half_ppr,True,17.0,8.4,4.9,67.0,0.6,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.84,0.0,12.84,150,60,watch,Day-three rookie separator with modest first-year role after Moore addition.
+joe-milton-iii,Joe Milton III,DAL,QB,half_ppr,True,3.0,0.0,0.0,0.0,0.0,2.6,10.2,0.0,24.5,174.0,1.2,0.5,0.0,11.74,0.0,11.74,151,20,watch,Backup contingency only.
+sam-ehlinger,Sam Ehlinger,DEN,QB,half_ppr,True,3.0,0.0,0.0,0.0,0.0,5.2,23.2,0.2,18.5,124.5,0.9,0.3,0.0,11.14,0.0,11.14,152,21,watch,Backup contingency only.
+davis-mills,Davis Mills,HOU,QB,half_ppr,True,3.0,0.0,0.0,0.0,0.0,2.5,9.6,0.0,24.2,164.0,1.1,0.4,0.0,11.04,0.0,11.04,153,22,watch,Backup contingency only.
+taylen-green,Taylen Green,CLE,QB,half_ppr,True,2.0,0.0,0.0,0.0,0.0,10.1,50.7,0.3,11.2,68.8,0.4,0.3,0.0,10.58,0.0,10.58,154,23,watch,Developmental rookie with rushing package/late-season contingency.
+riley-leonard,Riley Leonard,IND,QB,half_ppr,True,4.0,0.0,0.0,0.0,0.0,5.2,23.3,0.2,16.5,115.1,0.8,0.4,0.0,10.54,0.0,10.54,155,24,watch,Developmental/backup passer bucket after 2025 relief work.
+kyle-allen,Kyle Allen,DET,QB,half_ppr,True,3.0,0.0,0.0,0.0,0.0,2.6,6.4,0.0,12.0,87.1,0.6,0.2,0.0,6.33,0.0,6.33,156,25,watch,Backup contingency only.
